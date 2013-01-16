@@ -1,0 +1,3 @@
+future:   false
+auto:     false
+exclude:  [Gemfile, Gemfile.lock, Procfile, vendor]
