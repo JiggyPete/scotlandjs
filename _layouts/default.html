@@ -1,18 +1,28 @@
+<!DOCTYPE html>
 <html>
-  <title>{{ page.title }}</title>
+  <head>
+    <title>{% if page.title %} {{ page.title }} | {% endif %}Scotland JS</title>
+    <link rel="stylesheet" type="text/css" href="/scotlandjs.css" />
+  </head>
   <body>
 
     <header role="banner">
-      <p><a href="/">Scotland JS</a></p>
+      <div class="container">
+        <p>
+          <a href="/">
+            <img src="/images/logo.png" />
+          </a>
+        </p>
 
-      <nav role="navigation">
-        <a href="/news.html">News</a>
-        <a href="/tickets.html">Tickets</a>
-        <a href="/venue.html">Venue</a>
-        <a href="/speakers.html">Speakers</a>
-        <a href="/schedule.html">Schedule</a>
-        <a href="/sponsors.html">Sponsors</a>
-      </nav>
+        <nav role="navigation">
+          <a href="/news.html">News</a>
+          <a href="/tickets.html">Tickets</a>
+          <a href="/venue.html">Venue</a>
+          <a href="/speakers.html">Speakers</a>
+          <a href="/schedule.html">Schedule</a>
+          <a href="/sponsors.html">Sponsors</a>
+        </nav>
+      </div>
     </header>
 
     <div role="main">
@@ -20,9 +30,11 @@
     </div>
 
     <footer role="contentinfo">
-      Copyright 2013 ScotlandJS Conference.
-      All Rights Reserved.
-      Presented by <a href="http://neo.com">Neo</a>.
+      <div class="container">
+        Copyright 2013 ScotlandJS Conference.
+        All Rights Reserved.
+        Presented by <a href="http://neo.com">Neo</a>.
+      </div>
     </footer>
   </body>
 </html>
