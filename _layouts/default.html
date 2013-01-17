@@ -1,5 +1,28 @@
 <html>
+  <title>{{ page.title }}</title>
   <body>
-    {{ content }}
+
+    <header role="banner">
+      <p><a href="/">Scotland JS</a></p>
+
+      <nav role="navigation">
+        <a href="/news.html">News</a>
+        <a href="/tickets.html">Tickets</a>
+        <a href="/venue.html">Venue</a>
+        <a href="/speakers.html">Speakers</a>
+        <a href="/schedule.html">Schedule</a>
+        <a href="/sponsors.html">Sponsors</a>
+      </nav>
+    </header>
+
+    <div role="main">
+      {{ content }}
+    </div>
+
+    <footer role="contentinfo">
+      Copyright 2013 ScotlandJS Conference.
+      All Rights Reserved.
+      Presented by <a href="http://neo.com">Neo</a>.
+    </footer>
   </body>
 </html>
