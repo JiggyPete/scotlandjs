@@ -83,13 +83,39 @@ p{
 }
 
 .item{
-  border-top    : 1px solid rgb(255, 255, 255);
-  border-bottom : 1px solid rgb(222, 222, 222);
-  padding       : 10px 0 10px 100px;
+  border-top        : 1px solid rgb(255, 255, 255);
+  border-bottom     : 1px solid rgb(222, 222, 222);
+  padding           : 10px 0 10px 100px;
+  background-repeat : no-repeat;
 }
 
 .item:first-child{ border-top: none; }
 .item:last-child{ border-bottom: none; }
+
+.item#location{
+  background-image    : url('/images/pin.png');
+  background-position : 25px center;
+}
+
+.item#news{
+  background-image    : url('/images/calendar.png');
+  background-position : 10px center;
+}
+
+.item#date{
+  background-image    : url('/images/date.png');
+  background-position : 10px center;
+}
+
+.item#twitter{
+  background-image    : url('/images/twitter.png');
+  background-position : 10px center;
+}
+
+.item#past{
+  background-image    : url('/images/past.png');
+  background-position : 10px center;
+}
 
 em{
   color : rgb(200, 83, 83);
