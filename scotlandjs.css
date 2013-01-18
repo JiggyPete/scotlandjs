@@ -93,6 +93,7 @@ a{
   border-bottom     : 1px solid rgb(222, 222, 222);
   padding           : 10px 0 10px 100px;
   background-repeat : no-repeat;
+  background-size   : auto 50px;
 }
 
 .item:first-child{ border-top: none; }
@@ -100,27 +101,28 @@ a{
 
 .item#location{
   background-image    : url('/images/pin.png');
-  background-position : 25px center;
+  background-position : 30px center;
 }
 
 .item#news{
   background-image    : url('/images/calendar.png');
-  background-position : 10px center;
+  background-position : 15px center;
 }
 
 .item#date{
   background-image    : url('/images/date.png');
-  background-position : 10px center;
+  background-position : 22px center;
 }
 
 .item#twitter{
   background-image    : url('/images/twitter.png');
-  background-position : 10px center;
+  background-position : 20px center;
 }
 
 .item#past{
   background-image    : url('/images/past.png');
-  background-position : 10px center;
+  background-position : 15px center;
+  background-size     : auto 40px;
 }
 
 em{
