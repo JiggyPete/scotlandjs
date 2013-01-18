@@ -138,6 +138,7 @@ em{
 
 .container{
   width    : 960px;
+  padding  : 5px;
   margin   : 0 auto;
   position : relative;
 }
@@ -147,8 +148,35 @@ em{
   border-bottom    : 1px solid white;
 }
 
-h2{
+h1, h2{
   font-family : 'geared_slabextrabold', serif;
   color       : rgb(38, 118, 193);
+}
+
+h1{
+  padding-top: 5px;
+  line-height : 40px;
   margin      : 5px 0;
+}
+
+h2{
+  color  : rgb(38, 118, 193);
+  margin : 5px 0;
+}
+
+article{
+  padding: 15px 0 10px 0;
+  border-top    : 1px solid rgb(255, 255, 255);
+  border-bottom : 1px solid rgb(222, 222, 222);
+}
+
+article:first-child{ border-top: none; }
+article:last-child { border-bottom: none; }
+
+article h2{
+  padding: 0;
+}
+
+article .sub{
+  font-size: 0.8em;
 }
