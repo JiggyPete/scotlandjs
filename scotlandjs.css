@@ -69,6 +69,7 @@ div[role=main]{
   background-image    : url('/images/bg.png');
   background-position : center center;
   border-top          : 1px solid rgb(185, 197, 206);
+  border-bottom:      : 1px solid rgb(185, 197, 206);
 }
 
 footer{
@@ -77,6 +78,7 @@ footer{
   text-transform   : uppercase;
   text-align       : center;
   color            : rgb(23, 98, 166);
+  border-top       : 1px solid rgb(88, 125, 154);
 }
 
 footer a{
