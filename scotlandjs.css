@@ -66,7 +66,7 @@ div[role=main]{
 }
 
 footer{
-  padding-top    : 20px;
+  padding        : 20px 0;
   font-size      : 0.8em;
   text-transform : uppercase;
   text-align     : center;
@@ -138,7 +138,7 @@ em{
 
 .container{
   width    : 960px;
-  padding  : 5px;
+  padding  :;
   margin   : 0 auto;
   position : relative;
 }
@@ -169,9 +169,6 @@ article{
   border-top    : 1px solid rgb(255, 255, 255);
   border-bottom : 1px solid rgb(222, 222, 222);
 }
-
-article:first-child{ border-top: none; }
-article:last-child { border-bottom: none; }
 
 article h2{
   padding: 0;
