@@ -199,3 +199,97 @@ article .sub{
   overflow          : hidden;
 
 }
+
+.sponsors{
+  padding     : 30px 0;
+  color       : #444;
+  text-shadow : 0px 1px 2px #fff;
+}
+
+.sponsors .sponsor{
+  clear         : both;
+  margin-bottom : 10px;
+}
+
+.sponsors h2{
+  clear     : both;
+  color     : #bbb;
+  font-size : 14px;
+}
+
+.sponsors img{
+  max-width   : 110px;
+}
+
+.sponsors .blurb{
+  margin-left : 150px;
+  font-size   : 12px;
+}
+
+.sponsors .platinum .blurb{
+  font-size   : 16px;
+  margin-left : 350px;
+}
+
+.sponsors .platinum .blurb p{
+  padding: 10px 0;
+}
+
+.sponsors .platinum img{
+  max-width   : 300px;
+  margin-top  : 6px;
+  margin-left : 20px;
+  float       : left;
+}
+
+.sponsors .gold img{
+  max-width   : 200px;
+  margin-top  : 6px;
+  margin-left : 20px;
+  float       : left;
+}
+
+.sponsors .gold .blurb{
+  font-size   : 14px;
+  margin-left : 250px;
+}
+
+.sponsors .gold .blurb p{
+  padding: 10px 0;
+}
+
+.sponsors .silver img, .sponsors .presented img{
+  float       : left;
+  max-width   : 110px;
+  margin-top  : 6px;
+  margin-left : 20px;
+}
+
+/* Sponsor links */
+.links {
+  text-align: center;
+}
+.sponsor-link{
+  display             : inline-block;
+  background-position : center;
+  background-repeat   : no-repeat;
+  overflow            : hidden;
+  text-shadow         : none;
+  text-indent         : 110px;
+  width               : 110px;
+  margin: 0;
+}
+
+.sponsor-link#basho{
+  height           : 60px;
+  background-size  : 60px auto;
+  background-image : url('/images/sponsors/basho.png');
+}
+
+.sponsor-link#neo{
+  text-indent      : 90px;
+  width            : 90px;
+  height           : 60px;
+  background-size  : 90px auto;
+  background-image : url('/images/sponsors/neo.png');
+}
