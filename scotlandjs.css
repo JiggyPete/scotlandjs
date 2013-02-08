@@ -315,3 +315,21 @@ article .sub{
   background-size  : 90px auto;
   background-image : url('/images/sponsors/neo.png');
 }
+
+#buy_tickets{
+  color: #fff;
+  float: right;
+  border: 1px solid rgba(39, 104, 154,0.5);
+  padding: 5px 10px;
+  font-size: 14px;
+  text-transform   : uppercase;
+  text-shadow      : -1px -1px 1px rgb(39, 104, 154);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: rgba(39, 104, 154,0.1);
+}
+
+#buy_tickets:hover{
+  text-decoration: underline;
+}
