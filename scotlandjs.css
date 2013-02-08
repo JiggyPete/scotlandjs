@@ -265,6 +265,27 @@ article .sub{
   margin-left : 20px;
 }
 
+
+.sponsors .silver img, .sponsors .presented img{
+  float       : left;
+  max-width   : 110px;
+  margin-top  : 6px;
+  margin-left : 20px;
+}
+
+.sponsors .news img{
+  max-width   : 150px;
+  margin-top  : 6px;
+  margin-left : 20px;
+}
+
+.sponsors .news .blurb{
+  font-size   : 12px;
+  margin-left : 20px;
+  width       : 800px;
+}
+
+
 /* Sponsor links */
 .links {
   text-align: center;
