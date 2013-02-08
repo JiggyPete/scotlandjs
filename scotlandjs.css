@@ -277,12 +277,13 @@ article .sub{
   text-shadow         : none;
   text-indent         : 110px;
   width               : 110px;
-  margin: 0;
+  margin: 0 10px;
 }
 
 .sponsor-link#basho{
   height           : 60px;
-  background-size  : 60px auto;
+  width            : 90px;
+  background-size  : 90px auto;
   background-image : url('/images/sponsors/basho.png');
 }
 
