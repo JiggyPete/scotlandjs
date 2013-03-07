@@ -308,6 +308,13 @@ article .sub{
   background-image : url('/images/sponsors/basho.png');
 }
 
+.sponsor-link#github{
+  height           : 60px;
+  width            : 90px;
+  background-size  : 90px auto;
+  background-image : url('/images/sponsors/github.png');
+}
+
 .sponsor-link#neo{
   text-indent      : 90px;
   width            : 90px;
