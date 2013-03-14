@@ -1,3 +1,7 @@
+p {
+  padding-top: 10px;
+}
+
 @font-face {
   font-family : 'geared_slabextrabold';
   src         : url('/webfonts/gearedslab-extrabold-webfont.woff') format('woff');

@@ -1,5 +1,5 @@
 future:   false
 auto:     false
 exclude:  [Gemfile, Gemfile.lock, Procfile, vendor]
-include:  [images]
+include:  [images,speakers]
 port: 46456
