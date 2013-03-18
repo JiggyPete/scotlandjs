@@ -376,3 +376,28 @@ article .sub{
 #buy_tickets a:hover{
   text-decoration: underline;
 }
+
+.schedule {
+  width: 100%;
+}
+
+.schedule th {
+  background-color: rgba(0,0,0,.1);
+}
+
+.schedule td {
+  background-color: rgba(0,0,0,.05);
+  vertical-align: top;
+}
+
+.schedule th, .schedule td {
+  padding: 8px;
+}
+
+.schedule a {
+  color: rgb(38, 118, 193);
+}
+
+.schedule .title {
+  font-weight: bold;
+}

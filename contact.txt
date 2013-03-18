@@ -1,6 +1,5 @@
 Schedule
-
-
+Accomodation: page + book
 
 @GlwJS
 @EdinburghJS
