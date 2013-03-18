@@ -1,0 +1,34 @@
+Schedule
+
+
+
+@GlwJS
+@EdinburghJS
+@AberdeenJS
+@JSOxford
+@copenhagenjs
+
+Backbone London
+Node London
+Node Dublin
+@josmasflores - Dublin
+
+@berlinjs
+@hhjs  Hamburg
+@jsugfra Frankfurt
+@cgnjs Cologne
+@munichjs
+@stuttgartjs
+
+@telavivjs
+@lisbonjs
+@JSZurich
+@helsinkijs
+@BcnJS Barcellona
+@spainjs
+
+@jsromandie France
+
+@MadJavaScript Madison
+@jsmontreal
+@voodootikigod
