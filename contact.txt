@@ -1,19 +1,25 @@
-Schedule
 Accomodation: page + book
 
+Mailing lists:
+Our mailing list
+
+UX Bookclub
+Refresh'd Glasgow/Aberdeen
+Scottish Developers
+
+Meteor London
+
+Node Dublin
+
+JS Meetups
 @GlwJS
 @EdinburghJS
 @AberdeenJS
 @JSOxford
 @copenhagenjs
-
-Backbone London
-Node London
-Node Dublin
 @josmasflores - Dublin
-
 @berlinjs
-@hhjs  Hamburg
+
 @jsugfra Frankfurt
 @cgnjs Cologne
 @munichjs
@@ -23,11 +29,39 @@ Node Dublin
 @lisbonjs
 @JSZurich
 @helsinkijs
-@BcnJS Barcellona
 @spainjs
-
 @jsromandie France
 
 @MadJavaScript Madison
 @jsmontreal
 @voodootikigod
+
+Podcasts
+Charles Max Wood @cmaxw - Javascript Jabber and Ruby Rouges
+
+Done::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+@hhjs  - Hamburg
+@BcnJS Barcellona
+Boston Javascript meetup
+@LeedsJS
+
+Mailing List:
+Javascript Weekly
+SRC
+ScotRUG
+LRUG
+Refresh Edinburgh
+TechMeetup
+
+Angular London
+Backbone London
+London Ajax User Group
+London Web Performance
+Node London
+
+Ruby Irleand
+Ruby Belfast
+
+
+Podcast:
+@NodeUp

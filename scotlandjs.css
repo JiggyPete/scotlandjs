@@ -346,6 +346,13 @@ article .sub{
   background-image : url('/images/sponsors/github.png');
 }
 
+.sponsor-link#fanduel{
+  height           : 60px;
+  width            : 120px;
+  background-size  : 120px auto;
+  background-image : url('/images/sponsors/fanduel-logo.png');
+}
+
 .sponsor-link#neo{
   text-indent      : 90px;
   width            : 90px;
