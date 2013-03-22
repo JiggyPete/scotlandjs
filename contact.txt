@@ -15,10 +15,10 @@ JS Meetups
 @GlwJS
 @EdinburghJS
 @AberdeenJS
-@JSOxford
-@copenhagenjs
+
 @josmasflores - Dublin
-@berlinjs
+@ColumbiaJS
+@FranceJS
 
 @jsugfra Frankfurt
 @cgnjs Cologne
@@ -44,6 +44,9 @@ Done::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 @BcnJS Barcellona
 Boston Javascript meetup
 @LeedsJS
+@JSOxford
+@copenhagenjs
+@berlinjs
 
 Mailing List:
 Javascript Weekly
