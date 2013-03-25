@@ -25,6 +25,7 @@ JS Meetups
 @munichjs
 @stuttgartjs
 
+@njug_be
 @telavivjs
 @lisbonjs
 @JSZurich
