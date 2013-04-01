@@ -78,7 +78,7 @@ nav{
 nav a{
   font-size           : 0.9em;
   display             : inline-block;
-  width               : 90px;
+  width               : 100px;
   text-align          : right;
   background-image    : url('/images/nav_bottom.jpg');
   background-position : 0px 20px;
