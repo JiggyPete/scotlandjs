@@ -2,6 +2,11 @@ p {
   padding-top: 10px;
 }
 
+.video_link
+{
+  float: right;
+}
+
 .speaker
 {
   padding-top: 10px;
