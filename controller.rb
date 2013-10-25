@@ -1,5 +1,6 @@
 require 'haml'
 require 'redcarpet'
+require 'sass'
 
 ignore /Gemfile*/
 ignore /README.md/

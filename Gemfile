@@ -6,4 +6,5 @@ group :development do
   gem 'stasis'
   gem 'haml'
   gem 'redcarpet'
+  gem 'sass'
 end
