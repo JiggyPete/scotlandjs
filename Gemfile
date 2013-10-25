@@ -7,4 +7,6 @@ group :development do
   gem 'haml'
   gem 'redcarpet'
   gem 'sass'
+  gem 'bourbon'
+  gem 'neat'
 end

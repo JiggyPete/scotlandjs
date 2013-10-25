@@ -1,2 +1,54 @@
 @import "_normalize"
+@import "_bourbon/bourbon"
+@import "_neat/neat"
 
+$font: 'Droid Serif', serif
+
+$primary: #394249
+$primary-light: #F9F9F9
+$primary-link: #FFF
+
+$secondary: #F3F0E6
+
+$mobile: new-breakpoint(max-width 480px 4)
+$tablet: new-breakpoint(max-width 768px 8)
+
+$text-size: golden-ratio(14px, 0)
+
+body
+  color: #111
+  font-family: $font
+  font-size: $text-size
+
+a
+  text-decoration: none
+
+header
+  @include row
+  background-color: $primary
+
+  nav
+    @include outer-container
+
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+
+  li
+    @include span-columns(3)
+    display: inline-block
+
+    @include media($tablet)
+      @include fill-parent
+
+    a
+      @include transition(all 0.4s)
+      color: $primary-link
+      display: block
+      padding: 20px 0
+      text-align: center
+      text-transform: uppercase
+
+      &:hover
+        background-color: #5695BE
