@@ -1,4 +1,1 @@
-## Development
-
-    jekyll --server --auto
-
+# Scotland JS
