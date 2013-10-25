@@ -4,7 +4,7 @@ require 'sass'
 
 ignore /Gemfile*/
 ignore /README.md/
-ignore /\/\..*/
+ignore /\/(\.|\_).*/
 
 layout 'layouts/default.html.haml'
 
