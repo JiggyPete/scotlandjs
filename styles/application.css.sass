@@ -3,6 +3,7 @@
 @import "_neat/neat"
 
 $font: 'Droid Serif', serif
+$font-alt: 'Droid Sans', sans-serif
 
 $primary: #394249
 $primary-light: #F9F9F9
@@ -10,25 +11,39 @@ $primary-link: #FFF
 
 $secondary: #F3F0E6
 
+$button: #8D2D2D
+
+$text-color: #111
+$text-color-light: #FFF
+$text-color-med: #CAC4C5
+$text-size: golden-ratio(14px, 0)
+
 $mobile: new-breakpoint(max-width 480px 4)
 $tablet: new-breakpoint(max-width 768px 8)
 
-$text-size: golden-ratio(14px, 0)
-
 body
-  color: #111
+  color: $text-color
   font-family: $font
   font-size: $text-size
 
 a
   text-decoration: none
 
+.button-primary
+  background-color: $button
+  color: $text-color-light
+  display: inline-block
+  padding: 20px 60px
+  text-transform: uppercase
+
+.container
+  @include outer-container
+
 header
   @include row
-  background-color: $primary
 
   nav
-    @include outer-container
+    background-color: $primary
 
   ul
     list-style-type: none
@@ -52,3 +67,19 @@ header
 
       &:hover
         background-color: #5695BE
+
+.banner
+  background: url(/images/banner.jpg) center no-repeat
+  background-size: cover
+  color: $text-color-light
+  padding: 20px 0 40px
+  text-align: center
+
+  h1
+    font-size: golden-ratio($text-size, 3)
+    font-weight: normal
+
+  h2
+    color: $text-color-med
+    font-family: $font-alt
+    font-weight: normal
