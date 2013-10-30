@@ -6,44 +6,53 @@ $font: 'Droid Serif', serif
 $font-alt: 'Droid Sans', sans-serif
 
 $primary: #394249
-$primary-light: #F9F9F9
-$primary-link: #FFF
-
-$secondary: #F3F0E6
+$primary-highlight: #5695BE
+$primary-text: #7F8489
+$secondary: #F9F9F9
+$tagline: #F3F0E6
 
 $button: #8D2D2D
 
-$text-color: #111
-$text-color-light: #FFF
-$text-color-med: #CAC4C5
-$text-size: golden-ratio(14px, 0)
+$text-color: $primary
+
+$margin: 20px
 
 $mobile: new-breakpoint(max-width 480px 4)
 $tablet: new-breakpoint(max-width 768px 8)
 
 body
+  background-color: $primary
   color: $text-color
   font-family: $font
-  font-size: $text-size
+  font-size: em(16)
+  line-height: 2
 
 a
   text-decoration: none
 
 .button-primary
+  @include transition(all 0.2s)
   background-color: $button
-  color: $text-color-light
   display: inline-block
-  padding: 20px 60px
-  text-transform: uppercase
+  line-height: 1
+
+  &:hover
+    background-color: darken($button, 5%)
+
+  a
+    border: 1px solid #A96161
+    color: #FFF
+    display: block
+    font-size: em(16)
+    margin: 5px
+    padding: $margin $margin*2.5
+    text-transform: uppercase
 
 .container
   @include outer-container
 
 header
   @include row
-
-  nav
-    background-color: $primary
 
   ul
     list-style-type: none
@@ -53,33 +62,79 @@ header
   li
     @include span-columns(3)
     display: inline-block
+    font-size: em(14)
+    line-height: 1
 
     @include media($tablet)
       @include fill-parent
 
     a
       @include transition(all 0.4s)
-      color: $primary-link
+      color: #FFF
       display: block
-      padding: 20px 0
+      padding: $margin 0
       text-align: center
       text-transform: uppercase
 
       &:hover
-        background-color: #5695BE
+        background-color: $primary-highlight
+
+footer
+  color: $primary-text
+  padding:
+    top: $margin
+    bottom: $margin * 2
+  text-align: center
+
+  p
+    margin: 0
+
+.content, .content-alt
+  h3
+    font-size: em(18)
+    font-weight: normal
+    text-align: center
+    text-transform: uppercase
+
+    &:before, &:after
+      content: " - "
+
+.content
+  background-color: #FFF
+
+.content-alt
+  background-color: $secondary
 
 .banner
   background: url(/images/banner.jpg) center no-repeat
   background-size: cover
-  color: $text-color-light
-  padding: 20px 0 40px
+  color: #FFF
+  padding: $margin*3 0
   text-align: center
 
   h1
-    font-size: golden-ratio($text-size, 3)
+    font-size: em(64)
     font-weight: normal
+    line-height: 1
+    margin: 0
 
   h2
-    color: $text-color-med
+    color: darken($secondary, 20%)
     font-family: $font-alt
+    font-size: em(24)
     font-weight: normal
+    margin:
+      top: 0
+      bottom: $margin*2
+
+.tagline
+  background-color: $tagline
+  padding: $margin*2 0
+  text-align: center
+
+  p
+    @include span-columns(10)
+    @include shift(1)
+    margin:
+      top: 0
+      bottom: 0

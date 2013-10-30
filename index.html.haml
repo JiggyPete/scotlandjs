@@ -10,9 +10,12 @@
           %a{ href: "#venue" } Venue
         %li
           %a{ href: "#sponsors" } Sponsors
-  .banner
-    .container
-      %h1 Scotland JS
-      %h2 May 9th &amp; 10th, 2014
-
-      %a{ href: "#purchase", class: "button-primary" } Purchase Tickets
+  = render '_partials/banner.html.haml'
+  = render '_partials/tagline.html.haml'
+  = render '_partials/schedule.html.haml'
+  = render '_partials/speakers.html.haml'
+  = render '_partials/venue.html.haml'
+  = render '_partials/sponsors.html.haml'
+%footer
+  .container
+    %p &copy; 2013 Scotland JS Conference. All rights reserved.
