@@ -1,6 +1,7 @@
 @import "_normalize"
 @import "_bourbon/bourbon"
 @import "_neat/neat"
+@import "_fonts"
 
 $font: 'Droid Serif', serif
 $font-alt: 'Droid Sans', sans-serif
@@ -48,11 +49,71 @@ a
     padding: $margin $margin*2.5
     text-transform: uppercase
 
+.button-video
+  @include transition(all .4s)
+  background-color: rgba(0, 0, 0, .45)
+  color: #FFF
+  display: block
+  font-family: $font-alt
+  line-height: 1
+  padding: 13px $margin
+  position: absolute
+  right: $margin
+  top: $margin
+
+  @include media($tablet)
+    display: inline-block
+    margin:
+      top: $margin*2
+      bottom: $margin*2
+    position: relative
+    right: 0
+    top: 0
+
+  &:hover
+    background-color: rgba($primary-highlight, .75)
+
 .container
   @include outer-container
 
 header
   @include row
+
+  nav
+    position: relative
+
+
+    p
+      @include fill-parent
+      color: $primary-text
+      display: none
+      text-align: center
+
+      @include media($tablet)
+        display: inline-block
+
+    .icon-twitter, .icon-menu
+      @include transition(all .4s)
+      color: #FFF
+      font-size: em(28)
+      padding: 13px
+
+      &:hover
+        background-color: $primary-highlight
+
+    .icon-menu
+      display: none
+
+      @include media($tablet)
+        display: inline
+        position: absolute
+        left: 0
+        top: 0
+
+    .icon-twitter
+      position: absolute
+      right: 0
+      top: 0
 
   ul
     list-style-type: none
@@ -110,7 +171,14 @@ footer
   background-size: cover
   color: #FFF
   padding: $margin*3 0
+  position: relative
   text-align: center
+
+  @include media($tablet)
+    padding: $margin*2 10px 10px
+
+    .button-primary
+      @include fill-parent
 
   h1
     font-size: em(64)
@@ -121,11 +189,14 @@ footer
   h2
     color: darken($secondary, 20%)
     font-family: $font-alt
-    font-size: em(24)
+    font-size: em(20)
     font-weight: normal
     margin:
       top: 0
       bottom: $margin*2
+
+    @include media($tablet)
+      margin-bottom: 0
 
 .tagline
   background-color: $tagline
