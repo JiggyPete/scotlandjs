@@ -82,11 +82,12 @@ header
   nav
     position: relative
 
-
     p
       @include fill-parent
       color: $primary-text
       display: none
+      margin: 0
+      padding: 11px 0
       text-align: center
 
       @include media($tablet)
@@ -119,6 +120,12 @@ header
     list-style-type: none
     margin: 0
     padding: 0
+
+    @include media($tablet)
+      display: none
+
+      &.show
+        display: block
 
   li
     @include span-columns(3)
