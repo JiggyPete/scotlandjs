@@ -20,6 +20,7 @@ $margin: 20px
 
 $mobile: new-breakpoint(max-width 480px 4)
 $tablet: new-breakpoint(max-width 768px 8)
+$desktop: new-breakpoint(min-width 769px 12)
 
 body
   background-color: $primary
@@ -49,7 +50,7 @@ a
     padding: $margin $margin*2.5
     text-transform: uppercase
 
-.button-video
+.button-video, .close-video
   @include transition(all .4s)
   background-color: rgba(0, 0, 0, .45)
   color: #FFF
@@ -61,6 +62,10 @@ a
   right: $margin
   top: $margin
 
+  &:hover
+    background-color: rgba($primary-highlight, .75)
+
+.button-video
   @include media($tablet)
     display: inline-block
     margin:
@@ -70,8 +75,22 @@ a
     right: 0
     top: 0
 
-  &:hover
-    background-color: rgba($primary-highlight, .75)
+  @include media($desktop)
+    &.hide
+      display: none
+
+.close-video
+  display: none
+  z-index: 999
+
+  &.show
+    display: block
+
+    @include media($tablet)
+      margin: 0
+      position: absolute
+      top: $margin
+      right: $margin
 
 .container
   @include outer-container
@@ -210,6 +229,26 @@ footer
 
     @include media($tablet)
       margin-bottom: 0
+
+  .video
+    @include fill-parent
+    background-color: rgba(0, 0, 0, .75)
+    display: none
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+
+    &.show
+      display: block
+
+    iframe
+      @include span-columns(6)
+      @include shift(3)
+
+      @include media($tablet)
+        @include fill-parent
+        @include shift(0)
 
 .tagline
   background-color: $tagline
