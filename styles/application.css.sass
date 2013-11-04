@@ -180,7 +180,11 @@ footer
   text-align: center
 
   p
-    margin: 0
+    @include span-columns(8)
+    @include shift(2)
+    margin:
+      top: 0
+      bottom: 0
 
 .content, .content-alt
   h3
