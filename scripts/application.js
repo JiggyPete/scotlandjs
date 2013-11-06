@@ -4,7 +4,7 @@ $(function () {
   navigation = $('header nav ul');
 
   resizeVideo = function () {
-    $('.video iframe').attr('height', $('.banner').outerHeight());
+    $('.video iframe').attr('height', $('#banner').outerHeight());
   };
 
   iconMenuTriggered = function (e) {
