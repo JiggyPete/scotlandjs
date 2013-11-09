@@ -1,3 +1,27 @@
-%section.content-alt
+%section#speakers.content-alt
   .container
     %h3 Speakers
+
+    %ul.speakers.keynote
+      %li
+        %figure
+          %img{ src: "/images/speakers/jan.jpg" }
+          %caption
+            Jan Lehnardt
+            %em @janl
+      %li
+        %figure
+          %img{ src: "/images/speakers/james.jpg" }
+          %caption
+            James Shore
+            %em @jamesshore
+
+    %ul.speakers
+      - @speakers.each do |speaker|
+        %li
+          %figure
+            %img{ src: "/images/speakers/#{speaker[:image]}" }
+            %caption
+              = speaker[:name]
+              %em= speaker[:twitter]
+              %p= speaker[:title]
