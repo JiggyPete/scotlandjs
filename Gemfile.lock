@@ -5,12 +5,12 @@ GEM
       sass (>= 3.2.0)
       thor
     directory_watcher (1.4.1)
-    haml (4.0.3)
+    haml (4.0.4)
       tilt
-    neat (1.4.0)
+    neat (1.5.0)
       bourbon (>= 2.1)
       sass (>= 3.2)
-    redcarpet (2.3.0)
+    redcarpet (3.0.0)
     sass (3.2.12)
     slop (3.3.2)
     stasis (0.2.0)

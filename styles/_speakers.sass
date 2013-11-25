@@ -1,51 +1,55 @@
-.special
-  @include span-columns(2)
-  background-color: red
-
 .speakers
-  @include row
+  @include outer-container
   margin: 0
   padding: 0
 
   &.keynote
-    border-bottom: 1px solid lighten($primary, 60%)
+    border-bottom: 1px solid lighten($primary, 65%)
     margin-bottom: $margin*2
     padding-bottom: $margin*2
 
     li
       margin-bottom: 0
-      text-align: center
 
       &:first-child
-        @include shift(3)
-      &:last-child
-        @include shift(2)
+        @include shift(4)
+
+        @include media($tablet)
+          @include shift(3)
+        @include media($mobile)
+          @include shift(0)
 
   li
-    @include span-columns(2)
-    font-size: em(16)
-    line-height: 1
-    list-style-type: none
     margin-bottom: $margin*2
 
-    &:nth-child(6), &:nth-child(12)
-      margin-right: 0
-    &:nth-child(13)
-      @include shift(2)
+    @include media($desktop)
+      @include span-columns(2)
+      @include omega(6n)
+
+    @include media($tablet)
+      @include span-columns(2)
+      @include omega(4n)
+
+    @include media($mobile)
+      @include span-columns(2)
+      @include omega(2n)
 
     img
-      margin-bottom: $margin/2
       width: 100%
 
+    h4
+      font-size: em(16)
+      font-weight: normal
+      line-height: 1
+      margin: 0
+
     em
-      color: #BABDC0
-      display: block
+      color: lighten($text-color, 25%)
       font-size: em(12)
-      margin-top: $margin/3
 
     p
-      color: lighten($primary, 15%)
+      color: lighten($text-color, 15%)
       font-family: $font-alt
       font-size: em(14)
-      line-height: 1.25
-      margin-top: $margin/2
+      line-height: 1.4
+      margin: $margin/3 0 0

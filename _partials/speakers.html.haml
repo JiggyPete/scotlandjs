@@ -7,14 +7,14 @@
         %figure
           %img{ src: "/images/speakers/jan.jpg" }
           %caption
-            Jan Lehnardt
-            %em @janl
+            %h4 Jan Lehnardt
+            %em @jamesshore
       %li
         %figure
           %img{ src: "/images/speakers/james.jpg" }
-          %caption
-            James Shore
-            %em @jamesshore
+            %caption
+              %h4 James Shore
+              %em @jamesshore
 
     %ul.speakers
       - @speakers.each do |speaker|
@@ -22,6 +22,6 @@
           %figure
             %img{ src: "/images/speakers/#{speaker[:image]}" }
             %caption
-              = speaker[:name]
+              %h4= speaker[:name]
               %em= speaker[:twitter]
               %p= speaker[:title]
