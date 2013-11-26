@@ -48,4 +48,24 @@ $(function () {
 
   $(window).resize(resizeVideo);
   resizeVideo();
+
+
+
 });
+
+initializeMap = function () {
+  var dynamicEarth = new google.maps.LatLng(55.950690,-3.174748);
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    scrollwheel: false,
+    center: dynamicEarth,
+    zoom: 16,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+
+  new google.maps.Marker({
+      position: dynamicEarth,
+      title: "Our Dynamic Earth"
+  }).setMap(map);
+};
+google.maps.event.addDomListener(window, 'load', initializeMap);
