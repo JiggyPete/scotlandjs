@@ -3,6 +3,11 @@
   margin: 0
   padding: 0
 
+  @include media($tablet)
+    margin:
+      left: $gutter
+      right: $gutter
+
   &.keynote
     border-bottom: 1px solid lighten($primary, 65%)
     margin-bottom: $margin*2
