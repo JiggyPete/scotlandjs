@@ -1,3 +1,9 @@
-%section.content-alt
+%section#sponsors.content-alt
   .container
     %h3 Sponsors
+
+    %ul.sponsors
+      - @sponsors.each do |sponsor|
+        %li
+          %a{ href: "#{sponsor[:url]}" }
+            %img{ src: "/images/sponsors/#{sponsor[:image]}", alt: sponsor[:name] }

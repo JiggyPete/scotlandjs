@@ -10,6 +10,13 @@ layout 'layouts/default.html.haml'
 
 before 'index.html.haml' do
   @title = "Scotland JS"
+  @sponsors = [
+    {
+      name: 'Neo',
+      image: 'neo.png',
+      url: 'http://neo.com'
+    }
+  ]
   @speakers = [
     {
       name: 'Mark Boas',
