@@ -5,13 +5,13 @@
     %ul.speakers.keynote
       %li
         %figure
-          %img{ src: "/images/speakers/jan.jpg" }
+          %img{ src: "images/speakers/jan.jpg" }
           %caption
             %h4 Jan Lehnardt
             %em @jamesshore
       %li
         %figure
-          %img{ src: "/images/speakers/james.jpg" }
+          %img{ src: "images/speakers/james.jpg" }
             %caption
               %h4 James Shore
               %em @jamesshore
@@ -20,7 +20,7 @@
       - @speakers.each do |speaker|
         %li
           %figure
-            %img{ src: "/images/speakers/#{speaker[:image]}" }
+            %img{ src: "images/speakers/#{speaker[:image]}" }
             %caption
               %h4= speaker[:name]
               %em= speaker[:twitter]
