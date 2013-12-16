@@ -1,0 +1,30 @@
+#venue
+  position: relative
+
+  .venue-content
+    @include span-columns(6)
+
+    @include media($mobile)
+      @include span-columns(4)
+    @include media($tablet)
+      padding:
+        left: $gutter
+        right: $gutter
+
+  address
+    color: lighten($text-color, 15%)
+    line-height: 1.5
+    font-family: $font-alt
+    font-size: em(20)
+    font-style: normal
+    margin-bottom: $margin*2
+    text-align: center
+
+#map
+  @include span-columns(12)
+  @include position(absolute, 0px 0px 0px 0)
+  margin-right: 0
+  width: 50%
+
+  @include media($mobile)
+    display: none

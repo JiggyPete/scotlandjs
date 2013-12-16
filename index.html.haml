@@ -1,0 +1,26 @@
+%header
+  %nav
+    %a.icon-menu{ href: "#" }
+    %p Scotland JS
+    .container
+      %ul
+        %li
+          %a{ href: "#schedule" } Schedule
+        %li
+          %a{ href: "#speakers" } Speakers
+        %li
+          %a{ href: "#venue" } Venue
+        %li
+          %a{ href: "#sponsors" } Sponsors
+    %a.icon-twitter{ href: "http://twitter.com/scotlandjs" }
+  = render '_partials/banner.html.haml'
+
+= render '_partials/tagline.html.haml'
+= render '_partials/schedule.html.haml'
+= render '_partials/speakers.html.haml'
+= render '_partials/venue.html.haml'
+= render '_partials/sponsors.html.haml'
+
+%footer
+  .container
+    %p &copy; 2013 Scotland JS Conference. All rights reserved.

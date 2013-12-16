@@ -1,0 +1,60 @@
+.speakers
+  @include outer-container
+  margin: 0
+  padding: 0
+
+  @include media($tablet)
+    padding:
+      left: $gutter
+      right: $gutter
+
+  &.keynote
+    border-bottom: 1px solid lighten($primary, 65%)
+    margin-bottom: $margin*2
+    padding-bottom: $margin*2
+
+    li
+      margin-bottom: 0
+
+      &:first-child
+        @include shift(4)
+
+        @include media($tablet)
+          @include shift(3)
+        @include media($mobile)
+          @include shift(0)
+
+  li
+    margin-bottom: $margin*2
+
+    @include media($desktop)
+      @include span-columns(2)
+      @include omega(6n)
+
+    @include media($tablet)
+      @include span-columns(2)
+      @include omega(4n)
+
+    @include media($mobile)
+      @include span-columns(2)
+      @include omega(2n)
+
+    img
+      width: 100%
+
+    h4
+      font-size: em(16)
+      font-weight: normal
+      line-height: 1
+      margin: 0
+
+    em
+      color: lighten($text-color, 25%)
+      font-size: em(12)
+
+    p
+      color: lighten($text-color, 15%)
+      font-family: $font-alt
+      font-size: em(14)
+      line-height: 1.4
+      margin: $margin/3 0 0
