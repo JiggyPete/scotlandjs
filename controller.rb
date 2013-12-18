@@ -116,3 +116,7 @@ before 'index.html.haml' do
     }
   ]
 end
+
+before 'news.html.haml' do
+  @title = 'News'
+end
