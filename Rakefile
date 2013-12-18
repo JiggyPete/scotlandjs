@@ -17,5 +17,7 @@ task :deploy do
 
   system "rm -rf ../scotlandjs-deploy"
 
+  system "git checkout master"
+
   puts "## Deploy complete"
 end
