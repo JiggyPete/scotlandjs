@@ -45,6 +45,7 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rack (1.5.2)
+    rake (10.1.0)
     rb-fsevent (0.9.3)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
@@ -72,4 +73,5 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   neat
+  rake
   sass
