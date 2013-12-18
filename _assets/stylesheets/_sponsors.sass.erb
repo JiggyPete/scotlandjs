@@ -1,0 +1,19 @@
+@import "_variables"
+
+.sponsors
+  @include clearfix
+  margin-top: $margin*2 0 $margin 0
+  padding: 0
+
+  li
+    @include span-columns(3)
+    @include omega(4n)
+    margin-bottom: $margin
+    text-align: center
+
+    @include media($tablet)
+      @include span-columns(4)
+      @include omega(2n)
+    @include media($mobile)
+      @include span-columns(4)
+      @include omega(1n)

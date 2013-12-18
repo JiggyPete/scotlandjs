@@ -5,7 +5,7 @@
     <ul class="speakers keynote">
       <li>
         <figure>
-          <img src="/images/speakers/jan.jpg" />
+          <img src="{{ 'speakers/jan.jpg' | asset_path }}" />
           <caption>
             <h4>Jan Lehnardt</h4>
             <em>@janl</em>
@@ -14,7 +14,7 @@
       </li>
       <li>
         <figure>
-          <img src="/images/speakers/james.jpg" />
+          <img src="{{ 'speakers/james.jpg' | asset_path }}" />
           <caption>
             <h4>James Shore</h4>
             <em>@jamesshore</em>
@@ -27,7 +27,7 @@
     {% for speaker in site.data.speakers %}
       <li>
         <figure>
-          <img src="/images/speakers/{{ speaker.image }}" />
+          <img src="{{ speaker.image | asset_path }}" />
           <caption>
             <h4>{{ speaker.name }}</h4>
             <em>{{ speaker.twitter }}</em>
