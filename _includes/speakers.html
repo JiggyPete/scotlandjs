@@ -1,0 +1,41 @@
+<section id="speakers" class="content-alt">
+  <div class="container">
+    <h3>Speakers</h3>
+
+    <ul class="speakers keynote">
+      <li>
+        <figure>
+          <img src="/images/speakers/jan.jpg" />
+          <caption>
+            <h4>Jan Lehnardt</h4>
+            <em>@janl</em>
+          </caption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="/images/speakers/james.jpg" />
+          <caption>
+            <h4>James Shore</h4>
+            <em>@jamesshore</em>
+          </caption>
+        </figure>
+      </li>
+    </ul>
+
+    <ul class="speakers">
+    {% for speaker in site.data.speakers %}
+      <li>
+        <figure>
+          <img src="/images/speakers/{{ speaker.image }}" />
+          <caption>
+            <h4>{{ speaker.name }}</h4>
+            <em>{{ speaker.twitter }}</em>
+            <p>{{ speaker.title }}</p>
+          </caption>
+        </figure>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>

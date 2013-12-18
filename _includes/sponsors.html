@@ -1,0 +1,15 @@
+<section id="sponsors" class="content-alt">
+  <div class="container">
+    <h3>Sponsors</h3>
+
+    <ul class="sponsors">
+    {% for sponsor in site.data.sponsors %}
+      <li>
+        <a href="{{ sponsor.url }}">
+          <img src="images/sponsors/{{ sponsor.image }}" alt="{{ sponsor.name }}" />
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>
