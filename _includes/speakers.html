@@ -2,6 +2,8 @@
   <div class="container">
     <h3>Speakers</h3>
 
+    {% if site.data.speakers.size > 1 %}
+
     <ul class="speakers keynote">
       <li>
         <figure>
@@ -37,5 +39,11 @@
       </li>
     {% endfor %}
     </ul>
+
+    {% else %}
+
+    <p class="jumbo">Will be announced soon</p>
+
+    {% endif %}
   </div>
 </section>

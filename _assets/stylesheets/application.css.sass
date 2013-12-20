@@ -69,7 +69,7 @@ a
 .container
   @include outer-container
 
-header
+#site-header
   @include row
   padding-top: 54px
 
@@ -161,6 +161,18 @@ footer
       bottom: 0
 
 .content, .content-alt
+  a
+    color: $link
+
+    &:hover
+      color: $link-hover
+
+    &:visited, &:active
+      color: $link
+
+      &:hover
+        color: $link-hover
+
   h3
     font-size: em(18)
     font-weight: normal
