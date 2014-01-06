@@ -1,0 +1,71 @@
+Accomodation: page + book
+
+Mailing lists:
+Our mailing list
+
+UX Bookclub
+Refresh'd Glasgow/Aberdeen
+Scottish Developers
+
+Meteor London
+
+Node Dublin
+
+JS Meetups
+@GlwJS
+@EdinburghJS
+@AberdeenJS
+
+@josmasflores - Dublin
+@ColumbiaJS
+@FranceJS
+
+@jsugfra Frankfurt
+@cgnjs Cologne
+@munichjs
+@stuttgartjs
+
+@njug_be
+@telavivjs
+@lisbonjs
+@JSZurich
+@helsinkijs
+@spainjs
+@jsromandie France
+
+@MadJavaScript Madison
+@jsmontreal
+@voodootikigod
+
+Podcasts
+Charles Max Wood @cmaxw - Javascript Jabber and Ruby Rouges
+
+Done::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+@hhjs  - Hamburg
+@BcnJS Barcellona
+Boston Javascript meetup
+@LeedsJS
+@JSOxford
+@copenhagenjs
+@berlinjs
+
+Mailing List:
+Javascript Weekly
+SRC
+ScotRUG
+LRUG
+Refresh Edinburgh
+TechMeetup
+
+Angular London
+Backbone London
+London Ajax User Group
+London Web Performance
+Node London
+
+Ruby Irleand
+Ruby Belfast
+
+
+Podcast:
+@NodeUp

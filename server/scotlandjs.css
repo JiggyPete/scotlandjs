@@ -1,0 +1,415 @@
+p {
+  padding-top: 10px;
+}
+
+.video_link
+{
+  float: right;
+}
+
+.speaker
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 240px;
+  text-align: center;
+  float: left;
+}
+
+.speaker.keynote
+{
+  width: 480px;
+}
+
+.speaker img
+{
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+}
+
+.clear {
+  clear: both;
+}
+
+@font-face {
+  font-family : 'geared_slabextrabold';
+  src         : url('/webfonts/gearedslab-extrabold-webfont.woff') format('woff');
+  font-weight : normal;
+  font-style  : normal;
+}
+
+@font-face {
+  font-family : 'avenir';
+  src         : url('/webfonts/Avenir-Medium.woff') format('woff');
+  font-weight : normal;
+  font-style  : normal;
+}
+
+body{
+  margin              : 0;
+  padding             : 0;
+  font-family         : 'avenir medium', sans-serif;
+  line-height         : 1.5em;
+  color               : rgb(69, 70, 71);
+  background-color    : rgb(57, 145, 211);
+  background-image : url('/images/blue_bg.png');
+}
+
+header[role=banner]{
+  background-image  : url('/images/top.jpg');
+  background-repeat : repeat-x;
+  height            : 150px;
+  position          : relative;
+  padding-top       : 20px;
+  background        : -webkit-radial-gradient(top, ellipse cover, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 80%); /* Chrome10+,Safari5.1+ */
+  background        : radial-gradient(ellipse at top, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 80%);
+  background        : -moz-radial-gradient(top, ellipse cover, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 80%); /* FF3.6+ */
+  border-bottom     : 1px solid rgb(29, 81, 120);
+}
+
+nav{
+  position        : absolute;
+  right           : 0;
+  bottom          : 0px;
+  text-align      : right;
+  text-transform  : uppercase;
+  padding-bottom  : 10px;
+  font-family     : 'avenir heavy', sans-serif;
+}
+
+nav a{
+  font-size           : 0.9em;
+  display             : inline-block;
+  width               : 100px;
+  text-align          : right;
+  background-image    : url('/images/nav_bottom.jpg');
+  background-position : 0px 20px;
+  height              : 22px;
+  background-repeat   : no-repeat;
+  text-decoration     : none;
+  margin              : 0 0 0 10px;
+  color               : rgb(23, 98, 166);
+  text-shadow         : 0px 1px 1px rgb(93, 164, 218);
+}
+
+nav a:hover{
+  color               : rgb(238, 238, 238);
+  text-shadow         : -1px 1px 1px rgb(39, 104, 154);
+  background-position : -130px 20px;
+}
+
+div[role=main]{
+  background-image    : url('/images/bg.png');
+  background-position : center center;
+  border-top          : 1px solid rgb(185, 197, 206);
+  border-bottom:      : 1px solid rgb(185, 197, 206);
+}
+
+footer{
+  padding          : 20px 0;
+  font-size        : 14px;
+  text-transform   : uppercase;
+  text-align       : center;
+  color            : rgb(23, 98, 166);
+  border-top       : 1px solid rgb(88, 125, 154);
+}
+
+footer a{
+  color           : rgb(149, 175, 60);
+  text-decoration : none;
+}
+
+p{
+  margin  : 0;
+}
+
+a{
+  color           : rgb(200, 83, 83);
+  font-style      : normal;
+  text-decoration : none;
+}
+
+.item{
+  border-top        : 1px solid rgb(255, 255, 255);
+  border-bottom     : 1px solid rgb(222, 222, 222);
+  padding           : 10px 0 10px 100px;
+  background-repeat : no-repeat;
+  background-size   : auto 50px;
+}
+
+.item:first-child{ border-top: none; }
+.item:last-child{ border-bottom: none; }
+
+.item#location{
+  background-image    : url('/images/pin.png');
+  background-position : 30px center;
+}
+
+.item#news{
+  background-image    : url('/images/calendar.png');
+  background-position : 15px center;
+}
+
+.item#date{
+  background-image    : url('/images/date.png');
+  background-position : 22px center;
+}
+
+.item#twitter{
+  background-image    : url('/images/twitter.png');
+  background-position : 20px center;
+}
+
+.item#past{
+  background-image    : url('/images/past.png');
+  background-position : 15px center;
+  background-size     : auto 40px;
+}
+
+em{
+  color : rgb(200, 83, 83);
+  font-style: normal;
+}
+
+.large{
+  padding    : 15px 0;
+  font-size  : 1.2em;
+  text-align : center;
+}
+
+.container{
+  width    : 960px;
+  padding  :;
+  margin   : 0 auto;
+  position : relative;
+}
+
+.highlighted{
+  background-color : rgba(54, 143, 211, 0.1);
+  border-bottom    : 1px solid white;
+}
+
+h1, h2{
+  font-family : 'geared_slabextrabold', serif;
+  color       : rgb(38, 118, 193);
+  font-weight : normal;
+}
+
+h1{
+  padding-top: 5px;
+  line-height : 40px;
+  margin      : 5px 0;
+}
+
+h2{
+  color  : rgb(38, 118, 193);
+  margin : 5px 0;
+}
+
+article{
+  padding: 15px 0 10px 0;
+  border-top    : 1px solid rgb(255, 255, 255);
+  border-bottom : 1px solid rgb(222, 222, 222);
+}
+
+article h2{
+  padding     : 0;
+  text-shadow : 0px 1px 2px #fff;
+}
+
+article .sub{
+  font-size: 0.8em;
+}
+
+.neo_link{
+  /*outline           : 1px solid red;*/
+  display           : inline-block;
+  background-image  : url('/images/neo_small_white.png');
+  width             : 40px;
+  height            : 12px;
+  background-repeat : no-repeat;
+  text-indent       : 50px;
+  overflow          : hidden;
+
+}
+
+.sponsors{
+  padding     : 30px 0;
+  color       : #444;
+  text-shadow : 0px 1px 2px #fff;
+}
+
+.sponsors .sponsor{
+  clear         : both;
+  margin-bottom : 10px;
+}
+
+.sponsors h2{
+  clear     : both;
+  color     : #bbb;
+  font-size : 14px;
+}
+
+.sponsors img{
+  max-width   : 110px;
+}
+
+.sponsors .blurb{
+  margin-left : 150px;
+  font-size   : 12px;
+}
+
+.sponsors .platinum .blurb{
+  font-size   : 16px;
+  margin-left : 350px;
+}
+
+.sponsors .platinum .blurb p{
+  padding: 10px 0;
+}
+
+.sponsors .platinum img{
+  max-width   : 300px;
+  margin-top  : 6px;
+  margin-left : 20px;
+  float       : left;
+}
+
+.sponsors .gold img{
+  max-width   : 200px;
+  margin-top  : 6px;
+  margin-left : 20px;
+  float       : left;
+}
+
+.sponsors .gold .blurb{
+  font-size   : 14px;
+  margin-left : 250px;
+}
+
+.sponsors .gold .blurb p{
+  padding: 10px 0;
+}
+
+.sponsors .silver img, .sponsors .presented img{
+  float       : left;
+  max-width   : 110px;
+  margin-top  : 6px;
+  margin-left : 20px;
+}
+
+
+.sponsors .silver img, .sponsors .presented img{
+  float       : left;
+  max-width   : 110px;
+  margin-top  : 6px;
+  margin-left : 20px;
+}
+
+.sponsors .news img{
+  max-width   : 150px;
+  margin-top  : 6px;
+  margin-left : 20px;
+}
+
+.sponsors .news .blurb{
+  font-size   : 12px;
+  margin-left : 20px;
+  width       : 800px;
+}
+
+
+/* Sponsor links */
+.links {
+  text-align: center;
+}
+.sponsor-link{
+  display             : inline-block;
+  background-position : center;
+  background-repeat   : no-repeat;
+  overflow            : hidden;
+  text-shadow         : none;
+  text-indent         : 110px;
+  width               : 110px;
+  margin: 0 10px;
+}
+
+.sponsor-link#basho{
+  height           : 60px;
+  width            : 90px;
+  background-size  : 90px auto;
+  background-image : url('/images/sponsors/basho.png');
+}
+
+.sponsor-link#github{
+  height           : 60px;
+  width            : 90px;
+  background-size  : 90px auto;
+  background-image : url('/images/sponsors/github.png');
+}
+
+.sponsor-link#fanduel{
+  height           : 60px;
+  width            : 120px;
+  background-size  : 120px auto;
+  background-image : url('/images/sponsors/fanduel-logo.png');
+}
+
+.sponsor-link#neo{
+  text-indent      : 90px;
+  width            : 90px;
+  height           : 60px;
+  background-size  : 90px auto;
+  background-image : url('/images/sponsors/neo.png');
+}
+
+#buy_tickets{
+  color: #fff;
+  float: right;
+  font-size: 14px;
+}
+
+#buy_tickets a{
+  margin-left: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  border: 1px solid rgba(39, 104, 154,0.5);
+  text-transform   : uppercase;
+  text-shadow      : -1px -1px 1px rgb(39, 104, 154);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: rgba(39, 104, 154,0.1);
+}
+
+#buy_tickets a:hover{
+  text-decoration: underline;
+}
+
+.schedule {
+  width: 100%;
+}
+
+.schedule th {
+  background-color: rgba(0,0,0,.1);
+}
+
+.schedule td {
+  background-color: rgba(0,0,0,.05);
+  vertical-align: top;
+}
+
+.schedule th, .schedule td {
+  padding: 8px;
+}
+
+.schedule a {
+  color: rgb(38, 118, 193);
+}
+
+.schedule .title {
+  font-weight: bold;
+}
