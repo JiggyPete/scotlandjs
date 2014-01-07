@@ -1,4 +1,0 @@
-## Development
-
-    jekyll --server --auto
-
