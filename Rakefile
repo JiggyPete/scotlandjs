@@ -4,6 +4,7 @@ task :deploy do
   system "jekyll build"
   system "cp -rf _site ../scotlandjs-deploy"
   system "git checkout gh-pages"
+  system "git pull"
   system "rm -rf *"
   cp_r "../scotlandjs-deploy/.", "."
   system "git add -A"
