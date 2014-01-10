@@ -8,6 +8,8 @@
   p
     @include span-columns(10)
     @include shift(1)
-    margin:
-      top: 0
-      bottom: 0
+
+    &:first-child
+      margin-top: 0
+    &:last-child
+      margin-bottom: 0
