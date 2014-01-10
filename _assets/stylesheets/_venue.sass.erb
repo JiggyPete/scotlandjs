@@ -8,10 +8,6 @@
 
     @include media($mobile)
       @include span-columns(4)
-    @include media($tablet)
-      padding:
-        left: $gutter
-        right: $gutter
 
   address
     color: lighten($text-color, 15%)
@@ -25,6 +21,8 @@
 #map
   @include span-columns(12)
   @include position(absolute, 0px 0px 0px 0)
+  background: url(<%= asset_path 'dynamic_earth.jpg' %>) center no-repeat
+  background-size: cover
   margin-right: 0
   width: 50%
 
