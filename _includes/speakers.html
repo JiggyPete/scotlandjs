@@ -5,28 +5,24 @@
     {% if site.data.speakers.size > 1 %}
 
     <ul class="speakers keynote">
+    {% for speaker in site.data.speakers %}
+      {% if speaker.keynote %}
       <li>
         <figure>
-          <img src="{{ 'speakers/jan.jpg' | asset_path }}" />
+          <img src="{{ speaker.image | asset_path }}" />
           <caption>
-            <h4>Jan Lehnardt</h4>
-            <em>@janl</em>
+            <h4>{{ speaker.name }}</h4>
+            <em>{{ speaker.twitter }}</em>
           </caption>
         </figure>
       </li>
-      <li>
-        <figure>
-          <img src="{{ 'speakers/james.jpg' | asset_path }}" />
-          <caption>
-            <h4>James Shore</h4>
-            <em>@jamesshore</em>
-          </caption>
-        </figure>
-      </li>
+      {% endif %}
+    {% endfor %}
     </ul>
 
     <ul class="speakers">
     {% for speaker in site.data.speakers %}
+      {% unless speaker.keynote %}
       <li>
         <figure>
           <img src="{{ speaker.image | asset_path }}" />
@@ -37,6 +33,7 @@
           </caption>
         </figure>
       </li>
+      {% endunless %}
     {% endfor %}
     </ul>
 
