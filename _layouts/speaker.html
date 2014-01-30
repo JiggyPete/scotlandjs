@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% for s in site.data.speakers %}
+  {% if s.name == page.speaker_name %}
+    {% assign speaker = s %}
+  {% endif %}
+{% endfor %}
+
+<section id="speaker">
+  <div class="container">
+    <img src="{{ speaker.image | asset_path }}" />
+
+    <div class="speaker-bio">
+      <header>
+        <h3>
+          {{ speaker.name }}
+          <em>{{ speaker.twitter }}</em>
+        </h3>
+      </header>
+
+      <p>{{ speaker.bio }}</p>
+    </div>
+  </div>
+</section>
+
+<section id="speaker-talk" class="content">
+  <div class="container">
+    <article>
+      <header>
+        <h1>{{ speaker.title }}</h1>
+      </header>
+
+      {{ page.content }}
+    </article>
+  </div>
+</section>

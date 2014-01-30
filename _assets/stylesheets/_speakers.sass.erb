@@ -1,5 +1,40 @@
 @import "_variables"
 
+#speaker
+  @include clearfix
+  background-color: $tagline
+  padding: $margin*2 0
+  text-align: center
+
+  h3
+    font-size: em(24)
+    line-height: 1
+    margin-bottom: $margin/2
+    margin-top: 0
+
+    em
+      color: #969998
+      font-size: em(12)
+      font-weight: normal
+      margin-left: $gutter
+
+  img
+    @include span-columns(2)
+    @include shift(2)
+
+  .speaker-bio
+    @include span-columns(6)
+    text-align: left
+
+    p
+      margin: 0
+
+#speaker-talk
+  padding-top: $gutter*2
+
+  header h1
+    line-height: 1.3em
+
 .speakers
   @include outer-container
   margin: 0
