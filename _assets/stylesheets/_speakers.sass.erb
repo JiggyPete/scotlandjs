@@ -22,14 +22,31 @@
     @include span-columns(2)
     @include shift(2)
 
+    @include media($mobile)
+      @include span-columns(2)
+      @include shift(1)
+
   .speaker-bio
     @include span-columns(6)
     text-align: left
+
+    @include media($mobile)
+      @include span-columns(4)
+      padding: 0 $gutter
+
+      header
+        margin: $gutter/2 0
+        text-align: center
+
+        em
+          display: block
+          margin-left: 0
 
     p
       margin: 0
 
 #speaker-talk
+  background-color: #FFF
   padding-top: $gutter*2
 
   header h1
