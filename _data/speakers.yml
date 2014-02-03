@@ -1,12 +1,12 @@
-- name: 'Jan Lehnardt'
+- name: 'Angelina Fabbro'
   keynote: true
-  image: 'speakers/jan.jpg'
-  twitter: '@janl'
-  title: 'Hyperaudio - Making Audio a First Class Citizen of the Web'
-  bio: 'ScotlandJS is a JavaScript based community event running for the third year. Our delegates have the opportunity to learn from leaders in the field and also share their own knowledge and experience with others.'
-
-- name: 'Mark Boas'
-  image: 'speakers/mark.jpg'
-  twitter: '@maboa'
-  title: 'Hyperaudio - Making Audio a First Class Citizen of the Web'
-  bio: 'ScotlandJS is a JavaScript based community event running for the third year. Our delegates have the opportunity to learn from leaders in the field and also share their own knowledge and experience with others.'
+  image: 'speakers/angelina.jpg'
+  twitter: '@angelinamagnum'
+  title: ''
+  bio: 'Angelina Fabbro is a web developer and engineering developer advocate at Mozilla. Full stack development, programmer education, and crafty hacks. Plays well with others. Do not taunt happy fun ball.'
+- name: 'Mikeal Rogers'
+  keynote: true
+  image: 'speakers/mikeal.jpg'
+  twitter: '@mikeal'
+  title: ''
+  bio: ''
