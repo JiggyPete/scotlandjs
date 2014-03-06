@@ -10,3 +10,150 @@
   twitter: '@mikeal'
   title: 'Keynote'
   bio: ''
+- name: 'Jan Monschke'
+  keynote: false
+  image: 'speakers/JanMonschke.jpg'
+  twitter: '@thedeftone'
+  title: 'Building a collaborative audio editor based on the Web Audio API'
+  bio: ""
+- name: 'Jaume Sanchez Elias'
+  keynote: false
+  image: 'speakers/JaumeSanchez.jpg'
+  twitter: '@thespite'
+  title: 'Getting started with three.js and WebGL'
+  bio: ''
+- name: 'Philip Roberts'
+  keynote: false
+  image: 'speakers/PhilRoberts.jpg'
+  twitter: '@philip_roberts'
+  title: "Help, I'm stuck in an event-loop"
+  bio: 'Full-stack javascript dev at &yet :)'
+- name: 'Phil Leggetter'
+  keynote: false
+  image: 'speakers/PhilLeggetter.jpg'
+  twitter: '@pleggetter'
+  title: "Testing Ginormous JavaScript Apps"
+  bio: "I'm a Developer Evangelist at Caplin Systems where I'm part of the team open sourcing BladeRunnerJS. I live and work from home in Dollar, Clackmannanshire, Scotland.\r\n\r\nI'm the co-author of the APress title \"Realtime Web Apps\" and have written articles for Smashing Magazine, .net magazine, Programmable Web, on my own blog and anywhere else I get an opportunity to create content.\r\n\r\nMy passions include include developer experience and productivity, APIs, customer service and helping people realise the benefits realtime web technologies offer when creating the next generation of interactive and engaging web apps."
+- name: 'James Coglan'
+  keynote: false
+  image: 'speakers/JaumeSanchez.jpg'
+  twitter: '@jcoglan'
+  title: "Make: the forgotten build tool"
+  bio: ''
+- name: 'Jo Liss'
+  keynote: false
+  image: 'speakers/JoLiss.png'
+  twitter: '@thedeftone'
+  title: "No more `grunt watch`: Modern build workflows with Broccoli"
+  bio: ''
+- name: "Zeno Rocha Bueno Netto"
+  keynote: false
+  image: 'speakers/ZenoRochaBuenoNetto.jpg'
+  twitter: ''
+  title: ""
+  bio: ""
+- name: "Jason Frame"
+  keynote: false
+  image: 'speakers/JasonFrame.jpg'
+  twitter: '@jaz303'
+  title: ""
+  bio: ""
+- name: "Tero Parviainen"
+  keynote: false
+  image: 'speakers/TeroParviainen.jpeg'
+  twitter: ''
+  title: "Build Your Own AngularJS"
+  bio: ""
+- name: "Ron Evans"
+  keynote: false
+  image: 'speakers/JaumeSanchez.jpg'
+  twitter: ''
+  title: "Cylon.js: The JavaScript Evolution Of Open Source Robotics"
+  bio: ""
+- name: "John Sutherland"
+  keynote: false
+  image: 'speakers/JohnSutherland.jpg'
+  twitter: ''
+  title: "A Humane Introduction to Functional Programming"
+  bio: ""
+- name: "Coby Chapple"
+  keynote: false
+  image: 'speakers/JaumeSanchez.jpg'
+  twitter: ''
+  title: "How design happens at GitHub"
+  bio: ""
+- name: "Gabe Hollombe"
+  keynote: false
+  image: 'speakers/GabeHollombe.jpg'
+  twitter: ''
+  title: "Build Games with JavaScript and Phaser"
+  bio: ""
+- name: "Matt Field"
+  keynote: false
+  image: 'speakers/JaumeSanchez.jpg'
+  twitter: ''
+  title: "Don't Go Changin'"
+  bio: ""
+- name: "Tom Ashworth"
+  keynote: false
+  image: 'speakers/TomAshworth.jpg'
+  twitter: ''
+  title: "ServiceWorker & the offline web"
+  bio: ""
+- name: "Sugendran Ganess"
+  keynote: false
+  image: 'speakers/sugendran.jpg'
+  twitter: ''
+  title: "Refactoring Legacy Code"
+  bio: ""
+- name: "Stian Veum Mollersen"
+  keynote: false
+  image: 'speakers/StianVeumMollersen.png'
+  twitter: ''
+  title: "Making math come alive with JavaScript"
+  bio: ""
+- name: "Justin Searls"
+  keynote: false
+  image: 'speakers/JustinSearls.jpg'
+  twitter: ''
+  title: "JavaScript Testing Tactics"
+  bio: ""
+- name: "Mark Boas"
+  keynote: false
+  image: 'speakers/mark.jpg'
+  twitter: ''
+  title: "Further Adventures in Hyperaudio"
+  bio: ""
+- name: "Joe Pettersson"
+  keynote: false
+  image: 'speakers/JoePettersson.jpg'
+  twitter: ''
+  title: "JavaScript Security: myths, fallacies and anti-patterns"
+  bio: ""
+- name: "Jonathan Martin"
+  keynote: false
+  image: 'speakers/JonathanMartin.png'
+  twitter: ''
+  title: "The Realtime Web: We're Doing it Wrong."
+  bio: ""
+- name: "Jonathan Lipps"
+  keynote: false
+  image: 'speakers/JonathanLipps.jpg'
+  twitter: ''
+  title: "Yield! How ES6 Generators and Monocle-hs Can Bring Async Into Line, Literally"
+  bio: ""
+- name: "Ryan Sandor Richards"
+  keynote: false
+  image: 'speakers/ryan.jpg'
+  twitter: ''
+  title: "High Performance Visualizations with Canvas"
+  bio: ""
+- name: "Amanda O'Connell"
+  keynote: false
+  image: 'speakers/amanda.png'
+  twitter: ''
+  title: "Let's talk... mental health"
+  bio: "Amanda O'Connell is a Mental Health Trainer. Originally from Ireland, she has lived in Scotland for 5 years. 
+A former University Examinations Officer, Amanda moved into a new career in mental health training in early 2013, 
+Although not from a health background, Amanda herself experienced serious mental health difficulties. Once on the road to recovery, she decided to make something good come out of her own experiences. 
+One such example was setting up Minds Matter Training, however she also writes about mental health, facilitates peer support groups, and participates in many other mental health roles."
