@@ -120,16 +120,10 @@ a
         display: block
 
   li
-    @include span-columns(2)
+    @include span-columns(4)
     display: inline-block
     font-size: em(14)
     line-height: 1
-
-    &:nth-child(3)
-      @include span-columns(4)
-
-      @include media($tablet)
-        @include span-columns(8)
 
     @include media($tablet)
       @include fill-parent
