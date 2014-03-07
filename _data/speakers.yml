@@ -73,7 +73,7 @@ I wrote my blog in JavaScript in 2003 because I couldn't afford PHP hosting."
   image: 'speakers/JasonFrame.jpg'
   twitter: '@jaz303'
   title: 'Beyond the AST - A Fr**ework for Learnable Programming'
-  bio: ""  
+  bio: ""
 - name: 'Tero Parviainen'
   keynote: false
   individual_page: 'tero'
@@ -133,7 +133,7 @@ I wrote my blog in JavaScript in 2003 because I couldn't afford PHP hosting."
 - name: 'Stian Veum Mollersen'
   keynote: false
   individual_page: 'stian'
-  image: 'speakers/StianVeumMollersen.png'
+  image: 'speakers/StianVeumMollersen.jpg'
   twitter: '@mollerse'
   title: 'Making math come alive with JavaScript'
   bio: "Frontend developer from the grim, cold and frostbitten areas of Trondheim, Norway. Does his daily work at BEKK, making websites for clients. Passionate about the open and beautiful web and all the wonderful things we make with it."
@@ -192,10 +192,10 @@ If you catch me off work, I might be practicing Mendelssohn's Violin Concerto in
 - name: "Amanda O'Connell"
   keynote: false
   individual_page: 'amanda'
-  image: 'speakers/amanda.png'
+  image: 'speakers/amanda.jpg'
   twitter: '@minds_matter_'
   title: "Let's talk... mental health"
-  bio: "Amanda O'Connell is a Mental Health Trainer. Originally from Ireland, she has lived in Scotland for 5 years. 
-A former University Examinations Officer, Amanda moved into a new career in mental health training in early 2013, 
-Although not from a health background, Amanda herself experienced serious mental health difficulties. Once on the road to recovery, she decided to make something good come out of her own experiences. 
+  bio: "Amanda O'Connell is a Mental Health Trainer. Originally from Ireland, she has lived in Scotland for 5 years.
+A former University Examinations Officer, Amanda moved into a new career in mental health training in early 2013,
+Although not from a health background, Amanda herself experienced serious mental health difficulties. Once on the road to recovery, she decided to make something good come out of her own experiences.
 One such example was setting up Minds Matter Training, however she also writes about mental health, facilitates peer support groups, and participates in many other mental health roles."
