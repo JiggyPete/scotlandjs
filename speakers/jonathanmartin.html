@@ -3,4 +3,20 @@ layout: speaker
 title: Jonathan Martin
 speaker_name: Jonathan Martin
 ---
+<p>	
+	Even with WebSockets, Server Sent Events, and WebRTC at our disposal, we continue to treat realtime interactions as a selective enhancement we can hack on to a subset of features after product launch.
+</p>
+<p>	
+	Our antiquated MVP design assumption has been to forgo realtime interactivity. As web apps become the next generation of desktop apps, this assumption is no longer acceptable: we need to take a realtime-from-the-onset approach. However, this mindset brings with it new architectural challenges that remain largely unaddressed.
 
+- What type(s) of software components should be realtime?
+- Could the realtime paradigm be reduced to a simple protocol?
+- Can we keep authorization code DRY while presenting both HTTP and WebSocket based APIs?
+- How can we stick with a fat client, but expose an extensive querying API without compromising on DRY or security?
+</p>
+<p>	
+	We’ll examine these problems from the client and server-side, consider potential solutions, then code a solution in JS for a concrete app.
+</p>
+<p>	
+	We've got the tools. We just need to stop monkey patching together one-off solutions.
+</p>

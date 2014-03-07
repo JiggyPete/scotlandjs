@@ -101,7 +101,7 @@ I wrote my blog in JavaScript in 2003 because I couldn't afford PHP hosting."
   image: 'speakers/CobyChapple.jpeg'
   twitter: '@cobyism'
   title: 'How design happens at GitHub'
-  bio: "Coby works remotely from Northern Ireland as a designer and front-end developer for GitHub, a San Francisco based company which is rapidly changing the way people build software. Coby’s primary focus in his work is on creating focused, approachable interfaces, and information architecture that encourages flow."
+  bio: "Coby works remotely from Northern Ireland as a designer and front-end developer for GitHub, a San Francisco based company which is rapidly changing the way people build software. Coby's primary focus in his work is on creating focused, approachable interfaces, and information architecture that encourages flow."
 - name: 'Gabe Hollombe'
   keynote: false
   individual_page: 'gabe'
@@ -143,7 +143,7 @@ I wrote my blog in JavaScript in 2003 because I couldn't afford PHP hosting."
   image: 'speakers/JustinSearls.jpg'
   twitter: '@searls'
   title: 'JavaScript Testing Tactics'
-  bio: "Justin Searls has two professional passions: writing great software and sharing what he’s learned in order to help others write even greater software. He and his team at Test Double have the pleasure of living out both passions every day, working closely with clients to find simple solutions to complex problems. His community efforts are focused on improving the more painful aspects of writing software, which might explain why you see him talking so much about JavaScript."
+  bio: "Justin Searls has two professional passions: writing great software and sharing what he's learned in order to help others write even greater software. He and his team at Test Double have the pleasure of living out both passions every day, working closely with clients to find simple solutions to complex problems. His community efforts are focused on improving the more painful aspects of writing software, which might explain why you see him talking so much about JavaScript."
 - name: 'Mark Boas'
   keynote: false
   individual_page: 'mark'
@@ -174,7 +174,7 @@ In the Summer Mark teaches students at the University of Florence how to play we
 
 I work at the Big Nerd Ranch, where I teach frontend development and nab Rails/frontend consulting work (when Flash is not involved). Before joining the Ranch, various startup jobs occupied me with ground-up Rails development. Nowadays, I crave projects that span \"The Chasm\" between backend and frontend work.
 
-If you catch me off work, I might be practicing Mendelssohn's Violin Concerto in E minor while line dancing — unless of course, I'm out intruding on a touching proposal with my camera and telephoto lens."
+If you catch me off work, I might be practicing Mendelssohn's Violin Concerto in E minor while line  dancing - unless of course, I'm out intruding on a touching proposal with my camera and telephoto lens."
 - name: 'Jonathan Lipps'
   keynote: false
   individual_page: 'jonathanlipps'
