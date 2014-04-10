@@ -1,0 +1,33 @@
+PR user groups,
+  TechMeetup
+  ScotRUG
+  EdinburghJS
+  LNUG
+
+  JavaScript
+  Python
+  PHP
+  Design / UX meetups
+  Refresh
+
+Hit Companies
+  Royal London
+    Clarke
+
+  Sky
+    Chris / Matt Kirk
+
+  JPM
+    Gordon
+
+  Lean Day London attendees - Andy
+  BT
+  Dog Digital
+  TicToc
+  Morgan Stanley
+  Barclays
+  Kotikan
+
+Sponsor
+  FanDuel
+  Airpoint

@@ -1,16 +1,25 @@
-<section id="sponsors" class="content">
+<section id="sponsors_summary" class="content">
   <div class="container">
     <h3>Sponsors: <a href='/sponsors/index.html'>Sponsorship Packages</a></h3>
 
-    <ul class="sponsors">
-    {% for sponsor in site.data.sponsors %}
-      <li>
-        <a href="{{ sponsor.url }}">
-          <img src="{{ sponsor.image | asset_path }}" alt="{{ sponsor.name }}" height='80px'/>
-        </a>
-        
-      </li>
-    {% endfor %}
-    </ul>
+      <ul class="sponsors headline">
+        {% for sponsor in site.data.sponsors %}
+          {% if sponsor.headline %}
+            <li>
+              <a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      <ul class="sponsors">
+        {% for sponsor in site.data.sponsors %}
+          {% unless sponsor.headline %}
+            <li>
+              <a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
+            </li>
+          {% endunless %}
+        {% endfor %}
+      </ul>
   </div>
 </section>
