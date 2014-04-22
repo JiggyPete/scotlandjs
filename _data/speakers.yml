@@ -199,3 +199,10 @@ If you catch me off work, I might be practicing Mendelssohn's Violin Concerto in
 A former University Examinations Officer, Amanda moved into a new career in mental health training in early 2013,
 Although not from a health background, Amanda herself experienced serious mental health difficulties. Once on the road to recovery, she decided to make something good come out of her own experiences.
 One such example was setting up Minds Matter Training, however she also writes about mental health, facilitates peer support groups, and participates in many other mental health roles."
+- name: 'Dave Kennedy'
+  keynote: false
+  individual_page: 'dave'
+  image: 'speakers/dave.jpg'
+  twitter: '@bangline_'
+  title: 'Foundations for Assemble'
+  bio: "Dave is a JS, Ruby Developer at 1partCarbon in Edinburgh and organises GlasgowJS. He loves hacking on new languages and zombie flicks."
