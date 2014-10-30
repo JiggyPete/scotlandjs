@@ -1,33 +1,13 @@
-PR user groups,
-  TechMeetup
-  ScotRUG
-  EdinburghJS
-  LNUG
+Get site live
+  update
+    email address
+    '+ VAT' ?
+    Blurb on main page
 
-  JavaScript
-  Python
-  PHP
-  Design / UX meetups
-  Refresh
 
-Hit Companies
-  Royal London
-    Clarke
 
-  Sky
-    Chris / Matt Kirk
+Redirect domain
+Email address
 
-  JPM
-    Gordon
+Hit Up Sponsors
 
-  Lean Day London attendees - Andy
-  BT
-  Dog Digital
-  TicToc
-  Morgan Stanley
-  Barclays
-  Kotikan
-
-Sponsor
-  FanDuel
-  Airpoint
