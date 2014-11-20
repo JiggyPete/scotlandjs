@@ -1,0 +1,56 @@
+@import "_variables"
+
+#banner
+  background: url(<%= asset_path 'banner.jpg' %>) center no-repeat
+  background-size: cover
+  color: #FFF
+  padding: $margin*3 0
+  position: relative
+  text-align: center
+
+  @include media($tablet)
+    padding: $margin*2 10px 10px
+
+    .button-primary
+      @include fill-parent
+
+  h1
+    font-size: em(64)
+    font-weight: normal
+    line-height: 1
+    margin: 0
+
+    @include media($mobile)
+      font-size: em(52)
+
+  h2
+    color: darken($secondary, 20%)
+    font-family: $font-alt
+    font-size: em(20)
+    font-weight: normal
+    margin:
+      top: 0
+      bottom: $margin*2
+
+    @include media($tablet)
+      margin-bottom: 0
+
+  .video
+    @include fill-parent
+    background-color: rgba(0, 0, 0, .75)
+    display: none
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+
+    &.show
+      display: block
+
+    iframe
+      @include span-columns(6)
+      @include shift(3)
+
+      @include media($tablet)
+        @include fill-parent
+        @include shift(0)

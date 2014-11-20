@@ -1,0 +1,34 @@
+<section id="sponsors_summary" class="content">
+  <div class="container">
+    <h3>Sponsors: <a href='/sponsors/index.html'>Sponsorship Packages</a></h3>
+
+      <ul class="sponsors headline">
+        {% for sponsor in site.data.sponsors %}
+          {% if sponsor.headline %}
+            <li>
+              <a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <ul class="sponsors headline">
+        {% for sponsor in site.data.sponsors %}
+          {% if sponsor.gold %}
+            <li>
+              <a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      <ul class="sponsors">
+        {% for sponsor in site.data.sponsors %}
+          {% if sponsor.silver %}
+            <li>
+              <a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+  </div>
+</section>

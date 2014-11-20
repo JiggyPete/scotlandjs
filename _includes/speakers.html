@@ -1,0 +1,46 @@
+<section id="speakers" class="content-alt">
+  <div class="container">
+    <h3>Keynote Speakers</h3>
+
+    {% if site.data.speakers.size > 1 %}
+
+    <ul class="speakers keynote">
+    {% for speaker in site.data.speakers %}
+      {% if speaker.keynote %}
+      <li>
+        <figure>
+          <img src="{{ speaker.image | asset_path }}" />
+          <caption>
+            <h4>{{ speaker.name }}</h4>
+            <em>{{ speaker.twitter }}</em>
+          </caption>
+        </figure>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+
+    <ul class="speakers">
+    {% for speaker in site.data.speakers %}
+      {% unless speaker.keynote %}
+      <li>
+        <figure>
+          <img src="{{ speaker.image | asset_path }}" />
+          <caption>
+            <h4>{{ speaker.name }}</h4>
+            <em>{{ speaker.twitter }}</em>
+            <p>{{ speaker.title }}</p>
+          </caption>
+        </figure>
+      </li>
+      {% endunless %}
+    {% endfor %}
+    </ul>
+
+    {% else %}
+
+    <p class="jumbo">Will be announced soon</p>
+
+    {% endif %}
+  </div>
+</section>

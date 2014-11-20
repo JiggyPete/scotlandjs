@@ -1,0 +1,224 @@
+- name: 'Angelina Fabbro'
+  keynote: true
+  individual_page: 'angelina'
+  image: 'speakers/angelina.jpg'
+  twitter: '@angelinamagnum'
+  title: 'Keynote'
+  bio: 'Angelina Fabbro is a web developer and engineering developer advocate at Mozilla. Full stack development, programmer education, and crafty hacks. Plays well with others. Do not taunt happy fun ball.'
+- name: 'Mikeal Rogers'
+  keynote: true
+  individual_page: 'mikeal'
+  image: 'speakers/mikeal.jpg'
+  twitter: '@mikeal'
+  title: 'Keynote'
+  bio: ''
+- name: 'Jan Monschke'
+  keynote: false
+  individual_page: 'jan'
+  image: 'speakers/JanMonschke.jpg'
+  twitter: '@thedeftone'
+  hashtag: '#sjsJan'
+  title: 'Building a collaborative audio editor based on the Web Audio API'
+  bio: "Jan is frontend web developer from Berlin who focusses on building collaborative, multimedia web applications. He is always looking for new challenges on the web and since learning about the Web Audio API at JSconf.eu 2012 it is his new passion to create music-related web apps and experiments."
+
+- name: 'Jaume Sanchez Elias'
+  keynote: false
+  individual_page: 'jaume'
+  image: 'speakers/JaumeSanchez.jpg'
+  twitter: '@thespite'
+  hashtag: '#sjsJaume'
+  title: 'Getting started with three.js and WebGL'
+  bio: ""
+- name: 'Philip Roberts'
+  keynote: false
+  individual_page: 'philip'
+  image: 'speakers/PhilRoberts.jpg'
+  twitter: '@philip_roberts'
+  hashtag: '#sjsPhilR'
+  title: "Help, I'm stuck in an event-loop."
+  bio: "Full-stack javascript dev at &yet :)"
+- name: 'Phil Leggetter'
+  keynote: false
+  individual_page: 'phil'
+  image: 'speakers/PhilLeggetter.jpg'
+  twitter: '@leggetter'
+  hashtag: '#sjsPhilL'
+  title: 'Testing Ginormous JavaScript Apps'
+  bio: "I'm a Developer Evangelist at Caplin Systems where I'm part of the team open sourcing BladeRunnerJS. I live and work from home in Dollar, Clackmannanshire, Scotland.
+
+I'm the co-author of the APress title \"Realtime Web Apps\" and have written articles for Smashing Magazine, .net magazine, Programmable Web, on my own blog and anywhere else I get an opportunity to create content.
+
+My passions include include developer experience and productivity, APIs, customer service and helping people realise the benefits realtime web technologies offer when creating the next generation of interactive and engaging web apps."
+- name: 'James Coglan'
+  keynote: false
+  individual_page: 'james'
+  image: 'speakers/JamesCoglan.png'
+  twitter: '@jcoglan'
+  hashtag: '#sjsJames'
+  title: 'Make: the forgotten build tool'
+  bio: "I've been writing open-source JavaScript projects for years. I created the messaging framework Faye, the password manager Vault, the matrix library Sylvester, and a lot more besides.
+
+I wrote my blog in JavaScript in 2003 because I couldn't afford PHP hosting."
+- name: 'Jo Liss'
+  keynote: false
+  individual_page: 'jo'
+  image: 'speakers/JoLiss.png'
+  twitter: '@jo_liss'
+  hashtag: '#sjsJo'
+  title: 'No more `grunt watch`: Modern build workflows with Broccoli'
+  bio: "Jo is a serial entrepreneur by profession and a software developer at heart. She has been contributing to Ember since the 0.9 days."
+
+
+- name: 'Zeno Rocha Bueno Netto'
+  keynote: false
+  individual_page: 'zeno'
+  image: 'speakers/ZenoRochaBuenoNetto.jpg'
+  twitter: '@zenorocha'
+  hashtag: '#sjsZeno'
+  title: 'A future called Web Components'
+  bio: "Zeno Rocha used to work as a software developer at Petrobras (the largest company in Latin America) and Globoesporte.com (the most accessed sports website in Brazil), now he's a front-end engineer at Liferay. Besides that, he's a writer at Smashing Magazine, host at Zone Of Front-Enders podcast, member of the Google Developer Expert program and co-founder of BrazilJS Foundation. With only 22 years-old he's one of the top 20 most active users on GitHub and a reference in Brazil when the subject is front-end development."
+- name: 'Jason Frame'
+  keynote: false
+  individual_page: 'jason'
+  image: 'speakers/JasonFrame.jpg'
+  twitter: '@jaz303'
+  hashtag: '#sjsJason'
+  title: 'Beyond the AST - A Fr**ework for Learnable Programming'
+  bio: ""
+- name: 'Tero Parviainen'
+  keynote: false
+  individual_page: 'tero'
+  image: 'speakers/TeroParviainen.jpeg'
+  twitter: '@teropa'
+  hashtag: '#sjsTero'
+  title: 'Build Your Own AngularJS'
+  bio: "Tero Parviainen is an independent software maker with 12 years of enterprise-grade yak shaving under the belt. During this time he has worn many different hats, ranging from consultant to startup CTO. His weapons of choice are JavaScript, Clojure, Ruby, and Java."
+- name: 'Ron Evans'
+  keynote: false
+  individual_page: 'ron'
+  image: 'speakers/RonEvans.jpg'
+  twitter: '@deadprogram'
+  hashtag: '#sjsRon'
+  title: 'Cylon.js: The JavaScript Evolution Of Open Source Robotics'
+  bio: "Software developer, contributor to open source, author and speaker, iconoclast. Ringleader at The Hybrid Group (http://hybridgroup.com). Creator of the award-winning KidsRuby, as well as three different open source robotics frameworks: Artoo, Cylon.js, & Gobot"
+- name: 'John Sutherland'
+  keynote: false
+  individual_page: 'john'
+  image: 'speakers/JohnSutherland.jpg'
+  twitter: '@sneeu'
+  hashtag: '#sjsJohn'
+  title: 'A Humane Introduction to Functional Programming'
+  bio: "Python & JavaScript engineer at FanDuel."
+- name: 'Coby Chapple'
+  keynote: false
+  individual_page: 'coby'
+  image: 'speakers/CobyChapple.jpeg'
+  twitter: '@cobyism'
+  hashtag: '#sjsCoby'
+  title: 'How design happens at GitHub'
+  bio: "Coby works remotely from Northern Ireland as a designer and front-end developer for GitHub, a San Francisco based company which is rapidly changing the way people build software. Coby's primary focus in his work is on creating focused, approachable interfaces, and information architecture that encourages flow."
+- name: 'Gabe Hollombe'
+  keynote: false
+  individual_page: 'gabe'
+  image: 'speakers/GabeHollombe.jpg'
+  twitter: '@gabehollombe'
+  hashtag: '#sjsGabe'
+  title: 'Build Games with JavaScript and Phaser'
+  bio: "Gabe is a full-stack senior engineer at Neo Innovation, with a thirst for knowledge and a passion for sharing what he's learned.  He's spoken in Australia and Singapore on topics including HTML5, JavaScript, Ruby, Vim, and Game-dev."
+- name: 'Matt Field'
+  keynote: false
+  individual_page: 'matt'
+  image: 'speakers/mattfield.jpg'
+  twitter: '@mattfieldy'
+  title: "Don't Go Changin'"
+  hashtag: '#sjsMatt'
+  bio: "Matt is a London-based software developer and amateur computer scientist. He's a programming language nerd, owns more bits of coffee-brewing equipment than pairs of socks, and organizes the FunctionalJS meetup."
+- name: 'Tom Ashworth'
+  keynote: false
+  individual_page: 'tom'
+  image: 'speakers/TomAshworth.jpg'
+  twitter: '@phuunet'
+  hashtag: '#sjsTom'
+  title: 'ServiceWorker & the offline web'
+  bio: "I'm a front-end engineer at Twitter, working on TweetDeck. I live in Brighton, and enjoy endless train journeys up to London! I also play tuba and sousaphone in a carnival brass band."
+- name: 'Sugendran Ganess'
+  keynote: false
+  individual_page: 'sugendran'
+  image: 'speakers/sugendran.jpg'
+  twitter: '@sugendran'
+  hashtag: '#sjsSugendran'
+  title: 'Refactoring Legacy Code'
+  bio: "Sugendran is a Senior Javascript Engineer at Yammer who still remembers when Firebug was a new thing. Sugendran has worked on many things in his past ranging from writing backend services to deploying a cube farm in Node.js."
+
+- name: 'Stian Veum Mollersen'
+  keynote: false
+  individual_page: 'stian'
+  image: 'speakers/StianVeumMollersen.jpg'
+  twitter: '@mollerse'
+  hashtag: '#sjsStian'
+  title: 'Making math come alive with JavaScript'
+  bio: "Frontend developer from the grim, cold and frostbitten areas of Trondheim, Norway. Does his daily work at BEKK, making websites for clients. Passionate about the open and beautiful web and all the wonderful things we make with it."
+- name: 'Justin Searls'
+  keynote: false
+  individual_page: 'justin'
+  image: 'speakers/JustinSearls.jpg'
+  twitter: '@searls'
+  hashtag: '#sjsJustin'
+  title: 'JavaScript Testing Tactics'
+  bio: "Justin Searls has two professional passions: writing great software and sharing what he's learned in order to help others write even greater software. He and his team at Test Double have the pleasure of living out both passions every day, working closely with clients to find simple solutions to complex problems. His community efforts are focused on improving the more painful aspects of writing software, which might explain why you see him talking so much about JavaScript."
+
+- name: 'Joe Pettersson'
+  keynote: false
+  individual_page: 'joe'
+  image: 'speakers/JoePettersson.jpg'
+  twitter: '@Joe8Bit'
+  hashtag: '#sjsJoe'
+  title: 'JavaScript Security: myths, fallacies and anti-patterns'
+  bio: "Technical Lead of UI Engineering McKinsey & Company; also an author, public speaker and shameless nerd."
+- name: "Jonathan Martin"
+  keynote: false
+  individual_page: 'jonathanmartin'
+  image: 'speakers/JonathanMartin.png'
+  twitter: '@nybblr'
+  hashtag: '#sjsJonathanM'
+  title: "The Realtime Web: We're Doing it Wrong."
+  bio: "Just your standard Georgia Tech CS alumnus who happens to love JavaScript, Ruby, and Python.
+
+I work at the Big Nerd Ranch, where I teach frontend development and nab Rails/frontend consulting work (when Flash is not involved). Before joining the Ranch, various startup jobs occupied me with ground-up Rails development. Nowadays, I crave projects that span \"The Chasm\" between backend and frontend work.
+
+If you catch me off work, I might be practicing Mendelssohn's Violin Concerto in E minor while line  dancing - unless of course, I'm out intruding on a touching proposal with my camera and telephoto lens."
+- name: 'Jonathan Lipps'
+  keynote: false
+  individual_page: 'jonathanlipps'
+  image: 'speakers/JonathanLipps.jpg'
+  twitter: '@jlipps'
+  hashtag: '#sjsJonathanL'
+  title: 'Yield! How ES6 Generators and Monocle-js Can Bring Async Into Line, Literally'
+  bio: "Jonathan Lipps has been making things out of code as long as he can remember.  He currently works as Director of Ecosystem and Integrations at Sauce Labs, leading a team of open source developers to improve the web and mobile testing ecosystem. Jonathan is the architect and project lead for Appium, the open-source, cross-platform mobile automation framework (written in Node). He has worked as a programmer in tech startups for over a decade, but is also passionate about academic discussion. Jonathan has master's degrees in philosophy and linguistics, from Stanford and Oxford respectively. Living in San Francisco, he's an avid rock climber, yogi, musician, and writer on topics he considers vital, like the relationship of technology to what it means to be human."
+- name: 'Ryan Sandor Richards'
+  keynote: false
+  individual_page: 'ryan'
+  image: 'speakers/ryan.jpg'
+  twitter: '@rsandor'
+  hashtag: '#sjsRyan'
+  title: 'High Performance Visualizations with Canvas'
+  bio: "I am a full stack engineer with an interest in the front-end, game programming, and theory. In my spare time I read books, write music, play games, and drink tea."
+- name: "Amanda O'Connell"
+  keynote: false
+  individual_page: 'amanda'
+  image: 'speakers/amanda.jpg'
+  twitter: '@minds_matter_'
+  hashtag: '#sjsAmanda'
+  title: "Let's talk... mental health"
+  bio: "Amanda O'Connell is a Mental Health Trainer. Originally from Ireland, she has lived in Scotland for 5 years.
+A former University Examinations Officer, Amanda moved into a new career in mental health training in early 2013,
+Although not from a health background, Amanda herself experienced serious mental health difficulties. Once on the road to recovery, she decided to make something good come out of her own experiences.
+One such example was setting up Minds Matter Training, however she also writes about mental health, facilitates peer support groups, and participates in many other mental health roles."
+- name: 'Dave Kennedy'
+  keynote: false
+  individual_page: 'dave'
+  image: 'speakers/dave.jpg'
+  twitter: '@bangline_'
+  hashtag: '#sjsDave'
+  title: 'Foundations for Assemble'
+  bio: "Dave is a JS, Ruby Developer at 1partCarbon in Edinburgh and organises GlasgowJS. He loves hacking on new languages and zombie flicks."

@@ -1,0 +1,21 @@
+{% for s in site.data.speakers %}
+  {% if s.name == include.speaker %}
+    {% assign speaker = s %}
+  {% endif %}
+{% endfor %}
+
+<div class="speaker-info">
+	<a href="/speakers/{{speaker.individual_page}}">
+	  <img src="{{ speaker.image | asset_path }}" />
+	  <h4>{{ speaker.name }}</h4>
+	</a>
+  <a href="http://twitter.com/{{speaker.twitter}}" target="_blank">
+    <em>{{ speaker.twitter }}</em>
+  </a>
+  {% if speaker.hashtag %}
+  	<a href="http://twitter.com/{{speaker.hashtag}}" target="_blank">
+    	<em>{{ speaker.hashtag }}</em>
+  	</a>
+  {% endif %}
+</div>
+<p>{{ speaker.title }}</p>
