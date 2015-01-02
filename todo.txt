@@ -1,13 +1,38 @@
-Get site live
-  update
-    email address
-    '+ VAT' ?
-    Blurb on main page
+Go Live:
+
+  add previous events
+    videos for 2012, 2013 and 2014
+
+  Book venue:
+    Cash from FanDuel
+
+  Keynotes:
+    Phil
+      Bio + Pic
+    Lena (?)
+
+  CFP:
+    Hangouts
+
+  Tickets:
+    Twitter
+    Dietry Requirements
+    Test Run
 
 
 
-Redirect domain
-Email address
+PR:
+  Tech Meetup
+  GlasgowJS
+  EdinburghJS
 
-Hit Up Sponsors
+  Previous Speakers
 
+  Previous Attendees
+
+
+Diversity:
+  Karen to hit up prominent female devs via GitHub!
+
+
+Sponsors:
