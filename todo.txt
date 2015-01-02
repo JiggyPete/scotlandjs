@@ -33,6 +33,7 @@ Diversity:
   DjangoGirls Edinburgh
   @callbackwomen
   @devchicks
+  @calltospeakers
 
 
 
