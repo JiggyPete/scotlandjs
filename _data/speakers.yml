@@ -3,12 +3,12 @@
   individual_page: 'philip'
   image: 'speakers/phil.png'
   twitter: '@philip_roberts'
-  title: 'Keynote Speaker'
+  title: ''
   bio: "Philip writes JavaScript at &yet, agonizes too much, and is a core-contributor to AmpersandJS. As someone who suffers from depression, he thinks, cares, and sometimes even writes about mental health and it's impact on us all."
 - name: 'Lena Reinhard'
   keynote: true
   individual_page: 'lena'
   image: 'speakers/lena2.png'
   twitter: '@lrnrd'
-  title: 'Keynote Speaker'
+  title: ''
   bio: "Lena Reinhard is a CEO, co-founder, project and communications manager. She's part of the Open Source Projects Hoodie and CouchDB, loves making music and enjoys going on extensive road trips. And somehow accidentally she always ends up at places where she meets Alpacas."
