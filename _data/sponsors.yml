@@ -1,50 +1,14 @@
-- name: 'Neo'
+- name: 'FanDuel'
   headline: true
   platinum: true
-  image: 'sponsors/neo.png'
-  url: 'http://neo.com'
-  level: 'Gold'
-  site_link: '/sponsors/#neo'
-- name: '1PartCarbon'
-  headline: true
-  platinum: true
-  image: 'sponsors/1PCLongLogo.png'
-  url: 'http://1partcarbon.co.uk'
+  image: 'sponsors/FanDuel-Logo-Dark.png'
+  url: 'http://www.fanduel.com'
   level: 'Platinum'
-  site_link: '/sponsors/#1partcarbon'
-- name: 'Amazon'
-  gold: true
-  image: 'sponsors/amazon.png'
-  url: 'http://amazon.com'
-  level: 'Gold'
-  site_link: '/sponsors/#amazon'
-- name: 'Digital Ocean'
-  gold: true
-  image: 'sponsors/DigitalOcean.png'
-  url: 'https://www.digitalocean.com'
-  level: 'Gold'
-  site_link: '/sponsors/#digitalocean'
-- name: 'BladeRunner.js'
-  silver: true
-  image: 'sponsors/BladeRunnerJS.png'
-  url: 'http://bladerunnerjs.org/'
+  site_link: '/sponsors/#fanduel'
+- name: 'Google'
+  headline: true
+  silver: false
+  image: 'sponsors/google.png'
+  url: 'http://google.org/'
   level: 'Silver'
-  site_link: '/sponsors/#bladerunner'
-- name: 'iWin'
-  silver: true
-  image: 'sponsors/iWinlogo2.png'
-  url: 'http://iwin.com/'
-  level: 'Silver'
-  site_link: '/sponsors/#iwin'
-- name: 'SauceLabs'
-  silver: true
-  image: 'sponsors/SauceLabs.png'
-  url: 'http://saucelabs.org/'
-  level: 'Silver'
-  site_link: '/sponsors/#saucelabs'
-- name: 'SwarmOnline'
-  silver: true
-  image: 'sponsors/SwarmOnlineLogo.png'
-  url: 'http://swarmonline.com'
-  level: 'Silver'
-  site_link: '/sponsors/#swarmonline'
+  site_link: '/sponsors/#google'
