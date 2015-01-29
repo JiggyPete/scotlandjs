@@ -1,7 +1,7 @@
 - name: 'FanDuel'
   headline: true
   platinum: true
-  image: 'sponsors/FanDuel-Logo-Dark.png'
+  image: 'sponsors/FanDuel-Logo-Dark2.png'
   url: 'http://www.fanduel.com'
   level: 'Platinum'
   site_link: '/sponsors/#fanduel'
