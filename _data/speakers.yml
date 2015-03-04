@@ -5,7 +5,7 @@
   twitter: '@philip_roberts'
   title: ''
   bio: "Philip writes JavaScript at &yet, agonizes too much, and is a core-contributor to AmpersandJS. As someone who suffers from depression, he thinks, cares, and sometimes even writes about mental health and it's impact on us all."
-  dietary_requirements: '?'
+  dietary_requirements: 'None'
   pic_supplied: 'Yes'
 - name: 'Lena Reinhard'
   keynote: true
@@ -14,13 +14,12 @@
   twitter: '@lrnrd'
   title: ''
   bio: "Lena Reinhard is a CEO, co-founder, project and communications manager. She's part of the Open Source Projects Hoodie and CouchDB, loves making music and enjoys going on extensive road trips. And somehow accidentally she always ends up at places where she meets Alpacas."
-  dietary_requirements: '?'
+  dietary_requirements: 'Vegatarian'
   pic_supplied: 'Yes'
 - name: 'Katie Fenn'
   keynote: false
   individual_page: 'katie'
-  # image: 'speakers/2015/original/katie_fenn.png'
-  image: 'speakers/lena2.jpg'
+  image: 'speakers/2015/original/katie.jpg'
   twitter: '@katie_fenn'
   email: 'katie.fenn@googlemail.com'
   title: 'Chrome DevTools, Front to Back'
@@ -40,23 +39,23 @@
 - name: 'Andrew Duncan'
   keynote: false
   individual_page: 'andrew'
-  image: 'speakers/phil.png'
+  image: 'speakers/2015/original/andrew.jpg'
   twitter: '@andrewmduncan'
   email: 'andrew@swarmonline.com'
   title: 'Memory Leak Health Check - Our Quest to Diagnose & Cure'
   bio: "Andrew has combined a passion for IT with a strong aptitude for business to create SwarmOnline - one of Scotland's fastest growing tech companies. Three years ago he founded SwarmOnline who became Sencha's first partner outside of the U.S. Since then Andrew has grown the business year on year and acknowledges that Sencha has had a huge impact on his success. Although Andrew is a Managing Director, he his also an experienced and highly competent technologist and solutions architect. He has co-written Ext JS 4 Web Application Development Cookbook and is currently busy writing another two Ext JS books, due out soon. Last year Andrew's success was recognised when he received a nomination for Young Business Person of the Year at the prestigious Glasgow Business Awards. Andrew is a sought after conference speaker. Previous speaking engagements include SenchaCon 2013 in Florida, Citi Group HTML5 Developer Conference in Dublin and ModUXCon in Amsterdam."
-  dietary_requirements: '?'
-  pic_supplied: 'No'
+  dietary_requirements: 'None'
+  pic_supplied: 'Yes'
 - name: 'Dave Kennedy'
   keynote: false
   individual_page: 'dave'
-  image: 'speakers/phil.png'
+  image: 'speakers/2015/small_dave.jpg'
   twitter: '@bangline_'
   email: 'david@bangline.co.uk'
   title: 'TDD in the in the real world'
   bio: "I'm a Glasgow based developer working in Edinburgh with the awesome 1partCarbon. I also organise the JS user group for Glasgow glasgowjs.com"
   dietary_requirements: 'None'
-  pic_supplied: 'No'
+  pic_supplied: 'Yes'
 - name: 'Joe Nash'
   keynote: false
   individual_page: 'joe'
@@ -90,13 +89,13 @@
 - name: 'Mark Connell'
   keynote: false
   individual_page: 'mark'
-  image: 'speakers/2015/original/mark_connell.jpeg'
+  image: 'speakers/2015/small_mark.jpg'
   twitter: '@mconnell'
   email: 'mark@markconnell.co.uk'
   title: 'Accessibility & JavaScript-based websites'
-  bio: ""
+  bio: "Mark likes coding whilst entertaining his budgie, the ever lovable, Barney."
   dietary_requirements: 'None'
-  pic_supplied: 'No'
+  pic_supplied: 'Yes'
 - name: 'Hubert Sablonni&egrave;re'
   keynote: false
   individual_page: 'hubert'
@@ -110,7 +109,7 @@
 - name: 'Greg Tarnoff'
   keynote: false
   individual_page: 'greg'
-  image: 'speakers/2015/original/greg_tarnoff.jpg'
+  image: 'speakers/2015/small_greg.jpg'
   twitter: '@gregtarnoff'
   email: 'greg.tarnoff@me.com'
   title: "UX of Stairs: When Simple Tasks Aren't So Simple"
@@ -120,7 +119,7 @@
 - name: 'Amy Wibowo'
   keynote: false
   individual_page: 'amy'
-  image: 'speakers/2015/original/amy/amy.jpg'
+  image: 'speakers/2015/original/amy/small_amy.jpg'
   twitter: '@sailorhg'
   email: 'sailorhg@gmail.com'
   title: "Programming building blocks (literally)"
@@ -136,17 +135,17 @@
   title: "Journey from procedural to reactive JavaScript with stops"
   bio: "Gleb Bahmutov is JavaScript ninja, image processing expert and software quality fanatic. After receiving a PhD in computer science from Purdue University, Gleb worked on laser scanners, 3D reconstruction, and panorama-based virtual tours at EveryScape. Later Gleb switched to writing browser data visualization software at MathWorks. After a year, Gleb went back to the startup environment and developed software quality analysis tools at uTest (now Applause). Today Gleb is developing real-time financial analysis tools at Kensho. He blogs about software development topics at http://bahmutov.calepin.co/ and links his projects at http://glebbahmutov.com/. You can follow him and his work @bahmutov"
   dietary_requirements: 'None'
-  pic_supplied: 'Needs a new one'
+  pic_supplied: 'Yes'
 - name: 'Varya Stepanova'
   keynote: false
   individual_page: 'varya'
-  image: 'speakers/lena2.jpg'
+  image: 'speakers/2015/small_varya2.jpg'
   twitter: '@varya_en'
   email: 'mail@varya.me'
   title: "Driving the Style Guide Driven Development"
   bio: "Varya Stepanova is a front end developer originally from the North of Russia currently based in Helsinki, Finland. She mostly specialises in open source UI components and libraries as well as in automation the development processes, frequently speaks at meetups and conferences and authors frontend articles. Currently, in Helsinki-based company \"SC5 Online\" Varya takes part in developing the style guide generators and other development tools as well as introduces and supports the style-guide-driven process and component-focused development."
-  dietary_requirements: '?'
-  pic_supplied: 'No'
+  dietary_requirements: 'None'
+  pic_supplied: 'Yes'
 - name: 'Philipp Reither'
   keynote: false
   individual_page: 'philreither'
@@ -165,12 +164,12 @@
   email: 'francisco.m.s.ferreira@gmail.com'
   title: "JavaScript Craftsmanship"
   bio: "Agile Software Engineer @ eBay Europe Specialized front end web engineer with an entrepreneurial spirit and a passion for solving problems. Particularly interested in web and mobile companies with high user reach, creators of new markets which have excellent motivated technical teams. Competitive engineer with team spirit. Won multiple programming awards. Speaks 5 languages and has lived in three countries. Values quantitative data-driven solutions. Likes to build things and is always looking for the next big thing. As a JavaScript expert, Francisco is able to implement, in structured code, any interface required for a project, even if it's usability demands complex algorithms or uncommon data structures to be achieved. With a Masters in Informatics Engineering he is not limited to the front end, being easily adaptable to work in multiple parts of an application, effectively making him a Full Stack Engineer. At the start of his professional career he created his own startup (IQS-Quality Software, Lda.), which kept him busy working as the technical lead of his team. After three years he decided to join a Luxembourgish startup (Trendiction) where worked as a Software Engineer. Currently an Agile Engineer at eBay's European mobile web team in London."
-  dietary_requirements: '?'
+  dietary_requirements: 'None'
   pic_supplied: 'Yes'
 - name: 'Kim Joar Bekkelund'
   keynote: false
   individual_page: 'kim'
-  image: 'speakers/2015/original/kim.jpg'
+  image: 'speakers/2015/small_kim.jpg'
   twitter: '@kimjoar'
   email: 'kjbekkelund@gmail.com'
   title: "Writing Beautiful JavaScript Tests"
@@ -185,5 +184,65 @@
   email: 'price.c@gmail.com'
   title: "Creating D3 components: a journey of pain, joy, frustration and enlightenment"
   bio: "My name is Chris Price, I'm based in Newcastle upon Tyne and work as a Software Engineer at Scott Logic. I spend my days developing desktop/tablet/mobile web apps for financial services companies. Unfortunately most of those are hidden behind paywalls but I do like to blog about it when I can."
+  dietary_requirements: 'None'
+  pic_supplied: 'Yes'
+- name: 'Chris Lowis'
+  keynote: false
+  individual_page: 'chrislowis'
+  image: 'speakers/2015/small_chris_lowis.jpg'
+  twitter: '@chrislowis'
+  email: 'chris.lowis@gmail.com'
+  title: "A Brief History of Synthesis with the Web Audio API"
+  bio: "I'm a software developer and audio enthusiast. I've been involved with the W3C's effort to standardise the Web Audio API from the very beginning, and love writing about and sharing audio-related things on my blog and in my newsletter Web Audio Weekly."
+  dietary_requirements: 'None'
+  pic_supplied: 'Yes'
+- name: 'Jaume Sanchez'
+  keynote: false
+  individual_page: 'juame'
+  image: 'speakers/2015/small_chris_lowis.jpg'
+  twitter: '@thespite'
+  email: 'the.spite@gmail.com'
+  title: "What are shaders and what can they do for me?"
+  bio: ""
+  dietary_requirements: '?'
+  pic_supplied: 'Nope'
+- name: 'Ben Longden'
+  keynote: false
+  individual_page: 'ben'
+  image: 'speakers/2015/original/ben.png'
+  twitter: '@blongden'
+  email: 'blongden@inviqa.com'
+  title: "Adaptive and evolvable applications"
+  bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
+  dietary_requirements: 'None'
+  pic_supplied: 'Yes'
+- name: 'Martha'
+  keynote: false
+  individual_page: 'ben'
+  image: 'speakers/lena2.jpg'
+  twitter: '@blongden'
+  email: 'blongden@inviqa.com'
+  title: "Update me"
+  bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
+  dietary_requirements: 'None'
+  pic_supplied: 'Yes'
+- name: 'Matthew'
+  keynote: false
+  individual_page: 'ben'
+  image: 'speakers/phil.png'
+  twitter: '@blongden'
+  email: 'blongden@inviqa.com'
+  title: "Update me"
+  bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
+  dietary_requirements: 'None'
+  pic_supplied: 'Yes'
+- name: 'Phil Holden'
+  keynote: false
+  individual_page: 'ben'
+  image: 'speakers/phil.png'
+  twitter: '@blongden'
+  email: 'blongden@inviqa.com'
+  title: "Update me"
+  bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
