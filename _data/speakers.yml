@@ -126,6 +126,16 @@
   bio: "Amy is a software engineer at Airbnb. Prior to Airbnb, she's done machine learning research on the ASIMO team at Honda Research Institute in Japan and HCI research at the University of Tokyo. She also enjoys hardware hacking and the intersection of art and technology - in particular, making tools that enable people to be more creative."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  additional_speaker:
+    name: 'Matt Baker'
+    keynote: false
+    individual_page: 'amy'
+    image: 'speakers/2015/original/amy/matt.jpg'
+    twitter: ''
+    email: 'matthew.reiss.baker@gmail.com'
+    bio: "Matt is currently a software engineer at Airbnb on the Developer Happiness team, and was previously a game developer and computer graphics researcher. His work focuses on high-performance systems and rendering techniques. Having grown up across six states and two countries, he enjoys reading, 'riting, 'rithmetic, and road trips."
+    dietary_requirements: 'None'
+    pic_supplied: 'Yes'
 - name: 'Gleb Bahmutov'
   keynote: false
   individual_page: 'gleb'
@@ -199,13 +209,13 @@
 - name: 'Jaume Sanchez'
   keynote: false
   individual_page: 'juame'
-  image: 'speakers/2015/small_chris_lowis.jpg'
+  image: 'speakers/2015/original/jaume.jpg'
   twitter: '@thespite'
   email: 'the.spite@gmail.com'
   title: "What are shaders and what can they do for me?"
   bio: ""
   dietary_requirements: '?'
-  pic_supplied: 'Nope'
+  pic_supplied: 'Yes'
 - name: 'Ben Longden'
   keynote: false
   individual_page: 'ben'
@@ -216,16 +226,27 @@
   bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
-- name: 'Martha'
+- name: 'Phil Holden'
   keynote: false
-  individual_page: 'ben'
-  image: 'speakers/lena2.jpg'
-  twitter: '@blongden'
-  email: 'blongden@inviqa.com'
-  title: "Update me"
-  bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
+  individual_page: 'philholden'
+  image: 'speakers/2015/original/phil_holden.jpg'
+  twitter: ''
+  email: 'phil.m.holden@gmail.com'
+  title: "Intelligent Responsive Typography"
+  bio: "Phil is a web specialist at NCR Edinburgh. He likes computers because sometimes they believe his ideas will work before people do. He enjoys writing 2D games and other multi-user online experiences."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  additional_speaker:
+    name: 'Lelen Huang'
+    keynote: false
+    individual_page: 'philholden'
+    image: 'speakers/2015/original/lelen.jpg'
+    twitter: ''
+    email: 'phil.m.holden@gmail.com'
+    bio: "Lelen is a senior designer. She believes everything can be improved with design and is always designing things in her mind."
+    dietary_requirements: 'None'
+    pic_supplied: 'Yes'
+
 - name: 'Matthew'
   keynote: false
   individual_page: 'ben'
@@ -236,10 +257,11 @@
   bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
-- name: 'Phil Holden'
+
+- name: 'Martha'
   keynote: false
   individual_page: 'ben'
-  image: 'speakers/phil.png'
+  image: 'speakers/lena2.jpg'
   twitter: '@blongden'
   email: 'blongden@inviqa.com'
   title: "Update me"

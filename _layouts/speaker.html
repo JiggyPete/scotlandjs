@@ -19,11 +19,6 @@ layout: default
           <a href="http://twitter.com/{{speaker.twitter}}" target="_blank">
             <em>{{ speaker.twitter }}</em>
           </a>
-          {% if speaker.hashtag %}
-            <a href="http://twitter.com/{{speaker.hashtag}}" target="_blank">
-              <em>{{ speaker.hashtag }}</em>
-            </a>
-          {% endif %}
         </h3>
       </header>
 
@@ -31,6 +26,28 @@ layout: default
     </div>
   </div>
 </section>
+
+{% if speaker.additional_speaker %}
+  {% assign additional_speaker = speaker.additional_speaker %}
+  <section id="speaker">
+    <div class="container">
+      <img src="{{ additional_speaker.image | asset_path }}" />
+
+      <div class="speaker-bio">
+        <header>
+          <h3>
+            {{ additional_speaker.name }}
+            <a href="http://twitter.com/{{additional_speaker.twitter}}" target="_blank">
+              <em>{{ additional_speaker.twitter }}</em>
+            </a>
+          </h3>
+        </header>
+
+        <p>{{ additional_speaker.bio }}</p>
+      </div>
+    </div>
+  </section>
+{% endif %}
 
 <section id="speaker-talk">
   <div class="container">
