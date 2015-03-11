@@ -117,6 +117,7 @@
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
 - name: 'Amy Wibowo'
+  schedule_name: 'Amy Wibowo and Matt Baker'
   keynote: false
   individual_page: 'amy'
   image: 'speakers/2015/original/amy/small_amy.jpg'
@@ -227,9 +228,10 @@
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
 - name: 'Phil Holden'
+  schedule_name: 'Phil Holden and Lelen Huang'
   keynote: false
   individual_page: 'philholden'
-  image: 'speakers/2015/original/phil_holden.jpg'
+  image: 'speakers/2015/small_phil_holden.jpg'
   twitter: ''
   email: 'phil.m.holden@gmail.com'
   title: "Intelligent Responsive Typography"
@@ -246,25 +248,33 @@
     bio: "Lelen is a senior designer. She believes everything can be improved with design and is always designing things in her mind."
     dietary_requirements: 'None'
     pic_supplied: 'Yes'
-
-- name: 'Matthew'
+- name: 'Sam Beckham'
   keynote: false
-  individual_page: 'ben'
-  image: 'speakers/phil.png'
-  twitter: '@blongden'
-  email: 'blongden@inviqa.com'
-  title: "Update me"
-  bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
+  individual_page: 'sam'
+  image: 'speakers/2015/original/sam.jpg'
+  twitter: '@samdbeckham'
+  email: 'sam@sambeckhamdesign.com'
+  title: "Improving pattern libraries, with Polymer"
+  bio: "I am a front-end developer from Newcastle upon Tyne. I like playing about with new web technologies, and I love applying them to real projects even more."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
-
-- name: 'Martha'
+- name: 'Lewis Cowper'
   keynote: false
-  individual_page: 'ben'
-  image: 'speakers/lena2.jpg'
-  twitter: '@blongden'
-  email: 'blongden@inviqa.com'
-  title: "Update me"
-  bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
-  dietary_requirements: 'None'
+  individual_page: 'lewis'
+  image: 'speakers/2015/small_lewis.jpg'
+  twitter: '@lewiscowper'
+  email: 'lewis.cowper@googlemail.com'
+  title: "How I went from forklift driver to developer in 9 months"
+  bio: "UX Engineer at WANdisco in Sheffield. Works in AngularJS on a UI core that gives our development teams the tools to provide consistently great user experience, and implements those UIs where necessary. Excited Hoodie community member, Sherlock coat wearer, former forklift driver, and red panda lover."
+  dietary_requirements: '?'
+  pic_supplied: 'No'
+- name: 'WebAudio Hack Day Demo'
+  keynote: false
+  individual_page: ''
+  image: 'webaudio-js.png'
+  twitter: ''
+  email: ''
+  title: ""
+  bio: ""
+  dietary_requirements: 'NONE'
   pic_supplied: 'Yes'

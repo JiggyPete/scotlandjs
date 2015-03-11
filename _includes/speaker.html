@@ -7,7 +7,11 @@
 <div class="speaker-info">
 	<a href="/speakers/{{speaker.individual_page}}">
 	  <img src="{{ speaker.image | asset_path }}" />
-	  <h4>{{ speaker.name }}</h4>
+    {% if speaker.schedule_name %}
+	     <h4>{{ speaker.schedule_name }}</h4>
+    {% else %}
+      <h4>{{ speaker.name }}</h4>
+    {% endif %}
 	</a>
   <a href="http://twitter.com/{{speaker.twitter}}" target="_blank">
     <em>{{ speaker.twitter }}</em>

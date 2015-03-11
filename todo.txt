@@ -1,18 +1,19 @@
-Go Live:
+Website:
+  Update tagline
+  Update Keynote Speakers table header into talk names for Phil and Lena.
+  Rejig Lewis
+  Decline emails
+  Speaker emails
+  Update JSCodeRetreat
+    link to site
+    add Alan and Mark
+  Tech Meetup spam
+  Previous Attendees spam
 
-  Book venue:
-    Cash from FanDuel
+  Check Phils subject
+  Book Lena's travel
 
-  Keynotes:
-    Phil
-      Bio + Pic
-    Lena (?)
-
-  Tickets:
-    Twitter
-    Dietry Requirements
-    Test Run
-
+  Chase sponsors
 
 PR:
   Tech Meetup
@@ -22,17 +23,3 @@ PR:
   Previous Speakers
 
   Previous Attendees
-
-
-Diversity:
-  Karen to hit up prominent female devs via GitHub!
-  Hit up Jan for list of female devs to ask to submit.
-  DjangoGirls Edinburgh
-  @callbackwomen
-  @devchicks
-  @calltospeakers
-
-
-
-Sponsors:
-  You know where the list is
