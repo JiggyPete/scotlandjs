@@ -1,38 +1,26 @@
-Go Live:
+Website:
 
-  Book venue:
-    Cash from FanDuel
+  Add election info to tito
 
-  Keynotes:
-    Phil
-      Bio + Pic
-    Lena (?)
 
-  Tickets:
-    Twitter
-    Dietry Requirements
-    Test Run
+  Update Web Audio hack with other mentors
+  Update JSCodeRetreat
+    link to site
 
+  Speaker emails
+
+  Check Phils subject
+  Book Lena's travel
+
+  Chase sponsors
 
 PR:
   Tech Meetup
   GlasgowJS
   EdinburghJS
 
-  Previous Speakers
-
   Previous Attendees
+  Tech Meetup spam
 
 
-Diversity:
-  Karen to hit up prominent female devs via GitHub!
-  Hit up Jan for list of female devs to ask to submit.
-  DjangoGirls Edinburgh
-  @callbackwomen
-  @devchicks
-  @calltospeakers
-
-
-
-Sponsors:
-  You know where the list is
+  Presenter.all.each{|p| puts p.email if p.proposals.present? }
