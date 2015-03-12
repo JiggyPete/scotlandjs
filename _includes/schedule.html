@@ -1,14 +1,15 @@
 <section id="schedule" class="content">
   <div class="container">
+    <h1>Speakers</h1>
     <table class="schedule">
-      <thead>
+<!--       <thead>
         <tr>
           <th></th>
-          <th>Keynote</th>
-          <th>Speakers</th>
+          <th>&nbsp;  </th>
+          <th></th>
         </tr>
       </thead>
-      <tbody>
+ -->      <tbody>
         <tr>
           <td></td>
           <td>{% include speaker.html speaker="Philip Roberts" %}</td>
@@ -88,7 +89,13 @@
         <tr>
           <td></td>
           <td>{% include speaker.html speaker="Colin Gemmell" %}</td>
-          <td>{% include speaker.html speaker="WebAudio Hack Day Demo" %}</td>
+          <td>
+            <div class="speaker-info">
+              <img src="{{ 'webaudio-js.png' | asset_path }}" />
+              <h4>WebAudio Hack Day Demo</h4>
+            </div>
+
+          </td>
         </tr>
 
       </tbody>

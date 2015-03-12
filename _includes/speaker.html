@@ -17,4 +17,10 @@
     <em>{{ speaker.twitter }}</em>
   </a>
 </div>
-<p>{{ speaker.title }}</p>
+<a href="/speakers/{{speaker.individual_page}}">
+  {% if speaker.keynote %}
+    <p>Keynote Speaker</p>
+  {% else %}
+    <p>{{ speaker.title }}</p>
+  {% endif %}
+</a>
