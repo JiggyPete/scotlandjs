@@ -1,26 +1,14 @@
 Website:
-
-  Add election info to tito
-
-
   Update Web Audio hack with other mentors
   Update JSCodeRetreat
     link to site
 
   Speaker emails
 
-  Check Phils subject
   Book Lena's travel
 
   Chase sponsors
 
 PR:
-  Tech Meetup
   GlasgowJS
   EdinburghJS
-
-  Previous Attendees
-  Tech Meetup spam
-
-
-  Presenter.all.each{|p| puts p.email if p.proposals.present? }
