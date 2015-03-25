@@ -2,103 +2,133 @@
   <div class="container">
     <h1>Speakers</h1>
     <table class="schedule">
-<!--       <thead>
+      <thead>
         <tr>
           <th></th>
-          <th>&nbsp;  </th>
-          <th></th>
+          <th>Thursday May 7th</th>
+          <th>Friday May 8th</th>
         </tr>
       </thead>
- -->      <tbody>
+      <tbody>
         <tr>
+          <td>8am</td>
+          <td>Registration &amp; Tea/Coffee</td>
+          <td>Tea/Coffee</td>
+        </tr>
+        <tr>
+          <td>9am</td>
+          <td>Introduction</td>
           <td></td>
+        </tr>
+        <tr>
+          <td>9:15am</td>
           <td>{% include speaker.html speaker="Philip Roberts" %}</td>
           <td>{% include speaker.html speaker="Lena Reinhard" %}</td>
         </tr>
         <tr>
-          <td></td>
-          <td>{% include speaker.html speaker="Lewis Cowper" %}</td>
+          <td>10am</td>
+
+          <td>{% include speaker.html speaker="Dave Kennedy" %}</td>
           <td>{% include speaker.html speaker="Francisco M.S. Ferreira" %}</td>
         </tr>
         <tr>
-          <td></td>
+          <td>10.25am</td>
           <td>{% include speaker.html speaker="Katie Fenn" %}</td>
           <td>{% include speaker.html speaker="Andrew Duncan" %}</td>
         </tr>
 
         <tr>
-          <td></td>
-          <td>{% include speaker.html speaker="Ben Longden" %}</td>
+          <td>10.55am</td>
+
+          <td>{% include speaker.html speaker="Colin Gemmell" %}</td>
           <td>{% include speaker.html speaker="Joe Nash" %}</td>
         </tr>
 
-        <!-- tea break -->
+        <tr class="break">
+          <td colspan="3">
+            20 minute break
+          </td>
+        </tr>
 
         <tr>
-          <td></td>
-          <td>{% include speaker.html speaker="Dave Kennedy" %}</td>
+          <td>11.30am</td>
+          <td>{% include speaker.html speaker="Ben Longden" %}</td>
           <td>{% include speaker.html speaker="Kim Joar Bekkelund" %}</td>
         </tr>
 
         <tr>
-          <td></td>
-          <td>{% include speaker.html speaker="Greg Tarnoff" %}</td>
+          <td>11.55pm</td>
+          <td>{% include speaker.html speaker="Gleb Bahmutov" %}</td>
           <td>{% include speaker.html speaker="Mark Connell" %}</td>
         </tr>
 
         <tr>
-          <td></td>
-          <td>{% include speaker.html speaker="Gleb Bahmutov" %}</td>
+          <td>12.20pm</td>
+          <td>{% include speaker.html speaker="Greg Tarnoff" %}</td>
           <td>{% include speaker.html speaker="Sam Beckham" %}</td>
         </tr>
 
-        <!-- lunch -->
-
-        <tr>
-          <td></td>
-          <td>{% include speaker.html speaker="Hubert Sablonni&egrave;re" %}</td>
-          <td>{% include speaker.html speaker="Varya Stepanova" %}</td>
+        <tr class="break">
+          <td colspan="3">
+            Lunch
+          </td>
         </tr>
 
         <tr>
-          <td></td>
+          <td>1.40pm</td>
+          <td>{% include speaker.html speaker="Varya Stepanova" %}</td>
+          <td>{% include speaker.html speaker="Hubert Sablonni&egrave;re" %}</td>
+        </tr>
+
+        <tr>
+          <td>2.05pm</td>
           <td>{% include speaker.html speaker="Daniel Perez Alvarez" %}</td>
+          <td>{% include speaker.html speaker="Amy Wibowo" %}</td>
+        </tr>
+
+        <tr>
+          <td>2.30pm</td>
+          <td>{% include speaker.html speaker="Chris Price" %}</td>
           <td>{% include speaker.html speaker="Philipp Reither" %}</td>
         </tr>
 
+        <tr class="break">
+          <td colspan="3">
+            20 minute break
+          </td>
+        </tr>
+
         <tr>
-          <td></td>
-          <td>{% include speaker.html speaker="Chris Price" %}</td>
+          <td>3.10pm</td>
+          <td>{% include speaker.html speaker="Orde Saunders" %}</td>
           <td>{% include speaker.html speaker="Jaume Sanchez" %}</td>
         </tr>
 
-        <!-- tea break -->
-
         <tr>
-          <td></td>
-          <td>{% include speaker.html speaker="Orde Saunders" %}</td>
+          <td>3.35pm</td>
           <td>{% include speaker.html speaker="Phil Holden" %}</td>
-        </tr>
-
-        <tr>
-          <td></td>
-          <td>{% include speaker.html speaker="Amy Wibowo" %}</td>
           <td>{% include speaker.html speaker="Chris Lowis" %}</td>
         </tr>
 
         <tr>
-          <td></td>
-          <td>{% include speaker.html speaker="Colin Gemmell" %}</td>
+          <td>4pm</td>
           <td>
             <div class="speaker-info">
               <img src="{{ 'webaudio-js.png' | asset_path }}" />
               <h4>WebAudio Hack Day Demo</h4>
             </div>
-
+          <td>{% include speaker.html speaker="Lewis Cowper" %}</td>
           </td>
         </tr>
 
       </tbody>
+      <tfoot>
+        <tr>
+          <td>4.45pm</td>
+          <td>End of day one</td>
+          <td>Closing remarks</td>
+        </tr>
+      </tfoot>
     </table>
 
 
