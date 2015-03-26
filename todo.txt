@@ -4,11 +4,13 @@ Website:
     link to site
 
   Speaker emails
+    Code of Conduct
+    election
+    event format
+    slide respolution and pip
+
 
   Book Lena's travel
 
   Chase sponsors
 
-PR:
-  GlasgowJS
-  EdinburghJS
