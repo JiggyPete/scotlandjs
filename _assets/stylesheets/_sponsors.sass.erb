@@ -7,13 +7,13 @@
 
   &.headline
     li:first-child
-      @include shift(3)
+      @include shift(4)
 
       @include media($tablet)
         @include shift(0)
 
   li
-    @include span-columns(3)
+    @include span-columns(4)
     @include omega(4n)
     margin-bottom: $margin
     text-align: center
@@ -24,7 +24,7 @@
       background-position: center
       background-repeat: no-repeat
       background-size: 90%
-      height: 80px
+      height: 120px
 
     @include media($tablet)
       @include span-columns(4)

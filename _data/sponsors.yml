@@ -6,9 +6,16 @@
   level: 'Platinum'
   site_link: '/sponsors/#fanduel'
 - name: 'Google'
-  headline: true
-  silver: false
+  headline: false
+  silver: true
   image: 'sponsors/google.png'
-  url: 'http://google.org/'
+  url: 'http://google.com/'
   level: 'Silver'
   site_link: '/sponsors/#google'
+- name: 'SwarmOnline'
+  headline: false
+  silver: true
+  image: 'sponsors/SwarmOnlineLogo.png'
+  url: 'http://swarmonline.com/'
+  level: 'Silver'
+  site_link: '/sponsors/#swarmonline'
