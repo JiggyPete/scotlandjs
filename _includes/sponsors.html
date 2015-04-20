@@ -1,12 +1,12 @@
 <section id="sponsors_summary" class="content">
   <div class="container">
     <h3>Sponsors: <a href='/sponsors/index.html'>Sponsorship Packages</a></h3>
-
+    <h1 align='center'>Platinum</h1>
       <ul class="sponsors headline">
         {% for sponsor in site.data.sponsors %}
           {% if sponsor.headline %}
             <li>
-              <h1>Platinum</h1><a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
+              <a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
             </li>
           {% endif %}
         {% endfor %}

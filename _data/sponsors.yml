@@ -5,6 +5,13 @@
   url: 'http://www.fanduel.com'
   level: 'Platinum'
   site_link: '/sponsors/#fanduel'
+- name: 'Zendesk'
+  headline: true
+  platinum: true
+  image: 'sponsors/zendesk.png'
+  url: 'http://www.zendesk.com'
+  level: 'Platinum'
+  site_link: '/sponsors/#zendesk'
 - name: 'Google'
   headline: false
   silver: true
