@@ -12,6 +12,13 @@
   url: 'http://google.com/'
   level: 'Silver'
   site_link: '/sponsors/#google'
+- name: 'Scott Logic'
+  headline: false
+  silver: true
+  image: 'sponsors/scott_logic.png'
+  url: 'http://scottlogic.com/'
+  level: 'Silver'
+  site_link: '/sponsors/#scottlogic'
 - name: 'SwarmOnline'
   headline: false
   silver: true
