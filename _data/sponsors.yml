@@ -33,3 +33,10 @@
   url: 'http://swarmonline.com/'
   level: 'Silver'
   site_link: '/sponsors/#swarmonline'
+- name: 'Cultivate'
+  headline: false
+  supporter: true
+  image: 'sponsors/cultivate.jpg'
+  url: 'http://cultivate.com/'
+  level: 'Supporter'
+  site_link: '/sponsors/#cultivate'

@@ -26,5 +26,17 @@
     margin-right: auto; background-image: url({{ 'sponsors/twig-logo.png' | asset_path }})"></a>
         </li>
       </ul>
+    <br/>
+    <h1 align='center'>Supporter</h1>
+    <ul class="sponsors supporter">
+      {% for sponsor in site.data.sponsors %}
+        {% if sponsor.supporter %}
+          <li>
+            <a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
   </div>
 </section>

@@ -32,3 +32,10 @@
     @include media($mobile)
       @include span-columns(3)
       @include omega(1n)
+
+  &.supporter
+    li:first-child
+      @include shift(1.5)
+
+      @include media($tablet)
+        @include shift(0)
