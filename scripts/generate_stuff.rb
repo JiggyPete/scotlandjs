@@ -1,16 +1,7 @@
 def output(speaker)
-  <<-HTML
-  &nbsp;
-  <div class="speaker-info">
-    <p>#{speaker['name']}</p>
-    <p>#{speaker['title']}</p>
-    <div class="video">
-      <div class="container">
-        <iframe src="//player.vimeo.com/video/70637558?portrait:0" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
-      </div>
-    </div>
-  </div>
-  HTML
+  # <<-HTML
+speaker['twitter']
+  # HTML
 end
 
 require 'yaml'
