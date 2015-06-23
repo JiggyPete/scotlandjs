@@ -56,6 +56,16 @@ layout: default
         <h1>{{ speaker.title }}</h1>
       </header>
 
+      {% if speaker.youtube %}
+        <br/>
+        <div class="video">
+          <div class="container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ speaker.youtube }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      {% endif %}
+
+
       {{ page.content }}
     </article>
   </div>

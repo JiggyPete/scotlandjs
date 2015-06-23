@@ -9,13 +9,15 @@
 <br/>
 <div class="speaker-info">
   <p>
-    {% if speaker.schedule_name %}
-       {{ speaker.schedule_name }}
-    {% else %}
-      {{ speaker.name }}
-    {% endif %}
-    :
-    {{ speaker.title }}
+    <a href="/speakers/{{speaker.individual_page}}">
+      {% if speaker.schedule_name %}
+         {{ speaker.schedule_name }}
+      {% else %}
+        {{ speaker.name }}
+      {% endif %}
+      :
+      {{ speaker.title }}
+    </a>
   </p>
 
   <div class="video">
