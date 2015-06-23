@@ -3,19 +3,21 @@
   individual_page: 'philip'
   image: 'speakers/phil.png'
   twitter: '@philip_roberts'
-  title: ''
+  title: 'Keynote'
   bio: "Philip writes JavaScript at &yet, agonizes too much, and is a core-contributor to AmpersandJS. As someone who suffers from depression, he thinks, cares, and sometimes even writes about mental health and it's impact on us all."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: '43BdvIDdZA4'
 - name: 'Lena Reinhard'
   keynote: true
   individual_page: 'lena'
   image: 'speakers/lena2.jpg'
   twitter: '@lrnrd'
-  title: ''
+  title: 'Keynote: A Talk About Nothing'
   bio: "Lena Reinhard is a CEO, co-founder, project and communications manager. She's part of the Open Source Projects Hoodie and CouchDB, loves making music and enjoys going on extensive road trips. And somehow accidentally she always ends up at places where she meets Alpacas."
   dietary_requirements: 'Vegatarian'
   pic_supplied: 'Yes'
+  youtube: 'xl8OWGbZTsM'
 - name: 'Katie Fenn'
   keynote: false
   individual_page: 'katie'
@@ -26,6 +28,7 @@
   bio: "My name is Katie Fenn, I am a Javascript developer with eight years of experience. I've been speaking at user groups for almost as long, and this will be my second conference talk. Stays up far too late for open source software and videogames. Is up far too early watching motorsport."
   dietary_requirements: '?'
   pic_supplied: 'No'
+  youtube: _-XfJWl6sRs
 - name: 'Daniel Perez Alvarez'
   keynote: false
   individual_page: 'daniel'
@@ -56,6 +59,7 @@
   bio: "I'm a Glasgow based developer working in Edinburgh with the awesome 1partCarbon. I also organise the JS user group for Glasgow glasgowjs.com"
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'vA7Tkbt9T0c'
 - name: 'Joe Nash'
   keynote: false
   individual_page: 'joe'
@@ -66,6 +70,7 @@
   bio: "Joe is a Developer Advocate at Braintree Payments, a PayPal Company. Having learnt the dark arts of FP at the University of Nottingham, Joe is undergoing a PhD in parallel and heterogeneous systems at the University of St Andrews. He believes in the educational benefits of hackathons and hack culture, and supports student hackathons as part of the European team at Major League Hacking."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'AZv8wqK6DHU'
 - name: 'Colin Gemmell'
   keynote: false
   individual_page: 'colin'
@@ -76,6 +81,7 @@
   bio: "Colin Gemmell is Web/Application Developer from Glasgow, Scotland. He has gained a wide range of experience in his time as a developer working on everything from enterprise applications to small promotional web-sites. Starting out first Borland Delphi before graduating to .NET he made the jump to Ruby and Rails and most recently Go. Currently working for 1partcarbon in Edinburgh, building prototypes, full application, hardware products and deal with infrastructure. A constant presence in the in the Glasgow tech community Colin has spoken a numerous programming and tech events and conferences covering the length and breadth of the UK."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'rFMBtrHq8R4'
 - name: 'Orde Saunders'
   keynote: false
   individual_page: 'orde'
@@ -106,6 +112,7 @@
   bio: "I'm a curious and passionnate Web developer working for INEAT Conseil. I'm specialized in HTML, CSS and JavaScript but I also use server side technologies like NodeJS, PHP, Java, Neo4j. <br/><br/>My motivation : \"To push the technology far enough to find new ways to improve user's experiences.\""
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: '-o8B4TE18gI'
 - name: 'Greg Tarnoff'
   keynote: false
   individual_page: 'greg'
@@ -116,6 +123,7 @@
   bio: "I'm a front end developer by day and accessibility hero all the time. I have been building websites and applications for over a decade. From the very beginning I focused on building products that work for all users. Recently I began having difficulty of my own with vertigo. It has transformed how I see the world around me and how I build products with my team and clients. Additionally, I like long walks at sunset, photography, hand lettering, drawing and have a rabid obsession with single malt scotch."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'TfiNP8iWDSo'
 - name: 'Amy Wibowo'
   schedule_name: 'Amy Wibowo and Matt Baker'
   keynote: false
@@ -127,6 +135,7 @@
   bio: "Amy is a software engineer at Airbnb. Prior to Airbnb, she's done machine learning research on the ASIMO team at Honda Research Institute in Japan and HCI research at the University of Tokyo. She also enjoys hardware hacking and the intersection of art and technology - in particular, making tools that enable people to be more creative."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'YPCdgg99Pws'
   additional_speaker:
     name: 'Matt Baker'
     keynote: false
@@ -147,6 +156,7 @@
   bio: "Gleb Bahmutov is JavaScript ninja, image processing expert and software quality fanatic. After receiving a PhD in computer science from Purdue University, Gleb worked on laser scanners, 3D reconstruction, and panorama-based virtual tours at EveryScape. Later Gleb switched to writing browser data visualization software at MathWorks. After a year, Gleb went back to the startup environment and developed software quality analysis tools at uTest (now Applause). Today Gleb is developing real-time financial analysis tools at Kensho. He blogs about software development topics at http://bahmutov.calepin.co/ and links his projects at http://glebbahmutov.com/. You can follow him and his work @bahmutov"
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'VKDLJNGrHSg'
 - name: 'Varya Stepanova'
   keynote: false
   individual_page: 'varya'
@@ -157,6 +167,7 @@
   bio: "Varya Stepanova is a front end developer originally from the North of Russia currently based in Helsinki, Finland. She mostly specialises in open source UI components and libraries as well as in automation the development processes, frequently speaks at meetups and conferences and authors frontend articles. Currently, in Helsinki-based company \"SC5 Online\" Varya takes part in developing the style guide generators and other development tools as well as introduces and supports the style-guide-driven process and component-focused development."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'gWzYMJjtx-Y'
 - name: 'Philipp Reither'
   keynote: false
   individual_page: 'philreither'
@@ -167,6 +178,7 @@
   bio: "Phil wrangles code at stitch.net-trying to make the world a better place one function at a time. He loves being part of the web and even though he is in awe at how fast it is evolving, he's still waiting for the downloadable gin&tonic."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'GL587s2ArAk'
 - name: 'Francisco M.S. Ferreira'
   keynote: false
   individual_page: 'francisco'
@@ -217,6 +229,7 @@
   bio: ""
   dietary_requirements: '?'
   pic_supplied: 'Yes'
+  youtube: 'dZGvcvKuBPE'
 - name: 'Ben Longden'
   keynote: false
   individual_page: 'ben'
@@ -227,6 +240,7 @@
   bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'Ygga1aPuguM'
 - name: 'Phil Holden'
   schedule_name: 'Phil Holden and Lelen Huang'
   keynote: false
@@ -238,6 +252,7 @@
   bio: "Phil is a web specialist at NCR Edinburgh. He likes computers because sometimes they believe his ideas will work before people do. He enjoys writing 2D games and other multi-user online experiences."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'K1LtTDDu9E4'
   additional_speaker:
     name: 'Lelen Huang'
     keynote: false
@@ -268,6 +283,7 @@
   bio: "UX Engineer at WANdisco in Sheffield. Works in AngularJS on a UI core that gives our development teams the tools to provide consistently great user experience, and implements those UIs where necessary. Excited Hoodie community member, Sherlock coat wearer, former forklift driver, and red panda lover."
   dietary_requirements: '?'
   pic_supplied: 'No'
+  youtube: 'V6OsD60ne0w'
 - name: 'WebAudio Hack Day Demo'
   keynote: false
   individual_page: ''

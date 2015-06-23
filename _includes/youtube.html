@@ -1,0 +1,26 @@
+{% for s in site.data.speakers %}
+  {% if s.name == include.speaker %}
+    {% assign speaker = s %}
+  {% endif %}
+{% endfor %}
+
+
+
+<br/>
+<div class="speaker-info">
+  <p>
+    {% if speaker.schedule_name %}
+       {{ speaker.schedule_name }}
+    {% else %}
+      {{ speaker.name }}
+    {% endif %}
+    :
+    {{ speaker.title }}
+  </p>
+
+  <div class="video">
+    <div class="container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ speaker.youtube }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
