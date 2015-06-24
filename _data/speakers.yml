@@ -102,6 +102,7 @@
   bio: "Mark likes coding whilst entertaining his budgie, the ever lovable, Barnie."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: '5avGzi6axTc'
 - name: 'Hubert Sablonni&egrave;re'
   keynote: false
   individual_page: 'hubert'
@@ -219,6 +220,7 @@
   bio: "I'm a software developer and audio enthusiast. I've been involved with the W3C's effort to standardise the Web Audio API from the very beginning, and love writing about and sharing audio-related things on my blog and in my newsletter Web Audio Weekly."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: 'd8TCq0xLnV4'
 - name: 'Jaume Sanchez'
   keynote: false
   individual_page: 'jaume'
