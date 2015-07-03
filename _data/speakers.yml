@@ -50,6 +50,7 @@
   bio: "Andrew has combined a passion for IT with a strong aptitude for business to create SwarmOnline - one of Scotland's fastest growing tech companies. Three years ago he founded SwarmOnline who became Sencha's first partner outside of the U.S. Since then Andrew has grown the business year on year and acknowledges that Sencha has had a huge impact on his success. Although Andrew is a Managing Director, he his also an experienced and highly competent technologist and solutions architect. He has co-written Ext JS 4 Web Application Development Cookbook and is currently busy writing another two Ext JS books, due out soon. Last year Andrew's success was recognised when he received a nomination for Young Business Person of the Year at the prestigious Glasgow Business Awards. Andrew is a sought after conference speaker. Previous speaking engagements include SenchaCon 2013 in Florida, Citi Group HTML5 Developer Conference in Dublin and ModUXCon in Amsterdam."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: vTEB1xLBJ90
 - name: 'Dave Kennedy'
   keynote: false
   individual_page: 'dave'
@@ -93,6 +94,7 @@
   bio: "Building device agnostic websites - stuck between the past and the future."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: jbmRS-YGxmw
 - name: 'Mark Connell'
   keynote: false
   individual_page: 'mark'
@@ -191,6 +193,7 @@
   bio: "Agile Software Engineer @ eBay Europe Specialized front end web engineer with an entrepreneurial spirit and a passion for solving problems. Particularly interested in web and mobile companies with high user reach, creators of new markets which have excellent motivated technical teams. Competitive engineer with team spirit. Won multiple programming awards. Speaks 5 languages and has lived in three countries. Values quantitative data-driven solutions. Likes to build things and is always looking for the next big thing. As a JavaScript expert, Francisco is able to implement, in structured code, any interface required for a project, even if it's usability demands complex algorithms or uncommon data structures to be achieved. With a Masters in Informatics Engineering he is not limited to the front end, being easily adaptable to work in multiple parts of an application, effectively making him a Full Stack Engineer. At the start of his professional career he created his own startup (IQS-Quality Software, Lda.), which kept him busy working as the technical lead of his team. After three years he decided to join a Luxembourgish startup (Trendiction) where worked as a Software Engineer. Currently an Agile Engineer at eBay's European mobile web team in London."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: HaN-Tdfh_i8
 - name: 'Kim Joar Bekkelund'
   keynote: false
   individual_page: 'kim'
@@ -201,6 +204,7 @@
   bio: "Kim is the creator of Superhero.js and the practice lead for JavaScript at Bekk Consulting in Oslo, Norway. He primarily works on large-scale JavaScript applications for some of the largest companies in Norway, and he strongly believes that we should treat JavaScript as a real language when we use it to build large applications. In his spare time he's currently planning a road-trip to Mongolia."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: kkeka3DyJWs
 - name: 'Chris Price'
   keynote: false
   individual_page: 'chris'
@@ -277,6 +281,7 @@
   bio: "I am a front-end developer from Newcastle upon Tyne. I like playing about with new web technologies, and I love applying them to real projects even more."
   dietary_requirements: 'None'
   pic_supplied: 'Yes'
+  youtube: AQKH3gSY6XU
 - name: 'Lewis Cowper'
   keynote: false
   individual_page: 'lewis'
@@ -298,3 +303,4 @@
   bio: ""
   dietary_requirements: 'NONE'
   pic_supplied: 'Yes'
+  youtube: eDWIpPLncQw
