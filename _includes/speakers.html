@@ -7,7 +7,7 @@
     </div>
     <div class="row">
       <div class="col-lg-12 text-center">
-        <a href="#keynote" data-toggle="modal" class="speaker  col-md-4 col-sm-6">
+        <a href="#raquel" data-toggle="modal" class="speaker  col-md-4 col-sm-6">
 
           <img src={{ "speakers/raquel_vlez_thumb.jpg" | asset_path }} srcset="images/speakers/raquel_vlez_thumb@2x.jpg 2x" alt="Raquel Vélez" width="150" height="150"/>
           <div class="info">
@@ -16,34 +16,44 @@
           </div>
         </a>
 
+        {% include raquel.html %}
 
-          <a href="#webvr" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/livi_erickson_thumb.jpg" | asset_path }} srcset={{ "speakers/livi_erickson_thumb@2x.jpg" | asset_path }} alt="Livi Erickson" width="150" height="150"/>
+        <a href="#livi" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/livi_erickson_thumb.jpg" | asset_path }} srcset={{ "speakers/livi_erickson_thumb@2x.jpg" | asset_path }} alt="Livi Erickson" width="150" height="150"/>
+        <div class="info">
+          <h4>Livi Erickson <small>@misslivirose</small></h4>
+          <p></p>
+        </div></a>
+
+        {% include livi.html %}
+
+
+        <a href="#ola" data-toggle="modal" class="speaker  col-md-4 col-sm-6">
+          <img src={{ "speakers/ola_gasidlo_thumb.jpg" | asset_path }} srcset="images/speakers/ola_gasidlo_thumb@2x.jpg 2x" alt="Ola Gasidlo" width="150" height="150"/>
           <div class="info">
-            <h4>Livi Erickson <small>@misslivirose</small></h4>
+            <h4>Ola Gasidlo <small>@misprintedtype</small></h4>
             <p></p>
-          </div></a>
+          </div>
+        </a>
 
+        {% include ola.html %}
 
+        <a href="#robin" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/robin_mehner_thumb.jpg" | asset_path }} srcset="images/speakers/robin_mehner_thumb@2x.jpg 2x" alt="Robin Mehner" width="150" height="150"/>
+        <div class="info">
+          <h4>Robin Mehner <small>@rmehner</small></h4>
+          <p></p>
+        </div>
+        </a>
 
-          <a href="#offline-first" data-toggle="modal" class="speaker  col-md-4 col-sm-6">
-            <img src={{ "speakers/ola_gasidlo_thumb.jpg" | asset_path }} srcset="images/speakers/ola_gasidlo_thumb@2x.jpg 2x" alt="Ola Gasidlo" width="150" height="150"/>
-            <div class="info">
-              <h4>Ola Gasidlo <small>@misprintedtype</small></h4>
-              <p></p>
-            </div>
-          </a>
+        {% include robin.html %}
 
-          {% include ola.html %}
+        <a href="#charlotte" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/charlotte_spencer_thumb.jpg" | asset_path }} srcset="images/speakers/charlotte_spencer_thumb@2x.jpg 2x" alt="Charlotte Spencer" width="150" height="150"/>
+        <div class="info">
+          <h4>Charlotte Spencer <small>@charlotteis</small></h4>
+          <p></p>
+        </div></a>
 
-          <a href="#robin" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/robin_mehner_thumb.jpg" | asset_path }} srcset="images/speakers/robin_mehner_thumb@2x.jpg 2x" alt="Robin Mehner" width="150" height="150"/>
-          <div class="info">
-            <h4>Robin Mehner <small>@rmehner</small></h4>
-            <p></p>
-          </div></a><a href="#your-first-pr" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/charlotte_spencer_thumb.jpg" | asset_path }} srcset="images/speakers/charlotte_spencer_thumb@2x.jpg 2x" alt="Charlotte Spencer" width="150" height="150"/>
-          <div class="info">
-            <h4>Charlotte Spencer <small>@charlotteis</small></h4>
-            <p></p>
-          </div></a>
+        {% include charlotte.html %}
+
         <div class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/and_you_thumb.jpg" | asset_path }} srcset="images/speakers/and_you_thumb@2x.jpg 2x" alt="And you?" width="150" height="150"/>
           <div class="info">
             <h4>And you? <small></small></h4>
