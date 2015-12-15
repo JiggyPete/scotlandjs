@@ -1,42 +1,16 @@
-<section id="sponsors_summary" class="content">
+<section id="sponsors">
   <div class="container">
-    <h3>Sponsors: <a href='/sponsors/index.html'>Sponsorship Packages</a></h3>
-    <h1 align='center'>Platinum</h1>
-      <ul class="sponsors headline">
-        {% for sponsor in site.data.sponsors %}
-          {% if sponsor.headline %}
-            <li>
-              <a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-
-      <h1 align='center'>Silver</h1>
-      <ul class="sponsors">
-        {% for sponsor in site.data.sponsors %}
-          {% if sponsor.silver %}
-            <li>
-              <a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
-            </li>
-          {% endif %}
-        {% endfor %}
-        <li>
-          <a href="{{ '/sponsors/#twig-world' }}" style="width:120px; margin-left: auto;
-    margin-right: auto; background-image: url({{ 'sponsors/twig-logo.png' | asset_path }})"></a>
-        </li>
-      </ul>
-    <br/>
-    <h1 align='center'>Supporter</h1>
-    <ul class="sponsors supporter">
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.supporter %}
-          <li>
-            <a href="{{ sponsor.site_link }}" style="background-image: url({{ sponsor.image | asset_path }})"></a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="section-heading">Platinum Sponsor</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10"><a href="https://www.fanduel.com/" title="fanduel" class="sponsor col-sm-12"><img width="400" src={{ "sponsors/fanduel.png" | asset_path }} alt="fanduel" class="img-responsive img-centered"></a>
+        <div class="team-member">
+          <p class="text-muted">Please <a href="mailto:peter@scotlandjs.com">contact us</a> for sponsorship and diversity support opportunities.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

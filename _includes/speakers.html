@@ -1,46 +1,71 @@
-<section id="speakers" class="content-alt">
+<section id="talks">
   <div class="container">
-    <h3>Keynote Speakers</h3>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 id="speaker" style="margin-top:50px" class="section-heading customfont">Speakers</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a href="#keynote" data-toggle="modal" class="speaker  col-md-4 col-sm-6">
 
-    {% if site.data.speakers.size > 1 %}
+          <img src={{ "speakers/raquel_vlez_thumb.jpg" | asset_path }} srcset="images/speakers/raquel_vlez_thumb@2x.jpg 2x" alt="Raquel Vélez" width="150" height="150"/>
+          <div class="info">
+            <h4>Raquel Vélez <small>@rockbot</small></h4>
+            <p></p>
+          </div>
+        </a>
 
-    <ul class="speakers keynote">
-    {% for speaker in site.data.speakers %}
-      {% if speaker.keynote %}
-      <li>
-        <figure>
-          <img src="{{ speaker.image | asset_path }}" />
-          <caption>
-            <h4>{{ speaker.name }}</h4>
-            <em>{{ speaker.twitter }}</em>
-          </caption>
-        </figure>
-      </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
 
-    <ul class="speakers">
-    {% for speaker in site.data.speakers %}
-      {% unless speaker.keynote %}
-      <li>
-        <figure>
-          <img src="{{ speaker.image | asset_path }}" />
-          <caption>
-            <h4>{{ speaker.name }}</h4>
-            <em>{{ speaker.twitter }}</em>
-            <p>{{ speaker.title }}</p>
-          </caption>
-        </figure>
-      </li>
-      {% endunless %}
-    {% endfor %}
-    </ul>
+          <a href="#webvr" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/livi_erickson_thumb.jpg" | asset_path }} srcset={{ "speakers/livi_erickson_thumb@2x.jpg" | asset_path }} alt="Livi Erickson" width="150" height="150"/>
+          <div class="info">
+            <h4>Livi Erickson <small>@misslivirose</small></h4>
+            <p></p>
+          </div></a>
 
-    {% else %}
 
-    <p class="jumbo">Will be announced soon</p>
 
-    {% endif %}
+          <a href="#offline-first" data-toggle="modal" class="speaker  col-md-4 col-sm-6">
+            <img src={{ "speakers/ola_gasidlo_thumb.jpg" | asset_path }} srcset="images/speakers/ola_gasidlo_thumb@2x.jpg 2x" alt="Ola Gasidlo" width="150" height="150"/>
+            <div class="info">
+              <h4>Ola Gasidlo <small>@misprintedtype</small></h4>
+              <p></p>
+            </div>
+          </a>
+
+          {% include ola.html %}
+
+          <a href="#robin" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/robin_mehner_thumb.jpg" | asset_path }} srcset="images/speakers/robin_mehner_thumb@2x.jpg 2x" alt="Robin Mehner" width="150" height="150"/>
+          <div class="info">
+            <h4>Robin Mehner <small>@rmehner</small></h4>
+            <p></p>
+          </div></a><a href="#your-first-pr" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/charlotte_spencer_thumb.jpg" | asset_path }} srcset="images/speakers/charlotte_spencer_thumb@2x.jpg 2x" alt="Charlotte Spencer" width="150" height="150"/>
+          <div class="info">
+            <h4>Charlotte Spencer <small>@charlotteis</small></h4>
+            <p></p>
+          </div></a>
+        <div class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/and_you_thumb.jpg" | asset_path }} srcset="images/speakers/and_you_thumb@2x.jpg 2x" alt="And you?" width="150" height="150"/>
+          <div class="info">
+            <h4>And you? <small></small></h4>
+            <p>Call for Proposals opens in mid-December.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p>&nbsp;</p>
+      </div>
+    </div>
   </div>
 </section>
