@@ -1,9 +1,10 @@
 # Scotland JS
 
-## Deploy instructions
+Everything runs off of Jekyll.
+To get that run
+`bundle`
 
-Make sure that you check out a local copy of the gh-pages branch before trying to deploy.
+Then start the jekyll server with
+`jekyll serve -w`
 
-You can then deploy the site by running:
-
-    rake deploy
+and you can see the site at localhost:4000
