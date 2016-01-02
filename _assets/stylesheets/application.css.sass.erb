@@ -482,9 +482,10 @@ section
   h2.section-heading
     font-size: 8em
     margin-top: 0
-    margin-bottom: 15px
     font-family: 'Easycore'
     letter-spacing: 0.03em
+    line-height: 0.75em
+    margin-bottom: 50px
   h3.section-subheading
     font-size: 1.1em
     font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
@@ -657,7 +658,7 @@ ul.social-buttons
         color: yellow !important
 
     h2
-      display: none
+      display: none     
     
     .btn-primary
       background-color: #333333
@@ -700,6 +701,13 @@ ul.social-buttons
         background-color: #ffffff
         transform: rotate(90deg)
         z-index: 1052
+#cocModal .modal-content h2 
+  display: block
+
+.modal-body 
+  h2,
+  h3
+    color: yellow
 
 @media (max-width: 767px)
   .portfolio-modal .modal-content h2
@@ -729,9 +737,6 @@ footer .list-inline
     opacity: 0.9
   background-color: #333
 
-#highlights
-  background-color: #f7f7f7
-
 #home-link
   font-family: 'Easycore'
   font-size: 3em
@@ -740,7 +745,8 @@ footer .list-inline
   line-height: 0.26em
 
 #talks,
-#team
+#team,
+#highlights
   background-color: #222222
   h2,
   h4
@@ -752,3 +758,7 @@ footer .list-inline
     &:hover
       color: yellow
       background-color: #777
+
+#tickets
+  padding-bottom: 120px
+  margin-top: -25px
