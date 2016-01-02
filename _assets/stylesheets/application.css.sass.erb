@@ -261,10 +261,10 @@ fieldset[disabled] .btn-xl.active
   .nav li a
     font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
     text-transform: uppercase
-    font-weight: 400
+    font-weight: 700
     font-size: 0.9em
     color: yellow
-    font-weight: bold
+    letter-spacing: 0.03em
     &:hover, &:focus
       color: #e5e500
       outline: none
@@ -282,7 +282,10 @@ fieldset[disabled] .btn-xl.active
 
 @media (max-width: 768px)
   #bs-example-navbar-collapse-1
-    background-color: #222222
+    background-color: #333333
+    border-color: #2d2d2d
+    box-shadow: none
+    padding-left: 1.2em
 
 .navbar-brand img
   width: 34px
@@ -326,6 +329,8 @@ tito-button button
       border: 7px solid white
       float: left
       margin: 0 10px
+    p
+      color: #777
 
 @media (min-width: 992px)
   .speaker
@@ -351,6 +356,8 @@ tito-button button
       border: 3px solid white
     p
       margin-left: 5px
+  #home-link
+    margin-bottom: 0.6em
 
 @media (min-width: 768px)
   .navbar-brand img
@@ -358,7 +365,7 @@ tito-button button
     height: 50px
     margin-top: 0
   .navbar-default
-    background-color: #222222
+    background-color: #333
     padding: 25px 0
     border: none
     padding: 10px 0
@@ -374,10 +381,11 @@ tito-button button
     position: fixed
     z-index: 999
     width: 100%
-    background-color: rgba(34, 34, 34, 0.9)
+    background-color: #333
 
 .intro-heading
   font-family: 'Easycore'
+  letter-spacing: 0.03em
 
 header
   background-repeat: none
@@ -424,6 +432,7 @@ header
       line-height: 100px
       margin-bottom: 75px
       font-family: 'Easycore'
+      letter-spacing: 0.03em
 
 @media (min-width: 768px)
   header
@@ -474,6 +483,7 @@ section
     margin-top: 0
     margin-bottom: 15px
     font-family: 'Easycore'
+    letter-spacing: 0.03em
   h3.section-subheading
     font-size: 1.1em
     font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
@@ -484,10 +494,8 @@ section
 
 @media (min-width: 768px)
   section
-    padding: 150px 0
+    padding: 80px 0
     margin-top: -75px
-    &#talks
-      padding: 50px 0
 
 .portfolio-item
   margin-bottom: 60px
@@ -511,9 +519,6 @@ section
       font-style: italic
       font-size: 1em
       margin: 0
-
-#team
-  background-color: yellow
 
 .team-member
   text-align: center
@@ -638,9 +643,15 @@ ul.social-buttons
     border: none
     min-height: 100%
     padding: 100px 0
+    background-color: #222222
+    color: #777777
     h2
-      margin-bottom: 15px
-      font-size: 3em
+      display: none
+  .portfolio-caption
+    background-color: #333333
+    h3
+      color: yellow
+      margin: 0 0 22px
     p
       margin-bottom: 30px
       &.item-intro
@@ -664,13 +675,13 @@ ul.social-buttons
       height: 75px
       width: 1px
       margin-left: 35px
-      background-color: #222222
+      background-color: #ffffff
       transform: rotate(45deg)
       z-index: 1051
       .rl
         height: 75px
         width: 1px
-        background-color: #222222
+        background-color: #ffffff
         transform: rotate(90deg)
         z-index: 1052
 
@@ -700,12 +711,28 @@ footer .list-inline
     margin-top: 4px
     color: #c55a02
     opacity: 0.9
-  background-color: yellow
+  background-color: #333
 
 #highlights
   background-color: #f7f7f7
 
 #home-link
   font-family: 'Easycore'
-  font-size: 4em
+  font-size: 3em
   font-weight: 100
+  letter-spacing: 0.05em
+  line-height: 0.26em
+
+#talks,
+#team
+  background-color: #222222
+  h2,
+  h4
+    color: yellow
+  a  
+    color: white
+  ul li a
+    color: white
+    &:hover
+      color: yellow
+      background-color: #777
