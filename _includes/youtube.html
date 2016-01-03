@@ -7,9 +7,10 @@
 
 
 <br/>
-<div class="speaker-info">
+<div class="info">
+  <div class="container">
   <p>
-    <a href="/speakers/{{speaker.individual_page}}">
+    <h4>
       {% if speaker.schedule_name %}
          {{ speaker.schedule_name }}
       {% else %}
@@ -17,12 +18,9 @@
       {% endif %}
       :
       {{ speaker.title }}
-    </a>
+    </h4>
   </p>
 
-  <div class="video">
-    <div class="container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ speaker.youtube }}" frameborder="0" allowfullscreen></iframe>
-    </div>
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/{{ speaker.youtube }}" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
