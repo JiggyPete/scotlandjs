@@ -1,82 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Sponsorship Packages</title>
-    <link rel="stylesheet" href="/assets/application-d7f7ccdf0427bbbb65e76e5367a7bba4.css">
-    <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif" rel="stylesheet" type="text/css" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    <script src="//maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-46640560-1']);
-      _gaq.push(['_setDomainName', 'scotlandjs.com']);
-      _gaq.push(['_trackPageview']);
+<head>
+  <meta charset="utf-8">
+  <title>ScotlandJS</title>
+  <meta name="description" content="The JavaScript conference in Edinburgh, Scotland, June 2nd and 3rd 2016">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <link rel="shortcut icon" href=/assets/favicons/favicon-dd21fdf05c6bb647fa088408c403a393.ico>
+  <meta name="apple-mobile-web-app-title" content="scotlandjs">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="application-name" content="scotlandjs">
+  <link rel="shortcut icon" href="/favicons/favicon.ico">
+  <meta itemprop="name" content="ScotlandJS conference">
+  <meta itemprop="description" content="The Scottish JavaScript conference in Edinburgh, Scotland June 2nd and 3rd 2016">
+  <!-- Twitter Card data-->
+  <meta name="twitter:card" content="product">
+  <meta name="twitter:site" content="@scotlandjs">
+  <meta name="twitter:title" content="ScotlandJS">
+  <meta name="twitter:description" content="The Scottish JavaScript conference in Edinburgh, Scotland June 2nd and 3rd 2016">
+  <meta name="twitter:creator" content="@ScotlandJS">
+  <meta name="twitter:data1" content="The Scottish JavaScript conference in Edinburgh, Scotland June 2nd and 3rd 2016">
+  <meta name="twitter:label1" content="">
+  <meta name="twitter:data2" content="The Scottish JavaScript conference in Edinburgh, Scotland June 2nd and 3rd 2016">
+  <meta name="twitter:label2" content="">
+  <!-- Open Graph data-->
+  <meta property="og:title" content="ScotlandJS conference">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://scotlandjs.com">
+  <meta property="og:description" content="The Scottish JavaScript conference in Edinburgh, Scotland June 2nd and 3rd 2016">
+  <meta property="og:site_name" content="The Scottish JavaScript conference">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&amp;subset=latin" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap-8c110b710ef59cc126747b74f9e3f52f.css">
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome-078a614ab0f14d9b38157c8a45dc8420.css">
+  <link rel="stylesheet" href="/assets/application-73b7aa9594e9aa1ec6e3f57d04b5c058.css">
+  <style type="text/css">@font-face {font-family: "Easycore"; src: url('/fonts/Easycore.ttf') format("truetype");}</style>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <script src="/assets/application-9484334fe3b8df6521c1c068505d2042.js"></script>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta name="google-site-verification" content="4vTkBBnP6Cxh-ZZ7zReI-CzWqC9uZ8eLaIDQp6PvcAI" />
-  </head>
+  <script src="/assets/vendor/jquery/dist/jquery-3df5857d19acba0f22b48633d5f6b9d6.js"></script>
+  <script src="/assets/vendor/jquery.easing/jquery.easing.1.3.min-75b000791e7229b4cba14fee2127802f.js"></script>
+  <script src="/assets/vendor/picturefill/dist/picturefill-69a81d98a30350111c76f2401f17c533.js"></script>
+  <script src="/assets/vendor/headroom.js/dist/headroom-4e00cb01a4dd9fc38ff4c3f715621ecf.js"></script>
+  <script src="/assets/vendor/headroom.js/dist/jQuery.headroom-683b9c7da6a66cc5e73ed8203fd04898.js"></script>
+  <script src="/assets/vendor/bootstrap/js/transition-bbb0ab633f82ad97bff4d9ee2affbb15.js"></script>
+  <script src="/assets/vendor/bootstrap/js/modal-d93178b40c22031235f9cdd7dd8a6aac.js"></script>
+  <script src="/assets/vendor/bootstrap/js/scrollspy-575100b0a9d5d0138427234cd12030b2.js"></script>
+  <script src="/assets/vendor/bootstrap/js/collapse-7bf4742b341a4d3bd904be58e228b2a2.js"></script>
+
+  <script src="/assets/application-9484334fe3b8df6521c1c068505d2042.js"></script>
+</head>
   <body>
-    <header id="site-header">
-  <nav>
-    <a class="icon-menu" href="#"></a>
-    <p>Scotland JS</p>
-    <div class="container">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <!-- <li><a href="/discussion_track">Discussion Track</a></li> -->
-        <li><a href="/charity_tutorial">Workshops</a></li>
-        <li><a href="/previous_events">Videos</a></li>
-        <li><a href="/sponsors">Sponsors</a></li>
-        <!-- <li><a href="/timeline">Timeline</a></li> -->
-        <!-- <li><a href="/#venue">Venue</a></li> -->
+    <!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<nav class="navbar-padder navbar-default">
+  <div class="container">
+    <div class="navbar-header page-scroll">
+      <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    </div>
+    <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="hidden"><a href="#page-top"></a></li>
+        <li><a href="/" id="home-link" class="page-scroll">Scotland JS</a></li>
+        <li><a href="/#talks" class="page-scroll">Speakers</a></li>
+        <li><a href="/#sponsors" class="page-scroll">Sponsors</a></li>
+        <li><a href="/codeofconduct">Code of Conduct</a></li>
+        <li><a href="/videos">Videos</a></li>
+        <li><a href="https://twitter.com/scotlandjs" class="fa-wrapper"><i class="fa fa-2x fa-twitter"></i></a></li>
       </ul>
     </div>
-    <a class="icon-twitter" href="http://twitter.com/scotlandjs"></a>
-  </nav>
-  <section id="banner">
-  <div class="container">
-    <h1>Scotland JS</h1>
-    <h2>May 7th and 8th 2015</h2>
-
-    <a class="button-video" href="#video">
-      <span class="icon-play"></span>
-      Watch the video
-    </a>
-    <a class="close-video" href="#close-video">
-      <span class="icon-close"></span>
-      Close video
-    </a>
-
-    
-    <div class="button-primary">
-      <a href="https://ti.to/scotlandjs/2015" target="_blank">Purchase Tickets</a>
-    </div>
-    
   </div>
-  <div class="video">
-    <div class="container">
-      <iframe src="//player.vimeo.com/video/70637558?portrait:0" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
+</nav>
+
+
+<header>
+  <div id="page-top" class="container">
+    <div class="intro-text">
+      <h1 class="intro-heading"><br><br>Scotland&nbsp;JS<br></h1>
+      <div class="intro-lead-in">Edinburgh, June 2nd and 3rd 2016</div><br>
     </div>
   </div>
-</section>
-
 </header>
 
-    <section id="tagline">
-  <div class="container">
-    <h3>Sponsorship Packages</h3>
-    Sponsoring ScotlandJS is a great way to get your brand infront of propspective new hires, users and support the development community.
-    <br/>To discuss our Packages further please get in touch with <a href="mailto:peter@scotlandjs.com?Subject=Sponsorship%20enquiry">us.</a>
+    <!-- <section id="tagline">
+  <div class="container"  style="page-break-after: always;">
+    To discuss our Packages further please get in touch with <a href="mailto:peter@scotlandjs.com?Subject=Sponsorship%20enquiry">peter@scotlandcss.com.</a>
   </div>
 </section>
-
+ -->
 <!--
 <section class="content">
   <div id='fanduel' class="container">
@@ -217,113 +225,81 @@
 </section>
 
 -->
+
+
 <section id="platinum" class="content">
   <div class="container">
-    <header><h1>Platinum: &#163;6000</h1></header>
+<h2>Diversity Support</h2>
     <p>
-      <ul>
-         <li>Banner on main stage(*)</li>
-         <li>Prominent billing on website</li>
-         <li>Prominent billing at the start of all talk videos</li>
-         <li>250 word description and logo in programme</li>
-         <li>5 session passes</li>
-         <li>Exhibit Table</li>
-         <li>Flier handout to delegates(*)</li>
-      </ul>
-    </p>
-  </div>
-</section>
-
-<section id="gold" class="content-alt">
-  <div class="container">
-    <header><h1>Gold: &#163;3000</h1></header>
-    <p>
-      <ul>
-          <li>Company logo on website</li>
-          <li>Company logo on all talk videos</li>
-          <li>Company logo on shared Banner on main stage</li>
-          <li>150 word description and logo in programme</li>
-          <li>3 session passes</li>
-          <li>Flier handout to delegates(*)</li>
-          <li>50% discount on Exhibit Table</li>
-        </ul>
-    </p>
-  </div>
-</section>
-
-<section id="silver" class="content">
-  <div class="container">
-    <header><h1>Silver: &#163;1500</h1></header>
-    <p>
-      <ul>
-        <li>Company logo on website</li>
-        <li>100 word description and logo in programme</li>
-        <li>1 session pass</li>
-        <li>25% discount on Exhibit Table</li>
-      </ul>
-    </p>
-  </div>
-</section>
-
-<section id="exhibit-table" class="content-alt">
-  <div class="container">
-    <header><h1>Exhibit Table: &#163;750</h1></header>
-    <p>
-      <ul>
-        <li>Prominent position in the breakout area</li>
-      </ul>
+      ScotlandJS has received a great deal of positive feedback about how warm, welcoming and friendly our event is.
     </p>
 
-    <p>* Supplied by sponsor</p>
-    <p>Scot JS Ltd is not registered for VAT.</p>
-  </div>
-</section>
-
-<section id="tagline">
-  <div class="container">
-    <h1>Inclusivity Support</h1>
-  </div>
-</section>
-
-
-<section id="speaker_invlusivity" class="content">
-  <div class="container">
-    <header><h1>Speaker Inclusivity Grant: &#163;500</h1>(target of 10)</header>
     <p>
-      <ul>
-        <li>Company logo on website</li>
-      </ul>
+      For 2016 we want to go even further, and are explicitly focusing on setting a new standard of inclusivity.
     </p>
-  </div>
-</section>
 
-<section id="attendee_scholarship_invlusivity" class="content-alt">
-  <div class="container">
-    <header><h1>Attendee Schollarship Grant: &#163;500</h1>(target of 5)</header>
-    <p>
-      <ul>
-        <li>Company logo on website</li>
-      </ul>
-    </p>
-  </div>
-</section>
+<p>
+We want to be accessible and supportive to people from underrepresented groups, building their trust and encouraging their participation within the community.
+ </p>
 
-<section id="attendee_invlusivity" class="content">
-  <div class="container">
-    <header><h1>Attendee Inclusivity Ticket: &#163;250</h1>(target of 25)</header>
-    <p>
-      <ul>
-        <li>Company logo on website</li>
-      </ul>
-    </p>
-  </div>
-</section>
+To achieve this we need your support, which will allow us to:
+<ol>
+  <li>offer travel and accommodation support to speakers from underrepresented groups.</li>
+  <li>offer 30 free tickets to each event to people from underrepresented groups.</li>
+  <li>offer scholarships (financial assistance with travel and accommodation) for up to 5 attendees who would not be able to attend otherwise.</li>
+  <li>offer free childcare to attendees.</li>
+</ol>
+
+<p>
+We have divided these items so you can support our efforts in a way that makes sense for your company, be that supporting a single (or many) speakers, scholarships or attendees, or simply make a donation.
+</p>
+<p>
+In return, we will put your company's logo in the Supporter section of this website and let everyone know of you are helping us establish a stronger, more diverse and inclusive community!
+
+</p>
+
+<h2>Support options</h2>
+
+<table>
+  <tr>
+    <td>
+      Support a speaker(s) from an underrepresented group:
+    </td>
+    <td>
+      &pound;500
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Fund a ticket(s) for people from an underrepresented group:
+    </td>
+    <td>
+      &pound;240
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Fund a schollarship(s) for people from an underrepresented group:
+    </td>
+    <td>
+      &pound;600
+    </td>
+  </tr>
+</table>
+
+
+<p>
+Thank you for taking the time to find out what we are trying to achieve and if you would like to assist with any of the suport options please contact peter@scotlandjs.com.
+</p>
 
     <footer>
   <div class="container">
-    <p> &copy; 2015 Scotland JS Conference. All rights reserved.</p>
-  	<a class="codeofconduct" href="/codeofconduct/index.html">Code of Conduct</a>
-	</div>
+    <div class="row"><br></div>
+    <div class="row">
+      <div class="col-md-12"><span class="copyright">
+          <div class="text-muted">© 2016 Scotland JS Conference. All rights reserved.</div></span></div>
+    </div>
+  </div>
 </footer>
 
   </body>

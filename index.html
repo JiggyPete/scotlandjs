@@ -1,2161 +1,584 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Scotland JS</title>
-    <link rel="stylesheet" href="/assets/application-d7f7ccdf0427bbbb65e76e5367a7bba4.css">
-    <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif" rel="stylesheet" type="text/css" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    <script src="//maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-46640560-1']);
-      _gaq.push(['_setDomainName', 'scotlandjs.com']);
-      _gaq.push(['_trackPageview']);
+<head>
+  <meta charset="utf-8">
+  <title>ScotlandJS</title>
+  <meta name="description" content="The JavaScript conference in Edinburgh, Scotland, June 2nd and 3rd 2016">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <link rel="shortcut icon" href=/assets/favicons/favicon-dd21fdf05c6bb647fa088408c403a393.ico>
+  <meta name="apple-mobile-web-app-title" content="scotlandjs">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="application-name" content="scotlandjs">
+  <link rel="shortcut icon" href="/favicons/favicon.ico">
+  <meta itemprop="name" content="ScotlandJS conference">
+  <meta itemprop="description" content="The Scottish JavaScript conference in Edinburgh, Scotland June 2nd and 3rd 2016">
+  <!-- Twitter Card data-->
+  <meta name="twitter:card" content="product">
+  <meta name="twitter:site" content="@scotlandjs">
+  <meta name="twitter:title" content="ScotlandJS">
+  <meta name="twitter:description" content="The Scottish JavaScript conference in Edinburgh, Scotland June 2nd and 3rd 2016">
+  <meta name="twitter:creator" content="@ScotlandJS">
+  <meta name="twitter:data1" content="The Scottish JavaScript conference in Edinburgh, Scotland June 2nd and 3rd 2016">
+  <meta name="twitter:label1" content="">
+  <meta name="twitter:data2" content="The Scottish JavaScript conference in Edinburgh, Scotland June 2nd and 3rd 2016">
+  <meta name="twitter:label2" content="">
+  <!-- Open Graph data-->
+  <meta property="og:title" content="ScotlandJS conference">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://scotlandjs.com">
+  <meta property="og:description" content="The Scottish JavaScript conference in Edinburgh, Scotland June 2nd and 3rd 2016">
+  <meta property="og:site_name" content="The Scottish JavaScript conference">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&amp;subset=latin" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap-8c110b710ef59cc126747b74f9e3f52f.css">
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome-078a614ab0f14d9b38157c8a45dc8420.css">
+  <link rel="stylesheet" href="/assets/application-73b7aa9594e9aa1ec6e3f57d04b5c058.css">
+  <style type="text/css">@font-face {font-family: "Easycore"; src: url('/fonts/Easycore.ttf') format("truetype");}</style>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <script src="/assets/application-9484334fe3b8df6521c1c068505d2042.js"></script>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta name="google-site-verification" content="4vTkBBnP6Cxh-ZZ7zReI-CzWqC9uZ8eLaIDQp6PvcAI" />
-  </head>
+  <script src="/assets/vendor/jquery/dist/jquery-3df5857d19acba0f22b48633d5f6b9d6.js"></script>
+  <script src="/assets/vendor/jquery.easing/jquery.easing.1.3.min-75b000791e7229b4cba14fee2127802f.js"></script>
+  <script src="/assets/vendor/picturefill/dist/picturefill-69a81d98a30350111c76f2401f17c533.js"></script>
+  <script src="/assets/vendor/headroom.js/dist/headroom-4e00cb01a4dd9fc38ff4c3f715621ecf.js"></script>
+  <script src="/assets/vendor/headroom.js/dist/jQuery.headroom-683b9c7da6a66cc5e73ed8203fd04898.js"></script>
+  <script src="/assets/vendor/bootstrap/js/transition-bbb0ab633f82ad97bff4d9ee2affbb15.js"></script>
+  <script src="/assets/vendor/bootstrap/js/modal-d93178b40c22031235f9cdd7dd8a6aac.js"></script>
+  <script src="/assets/vendor/bootstrap/js/scrollspy-575100b0a9d5d0138427234cd12030b2.js"></script>
+  <script src="/assets/vendor/bootstrap/js/collapse-7bf4742b341a4d3bd904be58e228b2a2.js"></script>
+
+  <script src="/assets/application-9484334fe3b8df6521c1c068505d2042.js"></script>
+</head>
   <body>
-    <header id="site-header">
-  <nav>
-    <a class="icon-menu" href="#"></a>
-    <p>Scotland JS</p>
-    <div class="container">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <!-- <li><a href="/discussion_track">Discussion Track</a></li> -->
-        <li><a href="/charity_tutorial">Workshops</a></li>
-        <li><a href="/previous_events">Videos</a></li>
-        <li><a href="/sponsors">Sponsors</a></li>
-        <!-- <li><a href="/timeline">Timeline</a></li> -->
-        <!-- <li><a href="/#venue">Venue</a></li> -->
+    <!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<nav class="navbar-padder navbar-default">
+  <div class="container">
+    <div class="navbar-header page-scroll">
+      <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    </div>
+    <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="hidden"><a href="#page-top"></a></li>
+        <li><a href="/" id="home-link" class="page-scroll">Scotland JS</a></li>
+        <li><a href="/#talks" class="page-scroll">Speakers</a></li>
+        <li><a href="/#sponsors" class="page-scroll">Sponsors</a></li>
+        <li><a href="/codeofconduct">Code of Conduct</a></li>
+        <li><a href="/videos">Videos</a></li>
+        <li><a href="https://twitter.com/scotlandjs" class="fa-wrapper"><i class="fa fa-2x fa-twitter"></i></a></li>
       </ul>
     </div>
-    <a class="icon-twitter" href="http://twitter.com/scotlandjs"></a>
-  </nav>
-  <section id="banner">
-  <div class="container">
-    <h1>Scotland JS</h1>
-    <h2>May 7th and 8th 2015</h2>
-
-    <a class="button-video" href="#video">
-      <span class="icon-play"></span>
-      Watch the video
-    </a>
-    <a class="close-video" href="#close-video">
-      <span class="icon-close"></span>
-      Close video
-    </a>
-
-    
-    <div class="button-primary">
-      <a href="https://ti.to/scotlandjs/2015" target="_blank">Purchase Tickets</a>
-    </div>
-    
   </div>
-  <div class="video">
-    <div class="container">
-      <iframe src="//player.vimeo.com/video/70637558?portrait:0" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
+</nav>
+
+
+<header>
+  <div id="page-top" class="container">
+    <div class="intro-text">
+      <h1 class="intro-heading"><br><br>Scotland&nbsp;JS<br></h1>
+      <div class="intro-lead-in">Edinburgh, June 2nd and 3rd 2016</div><br>
     </div>
   </div>
-</section>
-
 </header>
 
-    <section id="tagline">
-  <div class="container">
-    <p>ScotlandJS is an event based in the heart of Edinburgh which aims to give everyone the opportunity share and learn all that is new in JavaScript.</a></p>
-  </div>
-</section>
-
-<section id="schedule" class="content-alt">
-  <div class="container">
-    <h1>Events</h1>
-      May 6th: <a href="/charity_tutorial">Web Audio Hack Day</a><br/>
-      May 7th and 8th: ScotlandJS conference<br/>
-      May 9th: <a href="/charity_tutorial">JS Code Retreat</a><br/>
-  </div>
-</section>
-
-<section id="schedule" class="content">
-  <div class="container">
-    <h1>Speakers</h1>
-    <table class="schedule">
-      <thead>
-        <tr>
-          <th></th>
-          <th>Thursday May 7th</th>
-          <th></th>
-          <th>Friday May 8th</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>8am</td>
-          <td>Registration &amp; Tea/Coffee</td>
-          <td></td>
-          <td>Tea/Coffee</td>
-        </tr>
-        <tr>
-          <td>9am</td>
-          <td>Introduction</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>9:15am</td>
-          <td>
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/philip">
-	  <img src="/assets/speakers/phil-9f51fe578e4bac5e81828234482b0451.png" />
-    
-      <h4>Philip Roberts</h4>
-    
-	</a>
-  <a href="http://twitter.com/@philip_roberts" target="_blank">
-    <em>@philip_roberts</em>
-  </a>
-</div>
-<a href="/speakers/philip">
-  
-    <p>Keynote Speaker</p>
-  
-</a>
-</td>
-
-          <td class='time'>9:00am</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/francisco">
-	  <img src="/assets/speakers/2015/original/francisco-845d82f75d895902d8f46170624f7719.jpeg" />
-    
-      <h4>Francisco M.S. Ferreira</h4>
-    
-	</a>
-  <a href="http://twitter.com/@fmsf303" target="_blank">
-    <em>@fmsf303</em>
-  </a>
-</div>
-<a href="/speakers/francisco">
-  
-    <p>JavaScript Craftsmanship</p>
-  
-</a>
-</td>
-        </tr>
-        <tr>
-          <td>10am</td>
-
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/dave">
-	  <img src="/assets/speakers/2015/small_dave-00c82a20b8cd8c4edc1e092c3181a8ef.jpg" />
-    
-      <h4>Dave Kennedy</h4>
-    
-	</a>
-  <a href="http://twitter.com/@bangline_" target="_blank">
-    <em>@bangline_</em>
-  </a>
-</div>
-<a href="/speakers/dave">
-  
-    <p>TDD in the in the real world</p>
-  
-</a>
-</td>
-          <td class='time'>9:25am</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/andrew">
-	  <img src="/assets/speakers/2015/original/andrew-717255bc0319e606c36f1d775d931b73.jpg" />
-    
-      <h4>Andrew Duncan</h4>
-    
-	</a>
-  <a href="http://twitter.com/@andrewmduncan" target="_blank">
-    <em>@andrewmduncan</em>
-  </a>
-</div>
-<a href="/speakers/andrew">
-  
-    <p>Memory Leak Health Check - Our Quest to Diagnose & Cure</p>
-  
-</a>
-</td>
-        </tr>
-        <tr>
-          <td>10.25am</td>
-          <td>
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/katie">
-	  <img src="/assets/speakers/2015/original/katie-487de58f8f58e7fa459ae81127235af6.jpg" />
-    
-      <h4>Katie Fenn</h4>
-    
-	</a>
-  <a href="http://twitter.com/@katie_fenn" target="_blank">
-    <em>@katie_fenn</em>
-  </a>
-</div>
-<a href="/speakers/katie">
-  
-    <p>Chrome DevTools, Front to Back</p>
-  
-</a>
-</td>
-          <td class='time'>9:50am</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/joe">
-	  <img src="/assets/speakers/2015/original/joe_nash-ccd2e380f833e85fffc3a0624f5eb6c3.jpeg" />
-    
-      <h4>Joe Nash</h4>
-    
-	</a>
-  <a href="http://twitter.com/@jna_sh" target="_blank">
-    <em>@jna_sh</em>
-  </a>
-</div>
-<a href="/speakers/joe">
-  
-    <p>A Monad is a Burrito and other Functional Myths</p>
-  
-</a>
-</td>
-        </tr>
-
-        <tr>
-          <td>10.50am</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/colin">
-	  <img src="/assets/speakers/2015/original/colin_gemmell-466ef0c8bad8f9e50e9433bffd1d81ad.jpg" />
-    
-      <h4>Colin Gemmell</h4>
-    
-	</a>
-  <a href="http://twitter.com/@colin_gemmell" target="_blank">
-    <em>@colin_gemmell</em>
-  </a>
-</div>
-<a href="/speakers/colin">
-  
-    <p>Look Ma No Framework</p>
-  
-</a>
-</td>
-          <td class='time'>10:15am</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/kim">
-	  <img src="/assets/speakers/2015/small_kim-69088995585325acb91c9ce4581c242b.jpg" />
-    
-      <h4>Kim Joar Bekkelund</h4>
-    
-	</a>
-  <a href="http://twitter.com/@kimjoar" target="_blank">
-    <em>@kimjoar</em>
-  </a>
-</div>
-<a href="/speakers/kim">
-  
-    <p>Writing Beautiful JavaScript Tests</p>
-  
-</a>
-</td>
-        </tr>
-
-        <tr class="break">
-          <td colspan="4">
-            20 minute break
-          </td>
-        </tr>
-
-        <tr>
-          <td>11.30am</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/ben">
-	  <img src="/assets/speakers/2015/original/ben-bd3de5cf9f6b9379c6dba48654d1bd2e.png" />
-    
-      <h4>Ben Longden</h4>
-    
-	</a>
-  <a href="http://twitter.com/@blongden" target="_blank">
-    <em>@blongden</em>
-  </a>
-</div>
-<a href="/speakers/ben">
-  
-    <p>Adaptive and evolvable applications</p>
-  
-</a>
-</td>
-          <td class='time'>11:00am</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/mark">
-	  <img src="/assets/speakers/2015/small_mark-fda2cfb30addaadf53c583403b62c776.jpg" />
-    
-      <h4>Mark Connell</h4>
-    
-	</a>
-  <a href="http://twitter.com/@mconnell" target="_blank">
-    <em>@mconnell</em>
-  </a>
-</div>
-<a href="/speakers/mark">
-  
-    <p>Accessibility & JavaScript-based websites</p>
-  
-</a>
-</td>
-        </tr>
-
-        <tr>
-          <td>11.55am</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/gleb">
-	  <img src="/assets/speakers/2015/original/gleb-high-res-b914be16263df852d0b03a402b3ee344.jpg" />
-    
-      <h4>Gleb Bahmutov</h4>
-    
-	</a>
-  <a href="http://twitter.com/@bahmutov" target="_blank">
-    <em>@bahmutov</em>
-  </a>
-</div>
-<a href="/speakers/gleb">
-  
-    <p>Journey from procedural to reactive JavaScript with stops</p>
-  
-</a>
-</td>
-          <td class='time'>11:25am</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/sam">
-	  <img src="/assets/speakers/2015/original/sam-5c89dbc381bc0a43ac0c3dc2e6926761.jpg" />
-    
-      <h4>Sam Beckham</h4>
-    
-	</a>
-  <a href="http://twitter.com/@samdbeckham" target="_blank">
-    <em>@samdbeckham</em>
-  </a>
-</div>
-<a href="/speakers/sam">
-  
-    <p>Improving pattern libraries, with Polymer</p>
-  
-</a>
-</td>
-        </tr>
-
-        <tr>
-          <td>12.20pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/greg">
-	  <img src="/assets/speakers/2015/small_greg-54a481447baf25ff5380510207e7110c.jpg" />
-    
-      <h4>Greg Tarnoff</h4>
-    
-	</a>
-  <a href="http://twitter.com/@gregtarnoff" target="_blank">
-    <em>@gregtarnoff</em>
-  </a>
-</div>
-<a href="/speakers/greg">
-  
-    <p>UX of Stairs: When Simple Tasks Aren't So Simple</p>
-  
-</a>
-</td>
-          <td class='time'>11:50am</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/hubert">
-	  <img src="/assets/speakers/2015/original/hubert-06cefb76e4ddff666999d272f44cf3be.jpg" />
-    
-      <h4>Hubert Sablonni&egrave;re</h4>
-    
-	</a>
-  <a href="http://twitter.com/@hsablonniere" target="_blank">
-    <em>@hsablonniere</em>
-  </a>
-</div>
-<a href="/speakers/hubert">
-  
-    <p>Exploring multi-screen web techniques</p>
-  
-</a>
-</td>
-        </tr>
-
-        <tr class="break">
-          <td colspan="4">
-            Lunch
-          </td>
-        </tr>
-
-        <tr>
-          <td>1.40pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/varya">
-	  <img src="/assets/speakers/2015/small_varya2-8174837f8f97a9c3fa796dfa60761e06.jpg" />
-    
-      <h4>Varya Stepanova</h4>
-    
-	</a>
-  <a href="http://twitter.com/@varya_en" target="_blank">
-    <em>@varya_en</em>
-  </a>
-</div>
-<a href="/speakers/varya">
-  
-    <p>Driving the Style Guide Driven Development</p>
-  
-</a>
-</td>
-          <td class='time'>1:10pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/amy">
-	  <img src="/assets/speakers/2015/original/amy/small_amy-a25f1a5229e462fe0c5d805393ef32f6.jpg" />
-    
-	     <h4>Amy Wibowo and Matt Baker</h4>
-    
-	</a>
-  <a href="http://twitter.com/@sailorhg" target="_blank">
-    <em>@sailorhg</em>
-  </a>
-</div>
-<a href="/speakers/amy">
-  
-    <p>Programming building blocks (literally)</p>
-  
-</a>
-</td>
-        </tr>
-
-        <tr>
-          <td>2.05pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/daniel">
-	  <img src="/assets/speakers/2015/original/daniel_perez_alvarez-c185195c69ef7ade5350a53d3e34db55.png" />
-    
-      <h4>Daniel Perez Alvarez</h4>
-    
-	</a>
-  <a href="http://twitter.com/@unindented" target="_blank">
-    <em>@unindented</em>
-  </a>
-</div>
-<a href="/speakers/daniel">
-  
-    <p>The one trick to scaling your frontend codebase...</p>
-  
-</a>
-</td>
-          <td class='time'>1:35pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/philreither">
-	  <img src="/assets/speakers/2015/original/philreither-8e627e4e71760f209c6e3dcf4373bdb4.jpg" />
-    
-      <h4>Philipp Reither</h4>
-    
-	</a>
-  <a href="http://twitter.com/@philreither" target="_blank">
-    <em>@philreither</em>
-  </a>
-</div>
-<a href="/speakers/philreither">
-  
-    <p>Fire your Sysadmin: use Docker to Build, Ship and Run Any App, Anywhere</p>
-  
-</a>
-</td>
-        </tr>
-
-        <tr>
-          <td>2.30pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/chris">
-	  <img src="/assets/speakers/2015/original/chris_price-e3077e975689327defabb4283eca4ba3.png" />
-    
-      <h4>Chris Price</h4>
-    
-	</a>
-  <a href="http://twitter.com/@100pxls" target="_blank">
-    <em>@100pxls</em>
-  </a>
-</div>
-<a href="/speakers/chris">
-  
-    <p>Creating D3 components: a journey of pain, joy, frustration and enlightenment</p>
-  
-</a>
-</td>
-          <td class='time'>2:00pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/jaume">
-	  <img src="/assets/speakers/2015/original/jaume-8f46a3d068cfb9d8b90fd3b3f0113257.jpg" />
-    
-      <h4>Jaume Sanchez</h4>
-    
-	</a>
-  <a href="http://twitter.com/@thespite" target="_blank">
-    <em>@thespite</em>
-  </a>
-</div>
-<a href="/speakers/jaume">
-  
-    <p>What are shaders and what can they do for me?</p>
-  
-</a>
-</td>
-        </tr>
-
-        <tr class="break">
-          <td colspan="4">
-            20 minute break
-          </td>
-        </tr>
-
-        <tr>
-          <td>3.10pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/orde">
-	  <img src="/assets/speakers/2015/original/orde-ec9351ff4b2ba98e7da3f926aa8e78e3.png" />
-    
-      <h4>Orde Saunders</h4>
-    
-	</a>
-  <a href="http://twitter.com/@decadecity" target="_blank">
-    <em>@decadecity</em>
-  </a>
-</div>
-<a href="/speakers/orde">
-  
-    <p>Cascade, Specificity and a Single name space or: How I learned to stop worrying and tolerate CSS</p>
-  
-</a>
-</td>
-          <td class='time'>2:40pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/philholden">
-	  <img src="/assets/speakers/2015/small_phil_holden-acb1f614545bc4d478c516868f69c595.jpg" />
-    
-	     <h4>Phil Holden and Lelen Huang</h4>
-    
-	</a>
-  <a href="http://twitter.com/" target="_blank">
-    <em></em>
-  </a>
-</div>
-<a href="/speakers/philholden">
-  
-    <p>Intelligent Responsive Typography</p>
-  
-</a>
-</td>
-        </tr>
-
-        <tr>
-          <td>3.35pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/chrislowis">
-	  <img src="/assets/speakers/2015/small_chris_lowis-7b0afa51e26e229ab8c6c738145a5cb9.jpg" />
-    
-      <h4>Chris Lowis</h4>
-    
-	</a>
-  <a href="http://twitter.com/@chrislowis" target="_blank">
-    <em>@chrislowis</em>
-  </a>
-</div>
-<a href="/speakers/chrislowis">
-  
-    <p>A Brief History of Synthesis with the Web Audio API</p>
-  
-</a>
-</td>
-          <td class='time'>3:05pm</td>
-          <td>
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/lewis">
-	  <img src="/assets/speakers/2015/small_lewis-f61c290979d42ba1e863a91e6e165563.jpg" />
-    
-      <h4>Lewis Cowper</h4>
-    
-	</a>
-  <a href="http://twitter.com/@lewiscowper" target="_blank">
-    <em>@lewiscowper</em>
-  </a>
-</div>
-<a href="/speakers/lewis">
-  
-    <p>How I went from forklift driver to developer in 9 months</p>
-  
-</a>
-</td>
-        </tr>
-
-        <tr>
-          <td>4pm</td>
-          <td>
-            <div class="speaker-info">
-              <img src="/assets/webaudio-js-b6c86f4ef63faa346c48f1a2ac9cdff6.png" />
-              <h4>WebAudio Hack Day Demo</h4>
+    <section class="content-body">
+  <div id="talks">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 id="speaker" style="margin-top:50px" class="section-heading customfont">Speakers</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <a href="#raquel" data-toggle="modal" class="speaker  col-md-4 col-sm-6">
+
+            <img src=/assets/speakers/raquel_vlez_thumb-c186d82afba51c35c2c875421b7255a2.jpg srcset=/assets/speakers/raquel_vlez_thumb@2x-72ac7749fd6e411e4683c4339f2a26fa.jpg alt="Raquel Vélez" width="150" height="150"/>
+            <div class="info">
+              <h4>Raquel Vélez <small>@rockbot</small></h4>
+              <p></p>
             </div>
-            <td class='time'>3:40pm</td>
-          <td>
-  
+          </a>
 
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<div class="speaker-info">
-	<a href="/speakers/lena">
-	  <img src="/assets/speakers/lena2-c2aa0308706c3e491d7bc1701787283b.jpg" />
-    
-      <h4>Lena Reinhard</h4>
-    
-	</a>
-  <a href="http://twitter.com/@lrnrd" target="_blank">
-    <em>@lrnrd</em>
-  </a>
-</div>
-<a href="/speakers/lena">
-  
-    <p>Keynote Speaker</p>
-  
-</a>
-</td>
-          </td>
-        </tr>
-
-        <tr>
-          <td>4.45pm</td>
-          <td>End of day one</td>
-          <td></td>
-          <td>Closing remarks</td>
-        </tr>
-
-
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>6.45pm</td>
-          <td>Whisky Tasting</td>
-          <td>7pm</td>
-          <td>After party + Lightening talks</td>
-        </tr>
-      </tfoot>
-
-    </table>
-
-
-    </table>
+          <div tabindex="-1" role="dialog" aria-hidden="true" id="raquel" class="portfolio-modal modal fade">
+  <div class="modal-content">
+    <div data-dismiss="modal" class="close-modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Raquel Vélez</h2>
+            <div class="portfolio-item">
+              <span class="portfolio-link">
+                <img src=/assets/speakers/raquel_vlez-72ac7749fd6e411e4683c4339f2a26fa.jpg srcset=/assets/speakers/raquel_vlez@2x-cb27f183325e4a8f65f5c6effe05841f.jpg alt="Raquel Vélez" width="400" height="289"/>
+              </span>
+              <div class="portfolio-caption">
+                <h3>Raquel Vélez</h3>
+                <ul class="list-inline social-buttons">
+                  <li><a href="https://twitter.com/rockbot"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://github.com/rockbot"><i class="fa fa-github-alt"></i></a></li>
+                  <li><a href="http://rckbt.me/"><i class="fa fa-globe"></i></a></li>
+                </ul>
+              </div>
+            </div><p>Raquel Vélez is an American technologist and community leader with a global perspective. She studied Mechanical Engineering at the California Institute of Technology (Caltech) and worked as a roboticist for 8 years at a variety of institutions, including the NASA Jet Propulsion Laboratory, the University of Duisburg-Essen, the MIT Lincoln Laboratory, the University of Genoa, and Applied Minds. Raquel&#39;s career shifted to web development in 2012, wherein she has since specialized in Node.js (JavaScript). She has worked at Skookum Digital Works, Storify, and Sauce Labs. She is currently a Senior Engineer at npm, Inc. and speaks at conferences around the world. She is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics: Building NodeBots with Johnny-Five, Raspberry Pi, Arduino, and BeagleBone</a>. Raquel has lived in 4 countries, speaks 5 languages, and currently lives in the San Francisco Bay Area.</p>
+            <button type="button" data-dismiss="modal" class="btn btn-primary"><i class="fa fa-times"></i> Close Abstract</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</section>
+</div>
 
-<section id="venue" class="content-alt">
-  <div id="map"></div>
-  <div class="container">
-    <div class="venue-content">
-      <h3>Venue</h3>
-      <address>
-        Our Dynamic Earth<br />
-        Holyrood Rd<br />
-        Edinburgh<br />
-        EH8 8AS
-      </address>
-      <p>There are plenty of accommodation options near the venue.</p>
-      <p>A full list of options, including bed &amp; breakfasts, can be found at <a href="http://www.laterooms.com">LateRooms.com</a>.</p>
+
+          <a href="#livi" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src=/assets/speakers/livi_erickson_thumb-11ea123311bd509225e3f973c4f45775.jpg srcset=/assets/speakers/livi_erickson_thumb@2x-5d5c6a24e070bd2faaffd8b7b2e36fad.jpg alt="Livi Erickson" width="150" height="150"/>
+          <div class="info">
+            <h4>Livi Erickson <small>@misslivirose</small></h4>
+            <p></p>
+          </div></a>
+
+           <div tabindex="-1" role="dialog" aria-hidden="true" id="livi" class="portfolio-modal modal fade">
+  <div class="modal-content">
+    <div data-dismiss="modal" class="close-modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Livi Erickson</h2>
+            <div class="portfolio-item">
+              <span class="portfolio-link">
+                <img src=/assets/speakers/livi_erickson-5d5c6a24e070bd2faaffd8b7b2e36fad.jpg srcset=/assets/speakers/livi_erickson@2x-a3f7f6be35174ebab0e8345ccc900e33.jpg alt="Livi Erickson" width="400" height="289"/>
+              </span>
+              <div class="portfolio-caption">
+                <h3>Livi Erickson</h3>
+                <ul class="list-inline social-buttons">
+                  <li><a href="https://twitter.com/misslivirose"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://github.com/misslivirose"><i class="fa fa-github-alt"></i></a></li>
+                  <li><a href="http://livierickson.com/"><i class="fa fa-globe"></i></a></li>
+                </ul>
+              </div>
+            </div><p>Livi Erickson is a virtual and augmented reality developer evangelist at Microsoft, focusing on development for VR and AR platforms. She is passionate about teaching and inspiring new virtual and augmented reality developers and enjoys experimenting with different headsets and gadgets. Livi has built and released apps for desktop and mobile VR, created several VR-enabled websites, presented JavaScript for VR at JS Conf Budapest 2015, and taught Intro to Virtual Reality Development at the University of Bremen as part of the 2015 Informatica Feminale summer program. She is excited about the potential of immersive computing, and runs the blog ‘The Matrix is my Office’.</p>
+            <button type="button" data-dismiss="modal" class="btn btn-primary"><i class="fa fa-times"></i> Close Abstract</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+          <a href="#ola" data-toggle="modal" class="speaker  col-md-4 col-sm-6">
+            <img src=/assets/speakers/ola_gasidlo_thumb-ddc16736e58c5c1743a92fdd802e9cbd.jpg srcset=/assets/speakers/ola_gasidlo_thumb@2x-4ab5eb837f59411809e448b382a16070.jpg alt="Ola Gasidlo" width="150" height="150"/>
+            <div class="info">
+              <h4>Ola Gasidlo <small>@misprintedtype</small></h4>
+              <p></p>
+            </div>
+          </a>
+
+          <div tabindex="-1" role="dialog" aria-hidden="true" id="ola" class="portfolio-modal modal fade">
+  <div class="modal-content">
+    <div data-dismiss="modal" class="close-modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Ola Gasidlo</h2>
+            <div class="portfolio-item"><span class="portfolio-link"><img src=/assets/speakers/ola_gasidlo-4ab5eb837f59411809e448b382a16070.jpg srcset=/assets/speakers/ola_gasidlo@2x-783d3f05c7be959c98d338473dbe8bfb.jpg alt="Ola Gasidlo" width="400" height="289"/></span>
+              <div class="portfolio-caption">
+                <h3>Ola Gasidlo</h3>
+                <ul class="list-inline social-buttons">
+                  <li><a href="https://twitter.com/misprintedtype"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://github.com/zoepage"><i class="fa fa-github-alt"></i></a></li>
+                  <li><a href="http://hood.ie"><i class="fa fa-globe"></i></a></li>
+                </ul>
+              </div>
+            </div><p>Ola is a front-end / JavaScript developer, core member of Team Hoodie and organiser of OpenTechSchool Dortmund. She loves making the web accessible for everyone, riding the trails and Emma-driven development.</p>
+            <button type="button" data-dismiss="modal" class="btn btn-primary"><i class="fa fa-times"></i> Close Abstract</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          <a href="#robin" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src=/assets/speakers/robin_mehner_thumb-e3df4e17272c3300e0ab28c2f8f536e6.jpg srcset=/assets/speakers/robin_mehner_thumb@2x-0d733c8d96df21786a68a408b76d33b4.jpg alt="Robin Mehner" width="150" height="150"/>
+          <div class="info">
+            <h4>Robin Mehner <small>@rmehner</small></h4>
+            <p></p>
+          </div>
+          </a>
+
+           <div tabindex="-1" role="dialog" aria-hidden="true" id="robin" class="portfolio-modal modal fade">
+    <div class="modal-content">
+      <div data-dismiss="modal" class="close-modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>Robin Mehner</h2>
+              <div class="portfolio-item"><span class="portfolio-link"><img src=/assets/speakers/robin_mehner-0d733c8d96df21786a68a408b76d33b4.jpg srcset=/assets/speakers/robin_mehner@2x-9abd1f68ab908a9ea56d278e99693d84.jpg alt="Robin Mehner" width="400" height="289"/></span>
+                <div class="portfolio-caption">
+                  <h3>Robin Mehner</h3>
+                  <ul class="list-inline social-buttons">
+                    <li><a href="https://twitter.com/rmehner"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/rmehner"><i class="fa fa-github-alt"></i></a></li>
+                    <li><a href="http://coding-robin.de/"><i class="fa fa-globe"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <p>
+                Robin loves The Semicolons, but not the semicolon. He's living in Berlin and
+runs several community events with his friends like BerlinJS, Reject.JS and NodeCopter.
+While he earned his JavaScript chops during the great browser wars, he also explored other
+languages on the way.
+              </p>
+              <button type="button" data-dismiss="modal" class="btn btn-primary"><i class="fa fa-times"></i> Close Abstract</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+          <a href="#charlotte" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src=/assets/speakers/charlotte_spencer_thumb-2b464884866f53c7253e0c51fcd66d6f.jpg srcset=/assets/speakers/charlotte_spencer_thumb@2x-865fd5adfdb1b51aa7514a7286fa5d54.jpg alt="Charlotte Spencer" width="150" height="150"/>
+          <div class="info">
+            <h4>Charlotte Spencer <small>@charlotteis</small></h4>
+            <p></p>
+          </div></a>
+
+          <div tabindex="-1" role="dialog" aria-hidden="true" id="charlotte" class="portfolio-modal modal fade">
+  <div class="modal-content">
+    <div data-dismiss="modal" class="close-modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Charlotte Spencer</h2>
+            <div class="portfolio-item"><span class="portfolio-link"><img src=/assets/speakers/charlotte_spencer-865fd5adfdb1b51aa7514a7286fa5d54.jpg srcset=/assets/speakers/charlotte_spencer@2x-14d2b96be91e8d868c8f2a805b85e14e.jpg alt="Charlotte Spencer" width="400" height="289"/></span>
+              <div class="portfolio-caption">
+                <h3>Charlotte Spencer</h3>
+                <ul class="list-inline social-buttons">
+                  <li><a href="https://twitter.com/charlotteis"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://github.com/charlotteis"><i class="fa fa-github-alt"></i></a></li>
+                  <li><a href="http://var.ghost.io/"><i class="fa fa-globe"></i></a></li>
+                </ul>
+              </div>
+            </div><p>Charlotte Spencer does code and people things for Marks and Spencer. Their goal is to make the web a more accessible place for everyone in terms of both technology and culture, and works extensively in open source for projects like Hoodie and Your First Pr to achieve this. To summarise them in three words: pizza, bed, emoji.</p>
+            <button type="button" data-dismiss="modal" class="btn btn-primary"><i class="fa fa-times"></i> Close Abstract</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          <a href="/cfp">
+            <div class="speaker  col-md-4 col-sm-6"><img src=/assets/speakers/and_you_thumb-02479de2fb688247c2ffffd6d7404f60.jpg srcset=/assets/speakers/and_you_thumb@2x-94391dd6a6f1a26f16d069d7ec18e694.jpg alt="And you?" width="150" height="150"/>
+              <div class="info">
+                <h4>And you? <small></small></h4>
+                <p>Call for Proposals is open now.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>&nbsp;</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="sponsors_summary" class="content">
+<section id="tickets">
   <div class="container">
-    <h3>Sponsors: <a href='/sponsors/index.html'>Sponsorship Packages</a></h3>
-    <h1 align='center'>Platinum</h1>
-      <ul class="sponsors headline">
-        
-          
-            <li>
-              <a href="/sponsors/#fanduel" style="background-image: url(/assets/sponsors/FanDuel-Logo-Dark2-a4084212a3128e9fa7c166e5bbb3a843.png)"></a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="/sponsors/#zendesk" style="background-image: url(/assets/sponsors/zendesk-0f51ca8742ee7c470e682ebaa31bef54.png)"></a>
-            </li>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </ul>
-
-      <h1 align='center'>Silver</h1>
-      <ul class="sponsors">
-        
-          
-        
-          
-        
-          
-            <li>
-              <a href="/sponsors/#google" style="background-image: url(/assets/sponsors/google-c3e2e643805dfb45afb7081ef4475829.png)"></a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="/sponsors/#scottlogic" style="background-image: url(/assets/sponsors/scott_logic-da699d7b303fa533ecb6892ff661edf7.png)"></a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="/sponsors/#swarmonline" style="background-image: url(/assets/sponsors/SwarmOnlineLogo-f8a3e908d0a8de4b6d0bc12791a1a28b.png)"></a>
-            </li>
-          
-        
-          
-        
-        <li>
-          <a href="/sponsors/#twig-world" style="width:120px; margin-left: auto;
-    margin-right: auto; background-image: url(/assets/sponsors/twig-logo-ab9dc615509465002c8d4c4643c3ae8a.png)"></a>
-        </li>
-      </ul>
-    <br/>
-    <h1 align='center'>Supporter</h1>
-    <ul class="sponsors supporter">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          <li>
-            <a href="/sponsors/#cultivate" style="background-image: url(/assets/sponsors/cultivate-7c4b103a1d1877fe8f215a1e45d6b663.jpg)"></a>
-          </li>
-        
-      
-    </ul>
-
+    <div class="row">
+      <div class="col-mg-12 text-center">
+        <h2 class="section-heading">Tickets</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10">
+        <p class="text-center">Coming soon!</p>
+        <!--
+          <p class="text-center">
+            <a href="https://ti.to/neouk/scotlandjs-2016">Tickets</a> are now on sale.
+          </p>
+          <p class="text-center">
+            By purchasing your ticket early (mid-Feb or before) you, the attendee, get to vote for the sessions submitted via the CFP that you wish to see as part of ScotlandJS 2016!
+          </p>
+        -->
+      </div>
+    </div>
   </div>
 </section>
+
+<section id="cfp" class="content-body article">
+  <div class="container">
+    <div class="row">
+      <div class="col-mg-12 text-center">
+        <h2 id="speaker" style="margin-top:50px" class="section-heading customfont">Call For Proposals</h2>
+          <p>
+            Our Call For Proposals is now <a href="/cfp">open!</a>
+          </p>
+      </div>
+    </div>
+  </div>
+</section>
+<br/>
+<br/>
+<br/>
+
+<section id="diversity">
+  <div class="container">
+    <div class="row">
+      <div class="col-mg-12 text-center">
+        <h2 class="section-heading">Diversity Programme</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10">
+        <p class="text-center">Coming soon!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="highlights">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="section-heading">2015 Highlights</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/KR0wH9SDwDg" frameborder="0" allowfullscreen class="embed-responsive-item"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">&nbsp;</div>
+    <div class="row text-center">&nbsp;</div>
+    <div class="row text-center">&nbsp;</div>
+  </div>
+</section>
+
+<section id="sponsors">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="section-heading">Sponsors</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10"><a href="https://www.fanduel.com/" title="fanduel" class="sponsor col-sm-12"><img width="400" src=/assets/sponsors/fanduel-a4084212a3128e9fa7c166e5bbb3a843.png alt="fanduel" class="img-responsive img-centered"></a>
+        <div class="team-member">
+          <p class="text-muted">Please <a href="mailto:peter@scotlandjs.com">contact us</a> for sponsorship and diversity support opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">The Team</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="team-member"><img width="225" height="225" src=/assets/team/jiggy_pete-eed8c8147df558ef55dc8d938a8f1941.jpg alt="Peter Aitken" class="img-responsive img-circle">
+          <h4>Peter Aitken</h4>
+          <p class="text-muted"><a href="http://scotlandjs.com">Organiser</a></p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://twitter.com/jiggy_pete"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://github.com/jiggypete"><i class="fa fa-github-alt"></i></a></li>
+            <li><a href="http://cultivatehq.com/"><i class="fa fa-globe"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member"><img width="225" height="225" src=/assets/team/jessica_rose-44a71ccaf994e2cefad6acb9bf41ea77.jpg alt="Jessica Rose" class="img-responsive img-circle">
+          <h4>Jessica Rose</h4>
+          <p class="text-muted"><a href="http://scotlandjs.com">MC</a></p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://twitter.com/jesslynnrose"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://github.com/jessicarose"><i class="fa fa-github-alt"></i></a></li>
+            <li><a href="http://closetoclever.com"><i class="fa fa-globe"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member"><img width="225" height="225" src=/assets/team/stuart-2f7119b3b9cbbcab1fdd7ee768bf6142.jpg alt="Stuart Memo" class="img-responsive img-circle">
+          <h4>Stuart Memo</h4>
+          <p class="text-muted"><a href="http://scotlandjs.com">MC</a></p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://twitter.com/stuartmemo"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://github.com/stuartmemo"><i class="fa fa-github-alt"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="team-member"><img width="225" height="225" src=/assets/team/alan-31756d1ad49aa4045ed4cc4b71a9fdeb.jpg alt="Alan Gardner" class="img-responsive img-circle">
+          <h4>Alan Gardner</h4>
+          <p class="text-muted">Staff</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://twitter.com/mr_urf"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://github.com/urfolomeus"><i class="fa fa-github-alt"></i></a></li>
+            <li><a href="http://cultivatehq.com/"><i class="fa fa-globe"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member"><img width="225" height="225" src=/assets/team/varya-8174837f8f97a9c3fa796dfa60761e06.jpg alt="Varya Stepenova" class="img-responsive img-circle">
+          <h4>Varya Stepenova</h4>
+          <p class="text-muted">Staff</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://twitter.com/varya_en"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://github.com/varya"><i class="fa fa-github-alt"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member"><img width="225" height="225" src=/assets/team/tj-499664130f7d67d6ae6caf9670960de6.jpg alt="TJ Sheehy" class="img-responsive img-circle">
+          <h4>TJ Sheehy</h4>
+          <p class="text-muted">Staff</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://twitter.com/tjsheehy"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://github.com/tjsheehy"><i class="fa fa-github-alt"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member"><img width="225" height="225" src=/assets/team/beatrice-4981400e21d900f3b584a4a6cdda7843.jpg alt="Béatrice Lejou" class="img-responsive img-circle">
+          <h4>Béatrice Lejou</h4>
+          <p class="text-muted">Staff</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://twitter.com/glovesmore"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member"><img width="225" height="225" src=/assets/team/andy-25584df3ec5850391c7d0d56c6ed4c95.jpg alt="Andy Robinson" class="img-responsive img-circle">
+          <h4>Andy Robinson</h4>
+          <p class="text-muted">Staff</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://twitter.com/andyrobinsonuk"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://cultivatehq.com/"><i class="fa fa-globe"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member"><img width="225" height="225" src=/assets/team/katie_fenn-898600bedabf3b3afcf7a8e51241b1bc.jpg alt="Katie Fenn" class="img-responsive img-circle">
+          <h4>Katie Fenn</h4>
+          <p class="text-muted">Staff</p>
+          <ul class="list-inline social-buttons">
+            <li><a href="https://twitter.com/katie_fenn"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://katiefenn.co.uk/"><i class="fa fa-globe"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div id="cocModal" tabindex="-1" role="dialog" aria-hidden="true" class="portfolio-modal modal fade">
+  <div class="modal-content">
+    <div data-dismiss="modal" class="close-modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Code of Conduct</h2>
+
+            <p>All attendees, speakers, sponsors and volunteers at ScotlandJS are required to agree with the following code of conduct. Staff will enforce this throughout the event.</p>
+
+            <p>If you need help please contact us.</p>
+
+            <h3>The Quick Version</h3>
+
+<p>ScotlandJS is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identification, sexual orientation, physical or mental ability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants, visitors of the venue or event staff in any form. Sexual language and imagery is not appropriate for any conference venue, including talks and workshops.</p>
+
+<p>If a conference participant engages in harassing behaviour, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.</p>
+
+<h3>The Less Quick Version</h3>
+
+<p>Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+Participants asked to stop any harassing behavior are expected to comply immediately.</p>
+
+<p>Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.</p>
+
+<p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff.</p>
+
+<p>Conference staff will be happy to help participants contact venue security or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
+
+<p>We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
+
+<p>This code of conduct is slightly modified from <a href="http://confcodeofconduct.com">http://confcodeofconduct.com</a>. We will continue to refine as appropriate.</p>
+
+<p>Original source and credit: <a href="http://2012.jsconf.us/#/about">http://2012.jsconf.us/#/about</a> &amp; The Ada Initiative</p>
+
+<p>This work is licensed under a Creative Commons Attribution 3.0 Unported License</p>
+            <button type="button" data-dismiss="modal" class="btn btn-primary"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
     <footer>
   <div class="container">
-    <p> &copy; 2015 Scotland JS Conference. All rights reserved.</p>
-  	<a class="codeofconduct" href="/codeofconduct/index.html">Code of Conduct</a>
-	</div>
+    <div class="row"><br></div>
+    <div class="row">
+      <div class="col-md-12"><span class="copyright">
+          <div class="text-muted">© 2016 Scotland JS Conference. All rights reserved.</div></span></div>
+    </div>
+  </div>
 </footer>
 
   </body>
