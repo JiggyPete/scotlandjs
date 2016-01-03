@@ -424,6 +424,11 @@ header
   color: yellow
   background-image: url(<%= asset_path 'banner_480@2x.jpg' %>)
 
+@media (max-width: 350px)
+  header
+    .intro-text
+      .intro-heading
+        font-size: 7em
 
 @media (min-width: 786px)
   header .intro-text
@@ -500,6 +505,12 @@ section
     font-style: italic
     font-weight: 400
     margin-bottom: 40px
+
+@media (max-width: 350px)
+  section
+    h2.section-heading
+      font-size: 6em
+
 
 @media (min-width: 768px)
   section
