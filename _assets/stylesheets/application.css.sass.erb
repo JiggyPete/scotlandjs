@@ -34,10 +34,11 @@ p
 a
   outline: none
   &:hover, &:focus, &:active, &.active
-    outline: none
-  color: #1f8ab6
+    color: #1f8ab6
+    text-decoration: underline
   &:hover, &:focus, &:active, &.active
     color: #18698a
+    text-decoration: underline
 
 h1, h2, h3, h4, h5, h6
   font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
@@ -267,7 +268,8 @@ fieldset[disabled] .btn-xl.active
     letter-spacing: 0.03em
     &:hover, &:focus
       color: #e5e500
-      outline: none
+    &:focus
+      text-decoration: underline
   .navbar-nav > .active > a
     border-radius: 0
     color: white
@@ -314,7 +316,7 @@ tito-button button
     padding-right: 10px
     cursor: pointer
     text-align: left
-    &:hover:not(.no-abstract) img
+    &:hover:not(.no-abstract) img, &:focus:not(.no-abstract) img
       border: 7px solid #e5e500
     &.no-abstract
       cursor: default
@@ -655,7 +657,6 @@ ul.social-buttons
     font-size: 1.3em
     line-height: 40px
     color: white
-    outline: none
     &:hover, &:focus, &:active
       background-color: #1f8ab6
 
