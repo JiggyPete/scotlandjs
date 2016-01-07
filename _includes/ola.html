@@ -1,4 +1,4 @@
-<div tabindex="-1" role="dialog" aria-hidden="true" id="ola" class="portfolio-modal modal fade">
+<div tabindex="-1" role="dialog" id="ola" class="portfolio-modal modal fade">
   <div class="modal-content">
     <div data-dismiss="modal" class="close-modal">
       <div class="lr">
@@ -10,13 +10,19 @@
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
             <h2>Ola Gasidlo</h2>
-            <div class="portfolio-item"><span class="portfolio-link"><img src={{ "speakers/ola_gasidlo.jpg" | asset_path }} srcset={{ "speakers/ola_gasidlo@2x.jpg" | asset_path }} alt="Ola Gasidlo" width="400" height="289"/></span>
+            <div class="portfolio-item"><span class="portfolio-link"><img src={{ "speakers/ola_gasidlo.jpg" | asset_path }} srcset={{ "speakers/ola_gasidlo@2x.jpg" | asset_path }} alt="" width="400" height="289"/></span>
               <div class="portfolio-caption">
-                <h3>Ola Gasidlo</h3>
+                <h3 tabindex="0">Ola Gasidlo</h3>
                 <ul class="list-inline social-buttons">
-                  <li><a href="https://twitter.com/misprintedtype"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="https://github.com/zoepage"><i class="fa fa-github-alt"></i></a></li>
-                  <li><a href="http://hood.ie"><i class="fa fa-globe"></i></a></li>
+                  <li><a href="https://twitter.com/misprintedtype">
+                      <span class="sr-only">Twitter @misprintedtype</span>
+                      <i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://github.com/zoepage">
+                      <span class="sr-only">Github zoepage</span>
+                      <i class="fa fa-github-alt"></i></a></li>
+                  <li><a href="http://hood.ie">
+                      <span class="sr-only">hood.ie</span>
+                      <i class="fa fa-globe"></i></a></li>
                 </ul>
               </div>
             </div><p>Ola is a front-end / JavaScript developer, core member of Team Hoodie and organiser of OpenTechSchool Dortmund. She loves making the web accessible for everyone, riding the trails and Emma-driven development.</p>
