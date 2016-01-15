@@ -31,7 +31,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&amp;subset=latin" rel="stylesheet">
   <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap-8c110b710ef59cc126747b74f9e3f52f.css">
   <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome-078a614ab0f14d9b38157c8a45dc8420.css">
-  <link rel="stylesheet" href="/assets/application-899eca3a90862f3ca105b22ec690d0b6.css">
+  <link rel="stylesheet" href="/assets/application-13a4af2f43f3d577c2378333441f2859.css">
   <style type="text/css">@font-face {font-family: "Easycore"; src: url('/fonts/Easycore.ttf') format("truetype");}</style>
 
   <script src="/assets/vendor/jquery/dist/jquery-3df5857d19acba0f22b48633d5f6b9d6.js"></script>
@@ -61,11 +61,14 @@
         <li><a href="/" id="home-link" class="page-scroll">Scotland JS</a></li>
         <li><a href="/#tickets">Tickets</a></li>
         <li><a href="/#talks" class="page-scroll">Speakers</a></li>
-        <li><a href="/cfp">CFP</a></li>
+        <li><a href="/cfp"><span class="sr-only">Call for proposals</span><span
+                                 aria-hidden="true">CFP</span></a></li>
         <!-- <li><a href="/#sponsors" class="page-scroll">Sponsors</a></li> -->
         <li><a href="/codeofconduct">Code of Conduct</a></li>
         <li><a href="/videos">Videos</a></li>
-        <li><a href="https://twitter.com/scotlandjs" class="fa-wrapper"><i class="fa fa-2x fa-twitter"></i></a></li>
+        <li><a href="https://twitter.com/scotlandjs" class="fa-wrapper">
+            <i class="fa fa-2x fa-twitter"></i>
+            <span class="sr-only">Follow Scotland JS on Twitter</span></a></li>
       </ul>
     </div>
   </div>
@@ -81,6 +84,7 @@
   </div>
 </header>
 
+    <main>
     <section class="content-body">
   <div class="container video_list">
     <h2 class="section-heading customfont">2014</h2>
@@ -90,7 +94,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Amanda O'Connell: Let's talk... mental health</h4>
+        <h3>Amanda O'Connell: Let's talk... mental health</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96477735?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -99,7 +103,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Angelina Fabbro: Keynote</h4>
+        <h3>Angelina Fabbro: Keynote</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96430136?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -108,7 +112,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Coby Chapple: How design happens at GitHub</h4>
+        <h3>Coby Chapple: How design happens at GitHub</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96430140?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -117,7 +121,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Dave Kennedy: Foundations for Assemble</h4>
+        <h3>Dave Kennedy: Foundations for Assemble</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96425315?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -126,7 +130,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Gabe Hollombe: Build Games with JavaScript and Phaser</h4>
+        <h3>Gabe Hollombe: Build Games with JavaScript and Phaser</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96430137?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -135,7 +139,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>James Coglan: Make: the forgotten build tool</h4>
+        <h3>James Coglan: Make: the forgotten build tool</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96425320?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -144,7 +148,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Jan Monschke: Building a collaborative audio editor based on the Web Audio API</h4>
+        <h3>Jan Monschke: Building a collaborative audio editor based on the Web Audio API</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96477738?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -153,7 +157,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Jason Frame: Beyond the AST - A Fr**ework for Learnable Programming</h4>
+        <h3>Jason Frame: Beyond the AST - A Fr**ework for Learnable Programming</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96430141?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -162,7 +166,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Jaume Sanchez Elias: Getting started with three.js and WebGL</h4>
+        <h3>Jaume Sanchez Elias: Getting started with three.js and WebGL</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96477742?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -171,7 +175,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Jo Liss: No more `grunt watch`: Modern build workflows with Broccoli</h4>
+        <h3>Jo Liss: No more `grunt watch`: Modern build workflows with Broccoli</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96508134?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -180,7 +184,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Joe Pettersson: JavaScript Security: myths, fallacies and anti-patterns</h4>
+        <h3>Joe Pettersson: JavaScript Security: myths, fallacies and anti-patterns</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96477736?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -189,7 +193,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>John Sutherland: A Humane Introduction to Functional Programming</h4>
+        <h3>John Sutherland: A Humane Introduction to Functional Programming</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96425313?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -198,7 +202,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Jonathan Lipps: Yield! How ES6 Generators and Monocle-js Can Bring Async Into Line, Literally</h4>
+        <h3>Jonathan Lipps: Yield! How ES6 Generators and Monocle-js Can Bring Async Into Line, Literally</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96425438?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -207,7 +211,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Jonathan Martin: The Realtime Web: We're Doing it Wrong.</h4>
+        <h3>Jonathan Martin: The Realtime Web: We're Doing it Wrong.</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96477905?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -216,7 +220,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Justin Searls: JavaScript Testing Tactics</h4>
+        <h3>Justin Searls: JavaScript Testing Tactics</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96425314?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -225,7 +229,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Matt Field: Don't Go Changin'</h4>
+        <h3>Matt Field: Don't Go Changin'</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96425437?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -234,7 +238,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Mikeal Rogers: Keynote</h4>
+        <h3>Mikeal Rogers: Keynote</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96477739?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -243,7 +247,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Phil Leggetter: Testing Ginormous JavaScript Apps</h4>
+        <h3>Phil Leggetter: Testing Ginormous JavaScript Apps</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96430139?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -252,7 +256,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Philip Roberts: Help, I'm stuck in an event-loop.</h4>
+        <h3>Philip Roberts: Help, I'm stuck in an event-loop.</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96425312?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -261,7 +265,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Ron Evans: Cylon.js: The JavaScript Evolution Of Open Source Robotics</h4>
+        <h3>Ron Evans: Cylon.js: The JavaScript Evolution Of Open Source Robotics</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96477741?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -270,7 +274,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Ryan Sandor Richards: High Performance Visualizations with Canvas</h4>
+        <h3>Ryan Sandor Richards: High Performance Visualizations with Canvas</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96425319?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -279,7 +283,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Stian Veum Mollersen: Making math come alive with JavaScript</h4>
+        <h3>Stian Veum Mollersen: Making math come alive with JavaScript</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96444759?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -288,7 +292,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Sugendran Ganess: Refactoring Legacy Code</h4>
+        <h3>Sugendran Ganess: Refactoring Legacy Code</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96444760?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -297,7 +301,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Tero Parviainen: Build Your Own AngularJS</h4>
+        <h3>Tero Parviainen: Build Your Own AngularJS</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96444762?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -306,7 +310,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Tom Ashworth: ServiceWorker & the offline web</h4>
+        <h3>Tom Ashworth: ServiceWorker & the offline web</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96430138?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -315,7 +319,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Zeno Rocha Bueno Netto: A future called Web Components</h4>
+        <h3>Zeno Rocha Bueno Netto: A future called Web Components</h3>
       </p>
       <iframe src="//player.vimeo.com/video/96477903?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -324,6 +328,7 @@
 </section>
 
 
+    </main>
     <footer>
   <div class="container">
     <div class="row"><br></div>

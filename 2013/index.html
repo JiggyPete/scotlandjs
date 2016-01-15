@@ -31,7 +31,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&amp;subset=latin" rel="stylesheet">
   <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap-8c110b710ef59cc126747b74f9e3f52f.css">
   <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome-078a614ab0f14d9b38157c8a45dc8420.css">
-  <link rel="stylesheet" href="/assets/application-899eca3a90862f3ca105b22ec690d0b6.css">
+  <link rel="stylesheet" href="/assets/application-13a4af2f43f3d577c2378333441f2859.css">
   <style type="text/css">@font-face {font-family: "Easycore"; src: url('/fonts/Easycore.ttf') format("truetype");}</style>
 
   <script src="/assets/vendor/jquery/dist/jquery-3df5857d19acba0f22b48633d5f6b9d6.js"></script>
@@ -61,11 +61,14 @@
         <li><a href="/" id="home-link" class="page-scroll">Scotland JS</a></li>
         <li><a href="/#tickets">Tickets</a></li>
         <li><a href="/#talks" class="page-scroll">Speakers</a></li>
-        <li><a href="/cfp">CFP</a></li>
+        <li><a href="/cfp"><span class="sr-only">Call for proposals</span><span
+                                 aria-hidden="true">CFP</span></a></li>
         <!-- <li><a href="/#sponsors" class="page-scroll">Sponsors</a></li> -->
         <li><a href="/codeofconduct">Code of Conduct</a></li>
         <li><a href="/videos">Videos</a></li>
-        <li><a href="https://twitter.com/scotlandjs" class="fa-wrapper"><i class="fa fa-2x fa-twitter"></i></a></li>
+        <li><a href="https://twitter.com/scotlandjs" class="fa-wrapper">
+            <i class="fa fa-2x fa-twitter"></i>
+            <span class="sr-only">Follow Scotland JS on Twitter</span></a></li>
       </ul>
     </div>
   </div>
@@ -81,6 +84,7 @@
   </div>
 </header>
 
+    <main>
     <section class="content-body">
   <div class="container video_list">
     <h2 class="section-heading customfont">2013</h2>
@@ -90,7 +94,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Bernard Kobos: Automated Cross-browser Testing with Node</h4>
+        <h3>Bernard Kobos: Automated Cross-browser Testing with Node</h3>
       </p>
       <iframe src="//player.vimeo.com/video/69872312?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -100,7 +104,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Boydlee Pollentine: REST Easy With Deployd (Rapid API Creation)</h4>
+        <h3>Boydlee Pollentine: REST Easy With Deployd (Rapid API Creation)</h3>
       </p>
       <iframe src="//player.vimeo.com/video/69077920?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -110,7 +114,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Damian Nicholson: Writing (testable | maintainable | scalable | rock solid) JavaScript</h4>
+        <h3>Damian Nicholson: Writing (testable | maintainable | scalable | rock solid) JavaScript</h3>
       </p>
       <iframe src="//player.vimeo.com/video/68526881?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -120,7 +124,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Dominic Tarr: The database of the future: leveldb</h4>
+        <h3>Dominic Tarr: The database of the future: leveldb</h3>
       </p>
       <iframe src="//player.vimeo.com/video/70232116?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -130,7 +134,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>David Bruant: Asynchronous patterns</h4>
+        <h3>David Bruant: Asynchronous patterns</h3>
       </p>
       <iframe src="//player.vimeo.com/video/68522472?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -140,7 +144,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Gregor Martynus: Look ma no backend</h4>
+        <h3>Gregor Martynus: Look ma no backend</h3>
       </p>
       <iframe src="//player.vimeo.com/video/68987290?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -151,7 +155,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Huong Vu (Zi): Embracing IndexedDB</h4>
+        <h3>Huong Vu (Zi): Embracing IndexedDB</h3>
       </p>
       <iframe src="//player.vimeo.com/video/68526900?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -161,7 +165,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>James Shore: Rigorous, Professional Javascript</h4>
+        <h3>James Shore: Rigorous, Professional Javascript</h3>
       </p>
       <iframe src="//player.vimeo.com/video/69872310?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -171,7 +175,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Jan Lehnardt: Keynote</h4>
+        <h3>Jan Lehnardt: Keynote</h3>
       </p>
       <iframe src="//player.vimeo.com/video/69451712?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -181,7 +185,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Jason Frame: Live coding in JS</h4>
+        <h3>Jason Frame: Live coding in JS</h3>
       </p>
       <iframe src="//player.vimeo.com/video/69077919?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -191,7 +195,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Mark Boas: Hyperaudio - Making Audio a First Class Citizen of the Web</h4>
+        <h3>Mark Boas: Hyperaudio - Making Audio a First Class Citizen of the Web</h3>
       </p>
       <iframe src="//player.vimeo.com/video/69612769?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -201,7 +205,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Ole Michaelis: Automated deployments with robots</h4>
+        <h3>Ole Michaelis: Automated deployments with robots</h3>
       </p>
       <iframe src="//player.vimeo.com/video/69454968?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -211,7 +215,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Philip Roberts: Enemy of the state: An introduction to Functional Reactive Programming and Bacon.</
+        <h3>Philip Roberts: Enemy of the state: An introduction to Functional Reactive Programming and Bacon.</
       js</p>
       <iframe src="//player.vimeo.com/video/68987289?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -222,8 +226,8 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Ryan Sandor Richards:
-  Front-to-back: Architecting your data reporting and visualization stack</h4>
+        <h3>Ryan Sandor Richards:
+  Front-to-back: Architecting your data reporting and visualization stack</h3>
       </p>
       <iframe src="//player.vimeo.com/video/68522448?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     </div>
@@ -233,7 +237,7 @@
   <div class="info">
     <div class="container">
       <p>
-        <h4>Sebastian Golasch: The Browser, the programmer and the Dalek</h4>
+        <h3>Sebastian Golasch: The Browser, the programmer and the Dalek</h3>
       </p>
       <iframe src="//player.vimeo.com/video/68703493?portrait:0" width="650px" height="300px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 
@@ -243,6 +247,7 @@
 </section>
 
 
+    </main>
     <footer>
   <div class="container">
     <div class="row"><br></div>
