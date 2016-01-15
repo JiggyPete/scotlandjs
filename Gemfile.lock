@@ -70,8 +70,8 @@ PLATFORMS
 
 DEPENDENCIES
   bourbon
-  jekyll
-  jekyll-assets
+  jekyll (= 1.4.2)
+  jekyll-assets (= 0.7.4)
   neat
   rake
   sass
