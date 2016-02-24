@@ -3,8 +3,12 @@
 <header>
   <div id="page-top" class="container">
     <div class="intro-text">
-      <h1 class="intro-heading"><br><br>Scotland&nbsp;JS<br></h1>
-      <div class="intro-lead-in">Edinburgh, June 2nd and 3rd 2016</div><br>
+      {% if page.hero-text %}
+        <h1 class="intro-heading"><br><br>{{ page.hero-text }}<br></h1>
+      {% else %}
+        <h1 class="intro-heading"><br><br>Scotland&nbsp;JS<br></h1>
+        <div class="intro-lead-in">Edinburgh, June 2nd and 3rd 2016</div><br>
+      {% endif %}
     </div>
   </div>
 </header>
