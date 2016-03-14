@@ -13,8 +13,8 @@
 - name: 'Raquel Vélez'
   keynote: true
   individual_page: 'raquel'
-  image: 'speakers/raquel_vlez_thumb.jpg'
-  image2: 'speakers/raquel_vlez_thumb@2x.jpg'
+  image: 'speakers/raquel_thumb.jpg'
+  image2: 'speakers/raquel_thumb@2x.jpg'
   twitter: '@rockbot'
   title: ''
 - name: 'Robin Mehner'
