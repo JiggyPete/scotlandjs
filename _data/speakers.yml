@@ -8,7 +8,6 @@
   twitter: '@misslivirose'
   github: 'misslivirose'
   website: 'http://livierickson.com'
-  title: 'Hello'
   bio: 'Livi Erickson is a virtual and augmented reality developer evangelist at Microsoft, focusing on development for VR and AR platforms. She is passionate about teaching and inspiring new virtual and augmented reality developers and enjoys experimenting with different headsets and gadgets. Livi has built and released apps for desktop and mobile VR, created several VR-enabled websites, presented JavaScript for VR at JS Conf Budapest 2015, and taught Intro to Virtual Reality Development at the University of Bremen as part of the 2015 Informatica Feminale summer program. She is excited about the potential of immersive computing, and runs the blog ‘The Matrix is my Office’.'
 - name: 'Charlotte Spencer'
   keynote: false
@@ -20,7 +19,6 @@
   twitter: '@charlotteis'
   github: 'charlotteis'
   website: 'http://var.ghost.io'
-  title: 'Hello'
   bio: 'Charlotte Spencer does code and people things for Marks and Spencer. Their goal is to make the web a more accessible place for everyone in terms of both technology and culture, and works extensively in open source for projects like Hoodie and Your First Pr to achieve this. To summarise them in three words: pizza, bed, emoji.'
 - name: 'Raquel Vélez'
   keynote: true
@@ -32,7 +30,6 @@
   twitter: '@rockbot'
   github: 'rockbot'
   website: 'http://rckbt.me'
-  title: 'Hello'
   bio: 'Raquel Vélez is an American technologist and community leader with a global perspective. She studied Mechanical Engineering at the California Institute of Technology (Caltech) and worked as a roboticist for 8 years at a variety of institutions, including the NASA Jet Propulsion Laboratory, the University of Duisburg-Essen, the MIT Lincoln Laboratory, the University of Genoa, and Applied Minds. Raquel&#39;s career shifted to web development in 2012, wherein she has since specialized in Node.js (JavaScript). She has worked at Skookum Digital Works, Storify, and Sauce Labs. She is currently a Senior Engineer at npm, Inc. and speaks at conferences around the world. She is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics: Building NodeBots with Johnny-Five, Raspberry Pi, Arduino, and BeagleBone</a>. Raquel has lived in 4 countries, speaks 5 languages, and currently lives in the San Francisco Bay Area.'
 - name: 'Robin Mehner'
   keynote: false
@@ -45,7 +42,6 @@
   title: ''
   github: 'rmehner'
   website: 'http://coding-robin.de'
-  title: 'Hello'
   bio: "Robin loves The Semicolons, but not the semicolon. He's living in Berlin and runs several community events with his friends like BerlinJS, Reject.JS and NodeCopter. While he earned his JavaScript chops during the great browser wars, he also explored other languages on the way."
 - name: 'Ola Gasidlo'
   keynote: false
@@ -58,6 +54,44 @@
   title: ''
   github: 'zoepage'
   website: 'http://hood.ie'
-  title: 'Hello'
   bio: 'Ola is a front-end / JavaScript developer, core member of Team Hoodie and organiser of OpenTechSchool Dortmund. She loves making the web accessible for everyone, riding the trails and Emma-driven development.'
+
+- name: 'Irina Shestak'
+  keynote: false
+  bio_image: 'speakers/irina_shestak.jpg'
+  bio_image2: 'speakers/irina_shestak@2x.jpg'
+  individual_page: 'irina'
+  image: 'speakers/irina_shestak_thumb.jpg'
+  image2: 'speakers/irina_shestak_thumb@2x.jpg'
+  twitter: '@_lrlna'
+  title: 'Javascript Takes on Genetically Evolving Cellular Automata'
+  github: 'lrlna'
+  website: 'https://github.com/lrlna'
+  bio: 'Irina is a software developer based in Vancouver, Canada. She is a javascript and node enthusiast. Aside from enthusiasting over javascript, she is a regular hiker out in the Rocky mountains, and a code mentor around Vancouver.'
+
+- name: 'Sílvia Pina'
+  keynote: false
+  bio_image: 'speakers/silvia_pina.jpg'
+  bio_image2: 'speakers/silvia_pina.jpg'
+  individual_page: 'silvia'
+  image: 'speakers/silvia_pina_thumb.jpg'
+  image2: 'speakers/silvia_pina_thumb.jpg'
+  twitter: ''
+  title: 'How cognitive psychology can help you write better code'
+  github: ''
+  website: ''
+  bio: "Silvia Pina is a polyglot software engineer working at Zalando, Europe's leading online fashion platform. Besides computer science, in the past she studied psychology and neuroscience. Currently her interests include functional programming, experimental music and arthouse film."
+
+- name: 'Cat Hawker'
+  keynote: false
+  bio_image: 'speakers/cat_hawker.jpg'
+  bio_image2: 'speakers/cat_hawker@2x.jpg'
+  individual_page: 'cat'
+  image: 'speakers/cat_hawker_thumb.jpg'
+  image2: 'speakers/cat_hawker_thumb@2x.jpg'
+  twitter: 'auberdjinn'
+  title: 'Creating accessible components'
+  github: ''
+  website: ''
+  bio: "Cat is a web developer and accessibility champion for BBC Knowledge and Learning. When she’s not making digital stuff she’s likely to be making good old fashioned physical stuff, or donning head-to-toe waterproofs to enjoy the great Scottish outdoors."
 
