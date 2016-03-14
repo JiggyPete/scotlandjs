@@ -4,23 +4,13 @@
   {% endif %}
 {% endfor %}
 
-<div class="speaker-info">
-	<a href="/speakers/{{speaker.individual_page}}">
-	  <img src="{{ speaker.image | asset_path }}" alt="" />
-    {% if speaker.schedule_name %}
-	     <h4>{{ speaker.schedule_name }}</h4>
-    {% else %}
-      <h4>{{ speaker.name }}</h4>
-    {% endif %}
-	</a>
-  <a href="http://twitter.com/{{speaker.twitter}}" target="_blank">
-    <em>{{ speaker.twitter }}</em>
-  </a>
-</div>
-<a href="/speakers/{{speaker.individual_page}}">
-  {% if speaker.keynote %}
-    <p>Keynote Speaker</p>
-  {% else %}
-    <p>{{ speaker.title }}</p>
-  {% endif %}
+
+<a href="#{{speaker.individual_page}}" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ speaker.image | asset_path }} srcset={{ speaker.image2 | asset_path }} alt="{{speaker.name}}" width="150" height="150"/>
+  <div class="info">
+  <h3>
+    <span aria-hidden="true">{{speaker.name}}</span>
+    <small>{{speaker.twitter}}</small>
+  </h3>
+  <p></p>
+  </div>
 </a>
