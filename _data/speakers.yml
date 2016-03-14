@@ -95,3 +95,15 @@
   website: ''
   bio: "Cat is a web developer and accessibility champion for BBC Knowledge and Learning. When she’s not making digital stuff she’s likely to be making good old fashioned physical stuff, or donning head-to-toe waterproofs to enjoy the great Scottish outdoors."
 
+- name: 'Chad Gowler'
+  keynote: false
+  bio_image: 'speakers/chad_gowler.jpg'
+  bio_image2: 'speakers/chad_gowler@2x.jpg'
+  individual_page: 'chad'
+  image: 'speakers/chad_gowler_thumb.jpg'
+  image2: 'speakers/chad_gowler_thumb@2x.jpg'
+  twitter: 'kitation'
+  title: 'Mental Health: Your Employer and You (Part 1)'
+  website: 'http://www.kitation.co.uk'
+  bio: "Chad is a Ruby on Rails developer and service designer for Yoomee in Sheffield. She is a strong believer in software for social good, and designing for inclusivity. She is also a Code Club volunteer and occasional event organiser."
+
