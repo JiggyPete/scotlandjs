@@ -126,3 +126,15 @@
   website: 'http://www.techtalkfornontechies.com/'
   bio: "​Kim has years of experience working with learners of all ages, skill level, and abilities and she would like to offer what she knows about successful mentorship to her new community. Kim is the author of the “Tech Talk For Non-Techies” blog and is currently pursuing a Doctors of Business Administration - Technology Entrepreneurship. She is also working on her passion project JrDevMentoring.com."
 
+- name: 'Ruth John'
+  keynote: false
+  bio_image: 'speakers/ruth_john_thumb@2x.jpg'
+  bio_image2: 'speakers/ruth_john_thumb@2x.jpg'
+  individual_page: 'ruth'
+  image: 'speakers/ruth_john_thumb@2x.jpg'
+  image2: 'speakers/ruth_john_thumb@2x.jpg'
+  twitter: '@rumyra'
+  title: 'Let’s talk about MIDI.'
+  website: 'https://rumyrashead.com'
+  bio: "Ruth has been wireframing, designing and coding for over a decade. She also tweets and blogs a bit too. You can often find her chatting about new mobile & web development techniques. She tends to get excited about making things, whether that’s sewing jackets connected to her mobile or projecting visuals at gigs with her hand coded VJ software."
+
