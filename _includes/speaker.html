@@ -5,17 +5,15 @@
 {% endfor %}
 
 
-<a href="#{{speaker.individual_page}}" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ speaker.image | asset_path }} srcset={{ speaker.image2 | asset_path }} alt="{{speaker.name}}" width="150" height="150"/>
+<a href="#{{speaker.individual_page}}" data-toggle="modal" class="speaker col-md-4 col-sm-6"><img src={{ speaker.image | asset_path }} srcset={{ speaker.image2 | asset_path }} alt="{{speaker.name}}" width="150" height="150"/>
   <div class="info">
-  <h3>
-    <span aria-hidden="true">{{speaker.name}}</span>
-    <small>{{speaker.twitter}}</small>
-  </h3>
-  <p></p>
+    <h3>
+      <span aria-hidden="true">{{speaker.name}}</span>
+      <small>{{speaker.twitter}}</small>
+    </h3>
+    <p></p>
   </div>
 </a>
-
-
 
 <div tabindex="-1" role="dialog" id="{{speaker.individual_page}}" class="portfolio-modal modal fade">
   <div class="modal-content">
