@@ -138,3 +138,66 @@
   website: 'https://rumyrashead.com'
   bio: "Ruth has been wireframing, designing and coding for over a decade. She also tweets and blogs a bit too. You can often find her chatting about new mobile & web development techniques. She tends to get excited about making things, whether that’s sewing jackets connected to her mobile or projecting visuals at gigs with her hand coded VJ software."
 
+- name: 'Matthew Podwysocki'
+  keynote: false
+  bio_image: 'speakers/matthew.jpg'
+  bio_image2: 'speakers/matthew.jpg'
+  individual_page: 'matthew'
+  image: 'speakers/matthew.jpg'
+  image2: 'speakers/matthew@2x.jpg'
+  twitter: '@mattpodwysocki'
+  title: 'Async Programming at Netflix, Microsoft, Slack and the world!'
+  website: 'http://reactivex.io'
+  bio: "Matthew Podwysocki is a Principal Software Engineer and self-described Open Sourcerer. He currently works on the DX/TED team with a focus on reactive programming at all scales, the Internet of Things, and improving technical education for our kids."
+
+- name: 'Clay Smith'
+  keynote: false
+  bio_image: 'speakers/clay_smith.jpg'
+  bio_image2: 'speakers/clay_smith@2x.jpg'
+  individual_page: 'clay'
+  image: 'speakers/clay_smith_thumb.jpg'
+  image2: 'speakers/clay_smith_thumb@2x.jpg'
+  twitter: '@smithclay'
+  title: 'Introduction to HTTP/2: The Weird Parts'
+  website: 'https://clay.fail'
+  bio: "Clay is a Developer Advocate at New Relic in San Francisco. He has previously worked at different highly-scalable agile unicorn, narwhal, and zombie B2B early-stage startups as a senior software engineer. Clay wrote his first JavaScript in 1998 from a code snipped copied from a “DHTML for Dummies” book. If not slinging JavaScript or reading RFCs, he’s probably in the kitchen perfecting his award-winning chili recipe."
+
+- name: 'Evan Morikawa'
+  keynote: false
+  bio_image: 'speakers/evan.jpg'
+  bio_image2: 'speakers/evan@2x.jpg'
+  individual_page: 'evan'
+  image: 'speakers/evan_thumb.jpg'
+  image2: 'speakers/evan_thumb@2x.jpg'
+  twitter: '@e0m'
+  title: 'JS Takes the Desktop: Electron, React, and Native Win/Mac/Linux Experiences At Scale'
+  website: 'https://twitter.com/e0m'
+  bio: "Evan Morikawa is an engineer at Nylas building the email client, N1. Before Nylas, Evan was CTO at Proximate, an events & social network analysis company, and was a Techstars dev in residence. He splits his time between NYC and San Francisco and enjoys reviewing his Moves geo-tracking data to find a new places to explore next."
+
+- name: 'Ewan Dennis'
+  keynote: false
+  bio_image: 'speakers/ewan.jpg'
+  bio_image2: 'speakers/ewan.jpg'
+  individual_page: 'ewan'
+  image: 'speakers/ewan.jpg'
+  image2: 'speakers/ewan.jpg'
+  twitter: '@ewanovitch'
+  title: 'Personal Data Mining (Not) Just For Fun'
+  website: 'http://www.cloudygoo.com/'
+  bio: "Ewan is a career technologist working in Scotland, hopelessly addicted to turning ideas into things and generally getting the stuff inside his head out into the world.<br/><br/>
+
+Ewan’s role models include Johnny Ball, Kai Krause and Daniel Waterhouse. He also finds it difficult to walk past big red buttons without pressing the heck out of them.<br/><br/>
+
+Ewan has passed some very enjoyable time working on video games, scientific visualisation projects and application security. He is now focussed on building partner integrations at SparkPost."
+
+- name: 'James Halliday'
+  keynote: false
+  bio_image: 'speakers/substack.png'
+  bio_image2: 'speakers/substack.png'
+  individual_page: 'substack'
+  image: 'speakers/substack.png'
+  image2: 'speakers/substack.png'
+  twitter: '@substack'
+  title: 'p2p off the grid'
+  website: 'http://substack.net'
+  bio: "Hello! I have published many npm packages over the years and I have learned a lot along the way. I have been fascinated lately with how to build decentralized p2p services that are hosted and governed by their users to build a more egalitarian and democratic web."
