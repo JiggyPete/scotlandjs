@@ -76,10 +76,7 @@
   individual_page: 'silvia'
   image: 'speakers/silvia_pina_thumb.jpg'
   image2: 'speakers/silvia_pina_thumb.jpg'
-  twitter: ''
   title: 'How cognitive psychology can help you write better code'
-  github: ''
-  website: ''
   bio: "Silvia Pina is a polyglot software engineer working at Zalando, Europe's leading online fashion platform. Besides computer science, in the past she studied psychology and neuroscience. Currently her interests include functional programming, experimental music and arthouse film."
 
 - name: 'Cat Hawker'
@@ -91,8 +88,6 @@
   image2: 'speakers/cat_hawker_thumb@2x.jpg'
   twitter: 'auberdjinn'
   title: 'Creating accessible components'
-  github: ''
-  website: ''
   bio: "Cat is a web developer and accessibility champion for BBC Knowledge and Learning. When she’s not making digital stuff she’s likely to be making good old fashioned physical stuff, or donning head-to-toe waterproofs to enjoy the great Scottish outdoors."
 
 - name: 'Chad Gowler'
@@ -106,4 +101,28 @@
   title: 'Mental Health: Your Employer and You (Part 1)'
   website: 'http://www.kitation.co.uk'
   bio: "Chad is a Ruby on Rails developer and service designer for Yoomee in Sheffield. She is a strong believer in software for social good, and designing for inclusivity. She is also a Code Club volunteer and occasional event organiser."
+
+- name: 'Jem Young'
+  keynote: false
+  bio_image: 'speakers/jem_young.jpg'
+  bio_image2: 'speakers/jem_young@2x.jpg'
+  individual_page: 'jem'
+  image: 'speakers/jem_young_thumb.jpg'
+  image2: 'speakers/jem_young_thumb@2x.jpg'
+  twitter: '@jemyoung'
+  title: 'ESNext, Service Workers, and the future of JavaScript'
+  website: 'http://www.jemyoung.com'
+  bio: "I’m a tall engineer who loves dogs and clean code. I’ve had the privilege of working for a variety of companies ranging from tiny startups to a multi-billion dollar tech company and I’ve been fortunate enough to work with a lot really smart people along the way. I enjoy coding across the stack but my true passion lies in JavaScript and building clean UX. Favorite band: Radiohead Favorite movie: Fight Club Favorite type of dog: All of them! Mortal enemy: Low hanging ceiling fans."
+
+- name: 'Kim Crayton'
+  keynote: false
+  bio_image: 'speakers/kim_crayton.jpg'
+  bio_image2: 'speakers/kim_crayton@2x.jpg'
+  individual_page: 'kim'
+  image: 'speakers/kim_crayton_thumb.jpg'
+  image2: 'speakers/kim_crayton_thumb@2x.jpg'
+  twitter: '@KimCrayton1'
+  title: 'Overcoming the Challenges of Mentoring'
+  website: 'http://www.techtalkfornontechies.com/'
+  bio: "​Kim has years of experience working with learners of all ages, skill level, and abilities and she would like to offer what she knows about successful mentorship to her new community. Kim is the author of the “Tech Talk For Non-Techies” blog and is currently pursuing a Doctors of Business Administration - Technology Entrepreneurship. She is also working on her passion project JrDevMentoring.com."
 
