@@ -33,6 +33,19 @@
   website: 'http://var.ghost.io'
   bio: 'Charlotte Spencer does code and people things for Marks and Spencer. Their goal is to make the web a more accessible place for everyone in terms of both technology and culture, and works extensively in open source for projects like Hoodie and Your First Pr to achieve this. To summarise them in three words: pizza, bed, emoji.'
 
+- name: 'C J Silverio'
+  keynote: false
+  individual_page: 'charlotte'
+  bio_image: 'speakers/cj.jpg'
+  bio_image2: 'speakers/cj.jpg'
+  image: 'speakers/cj.jpg'
+  image2: 'speakers/cj.jpg'
+  twitter: '@ceejbot'
+  github: 'ceejbot'
+  website: 'https://github.com/ceejbot'
+  title: 'Monitoring on a budget'
+  bio: 'CJ, known to her friends as “ceej”, has been on the Internet making mistakes since 1987. She has somehow survived to enjoy writing software even more than she did back then, and she suspects she might have learned some useful things about how to do it during that time. Her current position as VP of Engineering at npm, Inc, is her favorite job ever. She gets to run the npm registry and the amazing tiny team that keeps the packages flowing.<br/></br>Her favorite member of One Direction is Brian Eno.'
+
 - name: 'Clay Smith'
   keynote: false
   bio_image: 'speakers/clay_smith.jpg'
@@ -44,6 +57,18 @@
   title: 'Introduction to HTTP/2: The Weird Parts'
   website: 'https://clay.fail'
   bio: "Clay is a Developer Advocate at New Relic in San Francisco. He has previously worked at different highly-scalable agile unicorn, narwhal, and zombie B2B early-stage startups as a senior software engineer. Clay wrote his first JavaScript in 1998 from a code snipped copied from a “DHTML for Dummies” book. If not slinging JavaScript or reading RFCs, he’s probably in the kitchen perfecting his award-winning chili recipe."
+
+- name: 'Dan Jenkins'
+  keynote: false
+  bio_image: 'speakers/dan_jenkins.jpg'
+  bio_image2: 'speakers/dan_jenkins.jpg'
+  individual_page: 'dan'
+  image: 'speakers/dan_jenkins.jpg'
+  image2: 'speakers/dan_jenkins.jpg'
+  twitter: '@dan_jenkins'
+  title: 'Getting Physical with Web Bluetooth in the Browser'
+  website: 'https://nimblea.pe'
+  bio: "Based in Kent, Dan is the founder of Nimble Ape Ltd, which he founded at the beginning of 2014. Dan loves working with Node.js and with its community, along with his passion for building great architecture for Applications.<br/></br>For the past few years Dan’s been building RESTful Hypermedia APIs but recently, he’s been working with the exciting WebRTC technology. As a Google Developer Expert in WebRTC his mission is to get more developers looking at and using the technology."
 
 - name: 'Evan Morikawa'
   keynote: false
@@ -117,6 +142,21 @@
   title: 'Async Programming at Netflix, Microsoft, Slack and the world!'
   website: 'http://reactivex.io'
   bio: "Matthew Podwysocki is a Principal Software Engineer and self-described Open Sourcerer. He currently works on the DX/TED team with a focus on reactive programming at all scales, the Internet of Things, and improving technical education for our kids."
+
+
+
+
+- name: 'Matt "Potch" Claypotch'
+  keynote: false
+  bio_image: 'speakers/potch.jpg'
+  bio_image2: 'speakers/potch.jpg'
+  individual_page: 'potch'
+  image: 'speakers/potch.jpg'
+  image2: 'speakers/potch.jpg'
+  twitter: '@potch'
+  title: '10 Feet and Rising- Building television-friendly web pages'
+  website: 'https://github.com/potch/'
+  bio: "Potch is a Web Developer Advocate at Mozilla, as well as resident hype man. He is also the creator of No Maintenance Intended. Potch is currently pursuing making “dece” happen."
 
 - name: 'Ola Gasidlo'
   keynote: false
