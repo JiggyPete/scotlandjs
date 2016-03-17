@@ -143,9 +143,6 @@
   website: 'http://reactivex.io'
   bio: "Matthew Podwysocki is a Principal Software Engineer and self-described Open Sourcerer. He currently works on the DX/TED team with a focus on reactive programming at all scales, the Internet of Things, and improving technical education for our kids."
 
-
-
-
 - name: 'Matt "Potch" Claypotch'
   keynote: false
   bio_image: 'speakers/potch.jpg'
@@ -206,8 +203,6 @@
   title: 'How cognitive psychology can help you write better code'
   bio: "Silvia Pina is a polyglot software engineer working at Zalando, Europe's leading online fashion platform. Besides computer science, in the past she studied psychology and neuroscience. Currently her interests include functional programming, experimental music and arthouse film."
 
-
-
 - name: 'Ruth John'
   keynote: false
   bio_image: 'speakers/ruth_john_thumb@2x.jpg'
@@ -219,6 +214,18 @@
   title: 'Let’s talk about MIDI.'
   website: 'https://rumyrashead.com'
   bio: "Ruth has been wireframing, designing and coding for over a decade. She also tweets and blogs a bit too. You can often find her chatting about new mobile & web development techniques. She tends to get excited about making things, whether that’s sewing jackets connected to her mobile or projecting visuals at gigs with her hand coded VJ software."
+
+- name: 'Tim Pietrusky'
+  keynote: false
+  bio_image: 'speakers/tim.jpg'
+  bio_image2: 'speakers/tim.jpg'
+  individual_page: 'tim'
+  image: 'speakers/tim.jpg'
+  image2: 'speakers/tim.jpg'
+  twitter: '@TimPietrusky'
+  title: ''
+  website: ''
+  bio: ""
 
 
 
