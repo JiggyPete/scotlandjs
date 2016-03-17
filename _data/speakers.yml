@@ -1,84 +1,3 @@
-- name: 'Livi Erickson'
-  keynote: true
-  individual_page: 'livi'
-  bio_image: 'speakers/livi_erickson.jpg'
-  bio_image2: 'speakers/livi_erickson@2x.jpg'
-  image: 'speakers/livi_erickson_thumb.jpg'
-  image2: 'speakers/livi_erickson_thumb@2x.jpg'
-  twitter: '@misslivirose'
-  github: 'misslivirose'
-  website: 'http://livierickson.com'
-  bio: 'Livi Erickson is a virtual and augmented reality developer evangelist at Microsoft, focusing on development for VR and AR platforms. She is passionate about teaching and inspiring new virtual and augmented reality developers and enjoys experimenting with different headsets and gadgets. Livi has built and released apps for desktop and mobile VR, created several VR-enabled websites, presented JavaScript for VR at JS Conf Budapest 2015, and taught Intro to Virtual Reality Development at the University of Bremen as part of the 2015 Informatica Feminale summer program. She is excited about the potential of immersive computing, and runs the blog ‘The Matrix is my Office’.'
-- name: 'Charlotte Spencer'
-  keynote: false
-  individual_page: 'charlotte'
-  bio_image: 'speakers/charlotte_spencer.jpg'
-  bio_image2: 'speakers/charlotte_spencer@2x.jpg'
-  image: 'speakers/charlotte_spencer_thumb.jpg'
-  image2: 'speakers/charlotte_spencer_thumb@2x.jpg'
-  twitter: '@charlotteis'
-  github: 'charlotteis'
-  website: 'http://var.ghost.io'
-  bio: 'Charlotte Spencer does code and people things for Marks and Spencer. Their goal is to make the web a more accessible place for everyone in terms of both technology and culture, and works extensively in open source for projects like Hoodie and Your First Pr to achieve this. To summarise them in three words: pizza, bed, emoji.'
-- name: 'Raquel Vélez'
-  keynote: true
-  individual_page: 'raquel'
-  bio_image: 'speakers/raquel.jpg'
-  bio_image2: 'speakers/raquel@2x.jpg'
-  image: 'speakers/raquel_thumb.jpg'
-  image2: 'speakers/raquel_thumb@2x.jpg'
-  twitter: '@rockbot'
-  github: 'rockbot'
-  website: 'http://rckbt.me'
-  bio: 'Raquel Vélez is an American technologist and community leader with a global perspective. She studied Mechanical Engineering at the California Institute of Technology (Caltech) and worked as a roboticist for 8 years at a variety of institutions, including the NASA Jet Propulsion Laboratory, the University of Duisburg-Essen, the MIT Lincoln Laboratory, the University of Genoa, and Applied Minds. Raquel&#39;s career shifted to web development in 2012, wherein she has since specialized in Node.js (JavaScript). She has worked at Skookum Digital Works, Storify, and Sauce Labs. She is currently a Senior Engineer at npm, Inc. and speaks at conferences around the world. She is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics: Building NodeBots with Johnny-Five, Raspberry Pi, Arduino, and BeagleBone</a>. Raquel has lived in 4 countries, speaks 5 languages, and currently lives in the San Francisco Bay Area.'
-- name: 'Robin Mehner'
-  keynote: false
-  individual_page: 'robin'
-  bio_image: 'speakers/robin_mehner.jpg'
-  bio_image2: 'speakers/robin_mehner@2x.jpg'
-  image: 'speakers/robin_mehner.jpg'
-  image2: 'speakers/robin_mehner@2x.jpg'
-  twitter: '@rmehner'
-  title: ''
-  github: 'rmehner'
-  website: 'http://coding-robin.de'
-  bio: "Robin loves The Semicolons, but not the semicolon. He's living in Berlin and runs several community events with his friends like BerlinJS, Reject.JS and NodeCopter. While he earned his JavaScript chops during the great browser wars, he also explored other languages on the way."
-- name: 'Ola Gasidlo'
-  keynote: false
-  bio_image: 'speakers/ola_gasidlo.jpg'
-  bio_image2: 'speakers/ola_gasidlo@2x.jpg'
-  individual_page: 'ola'
-  image: 'speakers/ola_gasidlo_thumb.jpg'
-  image2: 'speakers/ola_gasidlo_thumb@2x.jpg'
-  twitter: '@misprintedtype'
-  title: ''
-  github: 'zoepage'
-  website: 'http://hood.ie'
-  bio: 'Ola is a front-end / JavaScript developer, core member of Team Hoodie and organiser of OpenTechSchool Dortmund. She loves making the web accessible for everyone, riding the trails and Emma-driven development.'
-
-- name: 'Irina Shestak'
-  keynote: false
-  bio_image: 'speakers/irina_shestak.jpg'
-  bio_image2: 'speakers/irina_shestak@2x.jpg'
-  individual_page: 'irina'
-  image: 'speakers/irina_shestak_thumb.jpg'
-  image2: 'speakers/irina_shestak_thumb@2x.jpg'
-  twitter: '@_lrlna'
-  title: 'Javascript Takes on Genetically Evolving Cellular Automata'
-  github: 'lrlna'
-  website: 'https://github.com/lrlna'
-  bio: 'Irina is a software developer based in Vancouver, Canada. She is a javascript and node enthusiast. Aside from enthusiasting over javascript, she is a regular hiker out in the Rocky mountains, and a code mentor around Vancouver.'
-
-- name: 'Sílvia Pina'
-  keynote: false
-  bio_image: 'speakers/silvia_pina.jpg'
-  bio_image2: 'speakers/silvia_pina.jpg'
-  individual_page: 'silvia'
-  image: 'speakers/silvia_pina_thumb.jpg'
-  image2: 'speakers/silvia_pina_thumb.jpg'
-  title: 'How cognitive psychology can help you write better code'
-  bio: "Silvia Pina is a polyglot software engineer working at Zalando, Europe's leading online fashion platform. Besides computer science, in the past she studied psychology and neuroscience. Currently her interests include functional programming, experimental music and arthouse film."
-
 - name: 'Cat Hawker'
   keynote: false
   bio_image: 'speakers/cat_hawker.jpg'
@@ -102,53 +21,17 @@
   website: 'http://www.kitation.co.uk'
   bio: "Chad is a Ruby on Rails developer and service designer for Yoomee in Sheffield. She is a strong believer in software for social good, and designing for inclusivity. She is also a Code Club volunteer and occasional event organiser."
 
-- name: 'Jem Young'
+- name: 'Charlotte Spencer'
   keynote: false
-  bio_image: 'speakers/jem_young.jpg'
-  bio_image2: 'speakers/jem_young@2x.jpg'
-  individual_page: 'jem'
-  image: 'speakers/jem_young_thumb.jpg'
-  image2: 'speakers/jem_young_thumb@2x.jpg'
-  twitter: '@jemyoung'
-  title: 'ESNext, Service Workers, and the future of JavaScript'
-  website: 'http://www.jemyoung.com'
-  bio: "I’m a tall engineer who loves dogs and clean code. I’ve had the privilege of working for a variety of companies ranging from tiny startups to a multi-billion dollar tech company and I’ve been fortunate enough to work with a lot really smart people along the way. I enjoy coding across the stack but my true passion lies in JavaScript and building clean UX. Favorite band: Radiohead Favorite movie: Fight Club Favorite type of dog: All of them! Mortal enemy: Low hanging ceiling fans."
-
-- name: 'Kim Crayton'
-  keynote: false
-  bio_image: 'speakers/kim_crayton.jpg'
-  bio_image2: 'speakers/kim_crayton@2x.jpg'
-  individual_page: 'kim'
-  image: 'speakers/kim_crayton_thumb.jpg'
-  image2: 'speakers/kim_crayton_thumb@2x.jpg'
-  twitter: '@KimCrayton1'
-  title: 'Overcoming the Challenges of Mentoring'
-  website: 'http://www.techtalkfornontechies.com/'
-  bio: "​Kim has years of experience working with learners of all ages, skill level, and abilities and she would like to offer what she knows about successful mentorship to her new community. Kim is the author of the “Tech Talk For Non-Techies” blog and is currently pursuing a Doctors of Business Administration - Technology Entrepreneurship. She is also working on her passion project JrDevMentoring.com."
-
-- name: 'Ruth John'
-  keynote: false
-  bio_image: 'speakers/ruth_john_thumb@2x.jpg'
-  bio_image2: 'speakers/ruth_john_thumb@2x.jpg'
-  individual_page: 'ruth'
-  image: 'speakers/ruth_john_thumb@2x.jpg'
-  image2: 'speakers/ruth_john_thumb@2x.jpg'
-  twitter: '@rumyra'
-  title: 'Let’s talk about MIDI.'
-  website: 'https://rumyrashead.com'
-  bio: "Ruth has been wireframing, designing and coding for over a decade. She also tweets and blogs a bit too. You can often find her chatting about new mobile & web development techniques. She tends to get excited about making things, whether that’s sewing jackets connected to her mobile or projecting visuals at gigs with her hand coded VJ software."
-
-- name: 'Matthew Podwysocki'
-  keynote: false
-  bio_image: 'speakers/matthew.jpg'
-  bio_image2: 'speakers/matthew.jpg'
-  individual_page: 'matthew'
-  image: 'speakers/matthew.jpg'
-  image2: 'speakers/matthew@2x.jpg'
-  twitter: '@mattpodwysocki'
-  title: 'Async Programming at Netflix, Microsoft, Slack and the world!'
-  website: 'http://reactivex.io'
-  bio: "Matthew Podwysocki is a Principal Software Engineer and self-described Open Sourcerer. He currently works on the DX/TED team with a focus on reactive programming at all scales, the Internet of Things, and improving technical education for our kids."
+  individual_page: 'charlotte'
+  bio_image: 'speakers/charlotte_spencer.jpg'
+  bio_image2: 'speakers/charlotte_spencer@2x.jpg'
+  image: 'speakers/charlotte_spencer_thumb.jpg'
+  image2: 'speakers/charlotte_spencer_thumb@2x.jpg'
+  twitter: '@charlotteis'
+  github: 'charlotteis'
+  website: 'http://var.ghost.io'
+  bio: 'Charlotte Spencer does code and people things for Marks and Spencer. Their goal is to make the web a more accessible place for everyone in terms of both technology and culture, and works extensively in open source for projects like Hoodie and Your First Pr to achieve this. To summarise them in three words: pizza, bed, emoji.'
 
 - name: 'Clay Smith'
   keynote: false
@@ -173,6 +56,132 @@
   title: 'JS Takes the Desktop: Electron, React, and Native Win/Mac/Linux Experiences At Scale'
   website: 'https://twitter.com/e0m'
   bio: "Evan Morikawa is an engineer at Nylas building the email client, N1. Before Nylas, Evan was CTO at Proximate, an events & social network analysis company, and was a Techstars dev in residence. He splits his time between NYC and San Francisco and enjoys reviewing his Moves geo-tracking data to find a new places to explore next."
+
+- name: 'Jem Young'
+  keynote: false
+  bio_image: 'speakers/jem_young.jpg'
+  bio_image2: 'speakers/jem_young@2x.jpg'
+  individual_page: 'jem'
+  image: 'speakers/jem_young_thumb.jpg'
+  image2: 'speakers/jem_young_thumb@2x.jpg'
+  twitter: '@jemyoung'
+  title: 'ESNext, Service Workers, and the future of JavaScript'
+  website: 'http://www.jemyoung.com'
+  bio: "I’m a tall engineer who loves dogs and clean code. I’ve had the privilege of working for a variety of companies ranging from tiny startups to a multi-billion dollar tech company and I’ve been fortunate enough to work with a lot really smart people along the way. I enjoy coding across the stack but my true passion lies in JavaScript and building clean UX. Favorite band: Radiohead Favorite movie: Fight Club Favorite type of dog: All of them! Mortal enemy: Low hanging ceiling fans."
+
+- name: 'Irina Shestak'
+  keynote: false
+  bio_image: 'speakers/irina_shestak.jpg'
+  bio_image2: 'speakers/irina_shestak@2x.jpg'
+  individual_page: 'irina'
+  image: 'speakers/irina_shestak_thumb.jpg'
+  image2: 'speakers/irina_shestak_thumb@2x.jpg'
+  twitter: '@_lrlna'
+  title: 'Javascript Takes on Genetically Evolving Cellular Automata'
+  github: 'lrlna'
+  website: 'https://github.com/lrlna'
+  bio: 'Irina is a software developer based in Vancouver, Canada. She is a javascript and node enthusiast. Aside from enthusiasting over javascript, she is a regular hiker out in the Rocky mountains, and a code mentor around Vancouver.'
+
+- name: 'Kim Crayton'
+  keynote: false
+  bio_image: 'speakers/kim_crayton.jpg'
+  bio_image2: 'speakers/kim_crayton@2x.jpg'
+  individual_page: 'kim'
+  image: 'speakers/kim_crayton_thumb.jpg'
+  image2: 'speakers/kim_crayton_thumb@2x.jpg'
+  twitter: '@KimCrayton1'
+  title: 'Overcoming the Challenges of Mentoring'
+  website: 'http://www.techtalkfornontechies.com/'
+  bio: "​Kim has years of experience working with learners of all ages, skill level, and abilities and she would like to offer what she knows about successful mentorship to her new community. Kim is the author of the “Tech Talk For Non-Techies” blog and is currently pursuing a Doctors of Business Administration - Technology Entrepreneurship. She is also working on her passion project JrDevMentoring.com."
+
+- name: 'Livi Erickson'
+  keynote: true
+  individual_page: 'livi'
+  bio_image: 'speakers/livi_erickson.jpg'
+  bio_image2: 'speakers/livi_erickson@2x.jpg'
+  image: 'speakers/livi_erickson_thumb.jpg'
+  image2: 'speakers/livi_erickson_thumb@2x.jpg'
+  twitter: '@misslivirose'
+  github: 'misslivirose'
+  website: 'http://livierickson.com'
+  bio: 'Livi Erickson is a virtual and augmented reality developer evangelist at Microsoft, focusing on development for VR and AR platforms. She is passionate about teaching and inspiring new virtual and augmented reality developers and enjoys experimenting with different headsets and gadgets. Livi has built and released apps for desktop and mobile VR, created several VR-enabled websites, presented JavaScript for VR at JS Conf Budapest 2015, and taught Intro to Virtual Reality Development at the University of Bremen as part of the 2015 Informatica Feminale summer program. She is excited about the potential of immersive computing, and runs the blog ‘The Matrix is my Office’.'
+
+- name: 'Matthew Podwysocki'
+  keynote: false
+  bio_image: 'speakers/matthew.jpg'
+  bio_image2: 'speakers/matthew.jpg'
+  individual_page: 'matthew'
+  image: 'speakers/matthew.jpg'
+  image2: 'speakers/matthew@2x.jpg'
+  twitter: '@mattpodwysocki'
+  title: 'Async Programming at Netflix, Microsoft, Slack and the world!'
+  website: 'http://reactivex.io'
+  bio: "Matthew Podwysocki is a Principal Software Engineer and self-described Open Sourcerer. He currently works on the DX/TED team with a focus on reactive programming at all scales, the Internet of Things, and improving technical education for our kids."
+
+- name: 'Ola Gasidlo'
+  keynote: false
+  bio_image: 'speakers/ola_gasidlo.jpg'
+  bio_image2: 'speakers/ola_gasidlo@2x.jpg'
+  individual_page: 'ola'
+  image: 'speakers/ola_gasidlo_thumb.jpg'
+  image2: 'speakers/ola_gasidlo_thumb@2x.jpg'
+  twitter: '@misprintedtype'
+  title: ''
+  github: 'zoepage'
+  website: 'http://hood.ie'
+  bio: 'Ola is a front-end / JavaScript developer, core member of Team Hoodie and organiser of OpenTechSchool Dortmund. She loves making the web accessible for everyone, riding the trails and Emma-driven development.'
+
+- name: 'Raquel Vélez'
+  keynote: true
+  individual_page: 'raquel'
+  bio_image: 'speakers/raquel.jpg'
+  bio_image2: 'speakers/raquel@2x.jpg'
+  image: 'speakers/raquel_thumb.jpg'
+  image2: 'speakers/raquel_thumb@2x.jpg'
+  twitter: '@rockbot'
+  github: 'rockbot'
+  website: 'http://rckbt.me'
+  bio: 'Raquel Vélez is an American technologist and community leader with a global perspective. She studied Mechanical Engineering at the California Institute of Technology (Caltech) and worked as a roboticist for 8 years at a variety of institutions, including the NASA Jet Propulsion Laboratory, the University of Duisburg-Essen, the MIT Lincoln Laboratory, the University of Genoa, and Applied Minds. Raquel&#39;s career shifted to web development in 2012, wherein she has since specialized in Node.js (JavaScript). She has worked at Skookum Digital Works, Storify, and Sauce Labs. She is currently a Senior Engineer at npm, Inc. and speaks at conferences around the world. She is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics: Building NodeBots with Johnny-Five, Raspberry Pi, Arduino, and BeagleBone</a>. Raquel has lived in 4 countries, speaks 5 languages, and currently lives in the San Francisco Bay Area.'
+
+- name: 'Robin Mehner'
+  keynote: false
+  individual_page: 'robin'
+  bio_image: 'speakers/robin_mehner.jpg'
+  bio_image2: 'speakers/robin_mehner@2x.jpg'
+  image: 'speakers/robin_mehner.jpg'
+  image2: 'speakers/robin_mehner@2x.jpg'
+  twitter: '@rmehner'
+  title: ''
+  github: 'rmehner'
+  website: 'http://coding-robin.de'
+  bio: "Robin loves The Semicolons, but not the semicolon. He's living in Berlin and runs several community events with his friends like BerlinJS, Reject.JS and NodeCopter. While he earned his JavaScript chops during the great browser wars, he also explored other languages on the way."
+
+- name: 'Sílvia Pina'
+  keynote: false
+  bio_image: 'speakers/silvia_pina.jpg'
+  bio_image2: 'speakers/silvia_pina.jpg'
+  individual_page: 'silvia'
+  image: 'speakers/silvia_pina_thumb.jpg'
+  image2: 'speakers/silvia_pina_thumb.jpg'
+  title: 'How cognitive psychology can help you write better code'
+  bio: "Silvia Pina is a polyglot software engineer working at Zalando, Europe's leading online fashion platform. Besides computer science, in the past she studied psychology and neuroscience. Currently her interests include functional programming, experimental music and arthouse film."
+
+
+
+- name: 'Ruth John'
+  keynote: false
+  bio_image: 'speakers/ruth_john_thumb@2x.jpg'
+  bio_image2: 'speakers/ruth_john_thumb@2x.jpg'
+  individual_page: 'ruth'
+  image: 'speakers/ruth_john_thumb@2x.jpg'
+  image2: 'speakers/ruth_john_thumb@2x.jpg'
+  twitter: '@rumyra'
+  title: 'Let’s talk about MIDI.'
+  website: 'https://rumyrashead.com'
+  bio: "Ruth has been wireframing, designing and coding for over a decade. She also tweets and blogs a bit too. You can often find her chatting about new mobile & web development techniques. She tends to get excited about making things, whether that’s sewing jackets connected to her mobile or projecting visuals at gigs with her hand coded VJ software."
+
+
+
 
 - name: 'Ewan Dennis'
   keynote: false
