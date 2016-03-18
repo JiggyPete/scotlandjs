@@ -40,7 +40,7 @@
   bio_image2: 'speakers/cj.jpg'
   image: 'speakers/cj.jpg'
   image2: 'speakers/cj.jpg'
-  twitter: '@ceejbot'
+  twitter: '@ '
   github: 'ceejbot'
   website: 'https://github.com/ceejbot'
   title: 'Monitoring on a budget'
