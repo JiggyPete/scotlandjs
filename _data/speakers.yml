@@ -163,7 +163,7 @@
   image: 'speakers/ola_gasidlo_thumb.jpg'
   image2: 'speakers/ola_gasidlo_thumb@2x.jpg'
   twitter: '@misprintedtype'
-  title: ''
+  title: "I'm offline, cool! What now?"
   github: 'zoepage'
   website: 'http://hood.ie'
   bio: 'Ola is a front-end / JavaScript developer, core member of Team Hoodie and organiser of OpenTechSchool Dortmund. She loves making the web accessible for everyone, riding the trails and Emma-driven development.'
@@ -224,7 +224,7 @@
   image2: 'speakers/tim.jpg'
   twitter: '@TimPietrusky'
   title: ''
-  website: ''
+  website: 'http://timpietrusky.com'
   bio: ""
 
 
