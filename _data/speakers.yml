@@ -258,3 +258,15 @@ Ewan has passed some very enjoyable time working on video games, scientific visu
   title: 'p2p off the grid'
   website: 'http://substack.net'
   bio: "Hello! I have published many npm packages over the years and I have learned a lot along the way. I have been fascinated lately with how to build decentralized p2p services that are hosted and governed by their users to build a more egalitarian and democratic web."
+
+- name: 'Jack Franklin'
+  keynote: false
+  bio_image: 'speakers/jack.png'
+  bio_image2: 'speakers/jack.png'
+  individual_page: 'jack'
+  image: 'speakers/jack.png'
+  image2: 'speakers/jack.png'
+  twitter: '@Jack_Franklin'
+  title: 'ReactJS Workshop'
+  website: 'http://javascriptplayground.com'
+  bio: "Jack is a Developer Evangelist at Pusher. He spends far too much time writing JavaScript, with a particular focus on React and also client side applications. When not writing code he’s usually found writing tutorials at javascriptplayground.com and has also written a book on jQuery. If he’s not doing that, then he’s probably obsessing over his Vim configuration."
