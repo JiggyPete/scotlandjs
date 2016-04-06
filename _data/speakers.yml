@@ -8,6 +8,7 @@
   twitter: '@auberdjinn'
   title: 'Creating accessible components'
   bio: "Cat is a web developer and accessibility champion for BBC Knowledge and Learning. When she’s not making digital stuff she’s likely to be making good old fashioned physical stuff, or donning head-to-toe waterproofs to enjoy the great Scottish outdoors."
+  abstract: "Good custom components can make for a brilliant experience, but when done badly they can render a site unusable. That goes double for people with disabilities. Learn how to avoid the accessibility pitfalls of rich interactions and create a fantastic experience for all your users."
 
 - name: 'Chad Gowler'
   keynote: false
@@ -20,6 +21,7 @@
   title: 'Mental Health: Your Employer and You (Part 1)'
   website: 'http://www.kitation.co.uk'
   bio: "Chad is a Ruby on Rails developer and service designer for Yoomee in Sheffield. She is a strong believer in software for social good, and designing for inclusivity. She is also a Code Club volunteer and occasional event organiser."
+  abstract: "Awareness of mental health issues in the industry and general public is growing slowly, however this is only the first step on the journey. This talk will give practical advice on how to talk to your employer about mental illness and work practices to try."
 
 - name: 'Charlotte Spencer'
   keynote: false
@@ -33,6 +35,7 @@
   title: 'Open Open Source'
   website: 'http://var.ghost.io'
   bio: 'Charlotte Spencer does code and people things for Marks and Spencer. Their goal is to make the web a more accessible place for everyone in terms of both technology and culture, and works extensively in open source for projects like Hoodie and Your First Pr to achieve this. To summarise them in three words: pizza, bed, emoji.'
+  abstract: ""
 
 - name: 'C J Silverio'
   keynote: false
@@ -46,6 +49,7 @@
   website: 'https://github.com/ceejbot'
   title: 'Monitoring on a budget'
   bio: 'CJ, known to her friends as “ceej”, has been on the Internet making mistakes since 1987. She has somehow survived to enjoy writing software even more than she did back then, and she suspects she might have learned some useful things about how to do it during that time. Her current position as VP of Engineering at npm, Inc, is her favorite job ever. She gets to run the npm registry and the amazing tiny team that keeps the packages flowing.<br/></br>Her favorite member of One Direction is Brian Eno.'
+  abstract: "Trendy microservices! Traditional monoliths! You have services backing your web sites. What are they doing? How often are they doing it? What does “visibility” mean? Why does it matter? How can you get visibility into your systems when you’ve got a tight budget? Here’s how the npm registry does it."
 
 - name: 'Clay Smith'
   keynote: false
@@ -58,6 +62,7 @@
   title: 'Introduction to HTTP/2: The Weird Parts'
   website: 'https://clay.fail'
   bio: "Clay is a Developer Advocate at New Relic in San Francisco. He has previously worked at different highly-scalable agile unicorn, narwhal, and zombie B2B early-stage startups as a senior software engineer. Clay wrote his first JavaScript in 1998 from a code snipped copied from a “DHTML for Dummies” book. If not slinging JavaScript or reading RFCs, he’s probably in the kitchen perfecting his award-winning chili recipe."
+  abstract: "The HTTP/2 protocol promises significant performance benefits for JavaScript apps. While important for the future of the web, the standard is undeniably more complex. This talk an introduction to HTTP/2 with a focus on the weird bits, including server push, code 101, and the elusive GOAWAY frame."
 
 - name: 'Dan Jenkins'
   keynote: false
@@ -70,6 +75,7 @@
   title: 'Getting Physical with Web Bluetooth in the Browser'
   website: 'https://nimblea.pe'
   bio: "Based in Kent, Dan is the founder of Nimble Ape Ltd, which he founded at the beginning of 2014. Dan loves working with Node.js and with its community, along with his passion for building great architecture for Applications.<br/></br>For the past few years Dan’s been building RESTful Hypermedia APIs but recently, he’s been working with the exciting WebRTC technology. As a Google Developer Expert in WebRTC his mission is to get more developers looking at and using the technology."
+  abstract: "Web Bluetooth is new. Web Bluetooth is amazing. Web Developer’s limitations are shrinking every day and that’s amazing in itself."
 
 - name: 'Evan Morikawa'
   keynote: false
@@ -82,6 +88,7 @@
   title: 'JS Takes the Desktop: Electron, React, and Native Win/Mac/Linux Experiences At Scale'
   website: 'https://twitter.com/e0m'
   bio: "Evan Morikawa is an engineer at Nylas building the email client, N1. Before Nylas, Evan was CTO at Proximate, an events & social network analysis company, and was a Techstars dev in residence. He splits his time between NYC and San Francisco and enjoys reviewing his Moves geo-tracking data to find a new places to explore next."
+  abstract: "Learn how Electron, React, Flux, & Node are used to build native-feeling Win/Mac/Linux desktop apps, and how they’ve enabled us to build N1: an open source, highly extensible, desktop email client."
 
 - name: 'Jem Young'
   keynote: false
@@ -94,6 +101,7 @@
   title: 'ESNext, Service Workers, and the future of JavaScript'
   website: 'http://www.jemyoung.com'
   bio: "I’m a tall engineer who loves dogs and clean code. I’ve had the privilege of working for a variety of companies ranging from tiny startups to a multi-billion dollar tech company and I’ve been fortunate enough to work with a lot really smart people along the way. I enjoy coding across the stack but my true passion lies in JavaScript and building clean UX. Favorite band: Radiohead Favorite movie: Fight Club Favorite type of dog: All of them! Mortal enemy: Low hanging ceiling fans."
+  abstract: "This talk is about what’s coming up for JavaScript and how you can use this technology today to build some really amazing applications."
 
 - name: 'Irina Shestak'
   keynote: false
@@ -107,6 +115,7 @@
   github: 'lrlna'
   website: 'https://github.com/lrlna'
   bio: 'Irina is a software developer based in Vancouver, Canada. She is a javascript and node enthusiast. Aside from enthusiasting over javascript, she is a regular hiker out in the Rocky mountains, and a code mentor around Vancouver.'
+  abstract: "We will be training cellular automata to genetically evolve… in JavaScript."
 
 - name: 'Kim Crayton'
   keynote: false
@@ -119,6 +128,7 @@
   title: 'Overcoming the Challenges of Mentoring'
   website: 'http://www.techtalkfornontechies.com/'
   bio: "​Kim has years of experience working with learners of all ages, skill level, and abilities and she would like to offer what she knows about successful mentorship to her new community. Kim is the author of the “Tech Talk For Non-Techies” blog and is currently pursuing a Doctors of Business Administration - Technology Entrepreneurship. She is also working on her passion project JrDevMentoring.com."
+  abstract: "Successful mentoring doesn’t just happen, it’s planned. Let’s talk about what mentoring is, what it is not, and what makes for an effective mentorship."
 
 - name: 'Livi Erickson'
   keynote: true
@@ -143,6 +153,7 @@
   title: 'Async Programming at Netflix, Microsoft, Slack and the world!'
   website: 'http://reactivex.io'
   bio: "Matthew Podwysocki is a Principal Software Engineer and self-described Open Sourcerer. He currently works on the DX/TED team with a focus on reactive programming at all scales, the Internet of Things, and improving technical education for our kids."
+  abstract: "As our user experiences in JS become richer, we find that building these applications harder. From events, async data loading and more, our programs become more complex and because of the callback nature of JS. Enter Reactive Programming and learn how others are using it to solve hard problems!"
 
 - name: 'Matt "Potch" Claypotch'
   keynote: false
@@ -155,6 +166,7 @@
   title: '10 Feet and Rising- Building television-friendly web pages'
   website: 'https://github.com/potch/'
   bio: "Potch is a Web Developer Advocate at Mozilla, as well as resident hype man. He is also the creator of No Maintenance Intended. Potch is currently pursuing making “dece” happen."
+  abstract: "Every new device wants to be online, which brings us to a bold-but-old frontier- the TV. A series of challenges await us in the living room: How do I build a UI legible across a room? How do I interact with it? The constraints of the tiniest screens taught us what we need to build for largest ones."
 
 - name: 'Ola Gasidlo'
   keynote: false
@@ -203,6 +215,7 @@
   image2: 'speakers/silvia_pina_thumb.jpg'
   title: 'How cognitive psychology can help you write better code'
   bio: "Silvia Pina is a polyglot software engineer working at Zalando, Europe's leading online fashion platform. Besides computer science, in the past she studied psychology and neuroscience. Currently her interests include functional programming, experimental music and arthouse film."
+  abstract: "In this talk, we’ll examine in which ways cognitive biases have negative impact on our work and the code we write. In particular we will see how we can use cognitive psychology to become better programmers – and better humans."
 
 - name: 'Ruth John'
   keynote: false
@@ -215,6 +228,7 @@
   title: 'Let’s talk about MIDI.'
   website: 'https://rumyrashead.com'
   bio: "Ruth has been wireframing, designing and coding for over a decade. She also tweets and blogs a bit too. You can often find her chatting about new mobile & web development techniques. She tends to get excited about making things, whether that’s sewing jackets connected to her mobile or projecting visuals at gigs with her hand coded VJ software."
+  abstract: "You’ll find out in this interactive presentation that’s there’s so much more to MIDI, the Web MIDI API, sound & the Web Audio API. Let’s match MIDI with the Web Animation API & the Web Bluetooth API. The web is getting hardware-ready & this talk is a great beginning to those APIs at our fingertips."
 
 - name: 'Tim Pietrusky'
   keynote: false
@@ -224,10 +238,10 @@
   image: 'speakers/tim.jpg'
   image2: 'speakers/tim.jpg'
   twitter: '@TimPietrusky'
-  title: ''
+  title: 'Hmmmm'
   website: 'http://timpietrusky.com'
-  bio: ""
-
+  bio: "Works @Synoa_GmbH by day and on @NERDDISCO by night. Loves to connect any kind of systems with each other. Can’t live without music from @SoundCloud. Master of Coin @bullgit. <3 @KazzoTheCat."
+  abstract: "Hmmmm"
 
 
 
@@ -246,6 +260,7 @@
 Ewan’s role models include Johnny Ball, Kai Krause and Daniel Waterhouse. He also finds it difficult to walk past big red buttons without pressing the heck out of them.<br/><br/>
 
 Ewan has passed some very enjoyable time working on video games, scientific visualisation projects and application security. He is now focussed on building partner integrations at SparkPost."
+  abstract: "We generate piles of data daily but see very little of it. In this session we’ll introduce the concept of personal data mining, apply our JS toolset to the presenter’s own data and then ask some pertinent questions about our social role as engineers and the value of data-driven introspection."
 
 - name: 'James Halliday'
   keynote: false
@@ -258,6 +273,7 @@ Ewan has passed some very enjoyable time working on video games, scientific visu
   title: 'p2p off the grid'
   website: 'http://substack.net'
   bio: "Hello! I have published many npm packages over the years and I have learned a lot along the way. I have been fascinated lately with how to build decentralized p2p services that are hosted and governed by their users to build a more egalitarian and democratic web."
+  abstract: "I will share my p2p adventures building distributed systems for node and the browser for offline remote communities. With webrtc, hyperlog, and leveldb, it’s now easy and fun to build systems that nobody can own with first-class support for offline data models and peer to peer replication."
 
 - name: 'Jack Franklin'
   keynote: false
