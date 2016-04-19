@@ -220,11 +220,11 @@
 
 - name: 'Ruth John'
   keynote: false
-  bio_image: 'speakers/ruth_john_thumb@2x.jpg'
-  bio_image2: 'speakers/ruth_john_thumb@2x.jpg'
+  bio_image: 'speakers/ruth.jpg'
+  bio_image2: 'speakers/ruth.jpg'
   individual_page: 'ruth'
-  image: 'speakers/ruth_john_thumb@2x.jpg'
-  image2: 'speakers/ruth_john_thumb@2x.jpg'
+  image: 'speakers/ruth.jpg'
+  image2: 'speakers/ruth.jpg'
   twitter: '@rumyra'
   title: 'Let’s talk about MIDI.'
   website: 'https://rumyrashead.com'
