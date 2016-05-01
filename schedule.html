@@ -83,23 +83,117 @@ title: ScotlandJS 2016
               <div class="time">3:50pm</div>
               <div class="activity">Discussion Track</div>
             </div>
-<!--            <div class="schedule--item">
+            <div class="schedule--item">
               <div class="time">4:10pm</div>
-              <div class="activity break">Coffee</div>
+              <div class="activity break">Tea/Coffee</div>
             </div>
             <div class="schedule--item">
               <div class="time">4:30pm</div>
-              <div class="activity">{% include speaker.html speaker="Charlotte Spencer" %}</div>
+              <div class="activity">
+                <a href="#tim" data-toggle="modal" class="speaker col-md-4 col-sm-6"><img src={{ 'speakers/ruth.jpg' | asset_path }} srcset={{ 'speakers/ruth.jpg' | asset_path }} alt="Ruth John" width="150" height="150"/>
+                  <div class="info">
+                    <h3>
+                      <span aria-hidden="true">Ruth John</span>
+                      <small>@rumyra</small>
+                    </h3>
+                    <p></p>
+                  </div>
+                </a>
+              </div>
             </div>
             <div class="schedule--item">
-              <div class="time">5:15pm</div>
-              <div class="activity">Closing Remarks</div>
+              <div class="time"></div>
+              <div class="activity">
+                <a href="#tim" data-toggle="modal" class="speaker col-md-4 col-sm-6"><img src={{ 'speakers/tim.jpg' | asset_path }} srcset={{ 'speakers/tim.jpg' | asset_path }} alt="Tim Pietrusky" width="150" height="150"/>
+                  <div class="info">
+                    <h3>
+                      <span aria-hidden="true">Tim Pietrusky</span>
+                      <small>@TimPietrusky</small>
+                    </h3>
+                    <p></p>
+                  </div>
+                </a>
+              </div>
             </div>
-            <div class="schedule--item">
-              <div class="time">5:20pm</div>
-              <div class="activity">Family Photo</div>
+
+<div tabindex="-1" role="dialog" id="tim" class="portfolio-modal modal fade">
+  <div class="modal-content">
+    <div data-dismiss="modal" class="close-modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <h1>LiveJS: Web audio + visual spectacular</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <p>
+                What happens when two people who’ve never met before share a common interest in live visualizations? #1: They founded a group dedicated to Web VJ. #2: They decided to do a talk on how to combine Web Audio, MIDI, Animation & Sockets to create an interactive audio + visual performance.
+              </p>
             </div>
--->
+          </div>
+        </div>
+      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Ruth John & Tim Pietrusky</h2>
+            <div class="portfolio-item">
+              <span class="portfolio-link">
+                <img src={{ 'speakers/ruth.jpg' | asset_path }} srcset={{ 'speakers/ruth.jpg' | asset_path }} alt="" width="400" height="289"/>
+              </span>
+              <div class="portfolio-caption">
+                <h3 tabindex="0">Ruth John</h3>
+                <ul class="list-inline social-buttons">
+                    <li>
+                      <a href="https://twitter.com/rumyra">
+                        <span class="sr-only">Twitter @rumyra</span>
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://rumyrashead.com">
+                        <span class="sr-only">https://rumyrashead.com</span>
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <p>Ruth has been wireframing, designing and coding for over a decade. She also tweets and blogs a bit too. You can often find her chatting about new mobile & web development techniques. She tends to get excited about making things, whether that’s sewing jackets connected to her mobile or projecting visuals at gigs with her hand coded VJ software.</p>
+            <div class="portfolio-item">
+              <span class="portfolio-link">
+                <img src={{ 'speakers/tim.jpg' | asset_path }} srcset={{ 'speakers/tim.jpg' | asset_path }} alt="" width="400" height="289"/>
+              </span>
+              <div class="portfolio-caption">
+                <h3 tabindex="0">Tim Pietrusky</h3>
+                <ul class="list-inline social-buttons">
+                    <li>
+                      <a href="https://twitter.com/TimPietrusky">
+                        <span class="sr-only">Twitter @TimPietrusky</span>
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://timpietrusky.com">
+                        <span class="sr-only">http://timpietrusky.com</span>
+                        <i class="fa fa-globe"></i>
+                      </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <p>Works @Synoa_GmbH by day and on @NERDDISCO by night. Loves to connect any kind of systems with each other. Can’t live without music from @SoundCloud. Master of Coin @bullgit. @KazzoTheCat.</p>
+            <button type="button" data-dismiss="modal" class="btn btn-primary"><i class="fa fa-times"></i> Close Abstract</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </section>
