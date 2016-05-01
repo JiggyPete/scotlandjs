@@ -828,13 +828,29 @@ a#button, #donate, #diversity-application
   padding: 10px
   border: 1px solid #555555
   border-radius: 5px
-
   color: #222222
   font: bold 20px Arial
   background-color: yellow
   padding: 10px
-
   border-radius: 5px
+  &:hover, &:focus, &:active, &.active
+    background-color: darken(yellow, 10%)
+
+
+.button-on-white, #childcare-contact
+  font: bold 20px Arial
+  padding: 10px
+  border: 1px solid #555555
+  border-radius: 5px
+  background-color: yellow
+  color: black
+  border-color: #1f8ab6
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+  text-transform: uppercase
+  font-weight: 700
+  &:hover, &:focus, &:active, &.active
+    background-color: darken(yellow, 10%)
+    border-color: white
 
 #schedule
   .schedule
