@@ -77,6 +77,18 @@
   bio: "Based in Kent, Dan is the founder of Nimble Ape Ltd, which he founded at the beginning of 2014. Dan loves working with Node.js and with its community, along with his passion for building great architecture for Applications.<br/></br>For the past few years Dan’s been building RESTful Hypermedia APIs but recently, he’s been working with the exciting WebRTC technology. As a Google Developer Expert in WebRTC his mission is to get more developers looking at and using the technology."
   abstract: "Web Bluetooth is new. Web Bluetooth is amazing. Web Developer’s limitations are shrinking every day and that’s amazing in itself."
 
+- name: 'Emily Rose'
+  keynote: false
+  bio_image: 'speakers/emily.jpg'
+  bio_image2: 'speakers/emily.jpg'
+  individual_page: 'emily'
+  image: 'speakers/emily.jpg'
+  image2: 'speakers/emily.jpg'
+  twitter: '@nexxylove'
+  title: 'I Am a Cyborg and So Can You'
+  bio: "Emily Rose is a transhumanist with a passion for queer cyborg artistry. They are currently experimenting with ambient intelligence, adaptive automation, and evolving interfaces. Emily is a world-class speaker who has brought humor and enlightenment to audiences across the globe. Original NodeBots curator, founder of DanceJS, and one of the most interesting individuals in the known universe; Emily is an unnatural force of pure, unbridled creativity."
+  abstract: ""
+
 - name: 'Evan Morikawa'
   keynote: false
   bio_image: 'speakers/evan.jpg'
