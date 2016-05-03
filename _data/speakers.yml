@@ -214,7 +214,7 @@
   image: 'speakers/robin_mehner.jpg'
   image2: 'speakers/robin_mehner@2x.jpg'
   twitter: '@rmehner'
-  title: ''
+  title: 'Surviving JavaScript'
   github: 'rmehner'
   website: 'http://coding-robin.de'
   bio: "Robin loves The Semicolons, but not the semicolon. He's living in Berlin and runs several community events with his friends like BerlinJS, Reject.JS and NodeCopter. While he earned his JavaScript chops during the great browser wars, he also explored other languages on the way."
