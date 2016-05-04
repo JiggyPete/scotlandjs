@@ -89,6 +89,18 @@
   bio: "Emily Rose is a transhumanist with a passion for queer cyborg artistry. They are currently experimenting with ambient intelligence, adaptive automation, and evolving interfaces. Emily is a world-class speaker who has brought humor and enlightenment to audiences across the globe. Original NodeBots curator, founder of DanceJS, and one of the most interesting individuals in the known universe; Emily is an unnatural force of pure, unbridled creativity."
   abstract: ""
 
+- name: 'Emily Rose '
+  keynote: false
+  bio_image: 'speakers/emily.jpg'
+  bio_image2: 'speakers/emily.jpg'
+  individual_page: 'emily'
+  image: 'speakers/emily.jpg'
+  image2: 'speakers/emily.jpg'
+  twitter: '@nexxylove'
+  title: ''
+  bio: "Emily Rose is a transhumanist with a passion for queer cyborg artistry. They are currently experimenting with ambient intelligence, adaptive automation, and evolving interfaces. Emily is a world-class speaker who has brought humor and enlightenment to audiences across the globe. Original NodeBots curator, founder of DanceJS, and one of the most interesting individuals in the known universe; Emily is an unnatural force of pure, unbridled creativity."
+  abstract: ""
+
 - name: 'Evan Morikawa'
   keynote: false
   bio_image: 'speakers/evan.jpg'
