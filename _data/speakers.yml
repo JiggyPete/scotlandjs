@@ -18,10 +18,10 @@
   image: 'speakers/chad_gowler_thumb.jpg'
   image2: 'speakers/chad_gowler_thumb@2x.jpg'
   twitter: '@kitation'
-  title: 'Mental Health: Your Employer and You (Part 1)'
+  title: 'How to ask about gender'
   website: 'http://www.kitation.co.uk'
   bio: "Chad is a Ruby on Rails developer and service designer for Yoomee in Sheffield. She is a strong believer in software for social good, and designing for inclusivity. She is also a Code Club volunteer and occasional event organiser."
-  abstract: "Awareness of mental health issues in the industry and general public is growing slowly, however this is only the first step on the journey. This talk will give practical advice on how to talk to your employer about mental illness and work practices to try."
+  abstract: "This talk aims to help developers ask users about their gender in a useful and sensitive manner; educate on what non-binary means and what other issues non-binary and gender variant users may face when using the web."
 
 - name: 'Charlotte Spencer'
   keynote: false
