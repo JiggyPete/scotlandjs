@@ -34,6 +34,7 @@
   github: 'charlotteis'
   title: 'Open Open Source'
   website: 'http://var.ghost.io'
+  slides: 'http://charlotteis.github.io/scotlandjs-talk/#1'
   bio: 'Charlotte Spencer does code and people things for Marks and Spencer. Their goal is to make the web a more accessible place for everyone in terms of both technology and culture, and works extensively in open source for projects like Hoodie and Your First Pr to achieve this. To summarise them in three words: pizza, bed, emoji.'
   abstract: "<p>Although the word is in the name, Open Source is not always very open. When we look at the most well known contributors to Open Source, we see that they have resources that others may not. Resources such as time, energy, a decent internet connection, little experience of harassment and support from a workplace, or just a job at all.</p><p>This is not a talk where you will get the golden solution to making your Open Source project a magical fun place with boundless diversity of people and experiences. It is however, a talk about some of the things we can do to make Open Source (and by association, the industry at large) a more approachable and inclusive place.</p><p>Contributing to Open Source is an investment; when we ask others to do it, we ask them to give up their time for us. As maintainers and contributors, it is our job to make the experience enjoyable and worth the effort.</p><p>To make a contributor’s stay enjoyable and comfortable, we’ll talk about:</p><ul><li>Why your project should have a Code of Conduct</li><li>How you can use GitHub issues to open the door</li><li>Recognising your limitations as humans</li><li>How code is only a minor part of your project</li><li>How far a friendly attitude can take you</li><li>Using inclusive language in all your interactions</li></ul>"
 
@@ -74,6 +75,7 @@
   twitter: '@dan_jenkins'
   title: 'Getting Physical with Web Bluetooth in the Browser'
   website: 'https://nimblea.pe'
+  slides: 'http://www.slideshare.net/danjenkins/getting-physical-with-web-bluetooth-in-the-browser'
   bio: "Based in Kent, Dan is the founder of Nimble Ape Ltd, which he founded at the beginning of 2014. Dan loves working with Node.js and with its community, along with his passion for building great architecture for Applications.<br/></br>For the past few years Dan’s been building RESTful Hypermedia APIs but recently, he’s been working with the exciting WebRTC technology. As a Google Developer Expert in WebRTC his mission is to get more developers looking at and using the technology."
   abstract: "Web Bluetooth is new. Web Bluetooth is amazing. Web Developer’s limitations are shrinking every day and that’s amazing in itself."
 
@@ -151,6 +153,7 @@
   twitter: '@KimCrayton1'
   title: 'Overcoming the Challenges of Mentoring'
   website: 'http://www.techtalkfornontechies.com/'
+  slides: 'http://prezi.com/yg36mrh2tf0k/?utm_campaign=share&utm_medium=copy'
   bio: "​Kim has years of experience working with learners of all ages, skill level, and abilities and she would like to offer what she knows about successful mentorship to her new community. Kim is the author of the “Tech Talk For Non-Techies” blog and is currently pursuing a Doctors of Business Administration - Technology Entrepreneurship. She is also working on her passion project JrDevMentoring.com."
   abstract: "Successful mentoring doesn’t just happen, it’s planned. Let’s talk about what mentoring is, what it is not, and what makes for an effective mentorship."
 
@@ -203,6 +206,7 @@
   title: "I'm offline, cool! What now?"
   github: 'zoepage'
   website: 'http://hood.ie'
+  slides: 'https://slidr.io/zoepage/i-m-offline-cool-what-now'
   bio: 'Ola is a senior engineer at Styla living in Berlin, who is very passionate about Open Source, the Offline First concept and Hoodie. She loves making the web accessible for everyone, riding the trails and daughter-driven development.'
   abstract: "We learned a lot about the offline first concept in the past two years including Service Worker, CouchDB etc.<br/>Did we do everything already to make our applications offline first? Is caching the resources enough? Did we answer all the questions already and if not… What are the new questions we need to answer?<br/>In this talk, I'll show you what has changed in the last few years, how people did adapt the concept and what are the best practices.<br/>And most importantly, can offline first help to save lives?"
 
