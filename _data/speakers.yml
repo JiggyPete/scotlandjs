@@ -9,6 +9,7 @@
   title: 'Creating accessible components'
   bio: "Cat is a web developer and accessibility champion for BBC Knowledge and Learning. When she’s not making digital stuff she’s likely to be making good old fashioned physical stuff, or donning head-to-toe waterproofs to enjoy the great Scottish outdoors."
   abstract: "Good custom components can make for a brilliant experience, but when done badly they can render a site unusable. That goes double for people with disabilities. Learn how to avoid the accessibility pitfalls of rich interactions and create a fantastic experience for all your users."
+  youtube: https://youtu.be/KyUeOeeKVe0
 
 - name: 'Chad Gowler'
   keynote: false
@@ -22,6 +23,7 @@
   website: 'http://www.kitation.co.uk'
   bio: "Chad is a Ruby on Rails developer and service designer for Yoomee in Sheffield. She is a strong believer in software for social good, and designing for inclusivity. She is also a Code Club volunteer and occasional event organiser."
   abstract: "This talk aims to help developers ask users about their gender in a useful and sensitive manner; educate on what non-binary means and what other issues non-binary and gender variant users may face when using the web."
+  youtube: https://youtu.be/Id68Zq3baMI
 
 - name: 'Charlotte Spencer'
   keynote: false
@@ -37,6 +39,7 @@
   slides: 'http://charlotteis.github.io/scotlandjs-talk/#1'
   bio: 'Charlotte Spencer does code and people things for Marks and Spencer. Their goal is to make the web a more accessible place for everyone in terms of both technology and culture, and works extensively in open source for projects like Hoodie and Your First Pr to achieve this. To summarise them in three words: pizza, bed, emoji.'
   abstract: "<p>Although the word is in the name, Open Source is not always very open. When we look at the most well known contributors to Open Source, we see that they have resources that others may not. Resources such as time, energy, a decent internet connection, little experience of harassment and support from a workplace, or just a job at all.</p><p>This is not a talk where you will get the golden solution to making your Open Source project a magical fun place with boundless diversity of people and experiences. It is however, a talk about some of the things we can do to make Open Source (and by association, the industry at large) a more approachable and inclusive place.</p><p>Contributing to Open Source is an investment; when we ask others to do it, we ask them to give up their time for us. As maintainers and contributors, it is our job to make the experience enjoyable and worth the effort.</p><p>To make a contributor’s stay enjoyable and comfortable, we’ll talk about:</p><ul><li>Why your project should have a Code of Conduct</li><li>How you can use GitHub issues to open the door</li><li>Recognising your limitations as humans</li><li>How code is only a minor part of your project</li><li>How far a friendly attitude can take you</li><li>Using inclusive language in all your interactions</li></ul>"
+  youtube: https://youtu.be/GsBqBoOiPFA
 
 - name: 'C J Silverio'
   keynote: false
@@ -51,6 +54,7 @@
   title: 'Monitoring on a budget'
   bio: 'CJ, known to her friends as “ceej”, has been on the Internet making mistakes since 1987. She has somehow survived to enjoy writing software even more than she did back then, and she suspects she might have learned some useful things about how to do it during that time. Her current position as VP of Engineering at npm, Inc, is her favorite job ever. She gets to run the npm registry and the amazing tiny team that keeps the packages flowing.<br/></br>Her favorite member of One Direction is Brian Eno.'
   abstract: "Trendy microservices! Traditional monoliths! You have services backing your web sites. What are they doing? How often are they doing it? What does “visibility” mean? Why does it matter? How can you get visibility into your systems when you’ve got a tight budget? Here’s how the npm registry does it."
+  youtube: https://youtu.be/dc7Jj0zErYg
 
 - name: 'Clay Smith'
   keynote: false
@@ -64,6 +68,7 @@
   website: 'https://clay.fail'
   bio: "Clay is a Developer Advocate at New Relic in San Francisco. He has previously worked at different highly-scalable agile unicorn, narwhal, and zombie B2B early-stage startups as a senior software engineer. Clay wrote his first JavaScript in 1998 from a code snipped copied from a “DHTML for Dummies” book. If not slinging JavaScript or reading RFCs, he’s probably in the kitchen perfecting his award-winning chili recipe."
   abstract: "The HTTP/2 protocol promises significant performance benefits for JavaScript apps. While important for the future of the web, the standard is undeniably more complex. This talk an introduction to HTTP/2 with a focus on the weird bits, including server push, code 101, and the elusive GOAWAY frame."
+  youtube: https://youtu.be/DPHT9Y5Ei7E
 
 - name: 'Dan Jenkins'
   keynote: false
@@ -78,30 +83,8 @@
   slides: 'http://www.slideshare.net/danjenkins/getting-physical-with-web-bluetooth-in-the-browser'
   bio: "Based in Kent, Dan is the founder of Nimble Ape Ltd, which he founded at the beginning of 2014. Dan loves working with Node.js and with its community, along with his passion for building great architecture for Applications.<br/></br>For the past few years Dan’s been building RESTful Hypermedia APIs but recently, he’s been working with the exciting WebRTC technology. As a Google Developer Expert in WebRTC his mission is to get more developers looking at and using the technology."
   abstract: "Web Bluetooth is new. Web Bluetooth is amazing. Web Developer’s limitations are shrinking every day and that’s amazing in itself."
+  youtube: https://youtu.be/5k0WKnpobg0
 
-- name: 'Emily Rose'
-  keynote: false
-  bio_image: 'speakers/emily.jpg'
-  bio_image2: 'speakers/emily.jpg'
-  individual_page: 'emily'
-  image: 'speakers/emily.jpg'
-  image2: 'speakers/emily.jpg'
-  twitter: '@nexxylove'
-  title: 'I Am a Cyborg and So Can You'
-  bio: "Emily Rose is a transhumanist with a passion for queer cyborg artistry. They are currently experimenting with ambient intelligence, adaptive automation, and evolving interfaces. Emily is a world-class speaker who has brought humor and enlightenment to audiences across the globe. Original NodeBots curator, founder of DanceJS, and one of the most interesting individuals in the known universe; Emily is an unnatural force of pure, unbridled creativity."
-  abstract: ""
-
-- name: 'Emily Rose '
-  keynote: false
-  bio_image: 'speakers/emily.jpg'
-  bio_image2: 'speakers/emily.jpg'
-  individual_page: 'emily'
-  image: 'speakers/emily.jpg'
-  image2: 'speakers/emily.jpg'
-  twitter: '@nexxylove'
-  title: ''
-  bio: "Emily Rose is a transhumanist with a passion for queer cyborg artistry. They are currently experimenting with ambient intelligence, adaptive automation, and evolving interfaces. Emily is a world-class speaker who has brought humor and enlightenment to audiences across the globe. Original NodeBots curator, founder of DanceJS, and one of the most interesting individuals in the known universe; Emily is an unnatural force of pure, unbridled creativity."
-  abstract: ""
 
 - name: 'Evan Morikawa'
   keynote: false
@@ -115,6 +98,7 @@
   website: 'https://twitter.com/e0m'
   bio: "Evan Morikawa is an engineer at Nylas building the email client, N1. Before Nylas, Evan was CTO at Proximate, an events & social network analysis company, and was a Techstars dev in residence. He splits his time between NYC and San Francisco and enjoys reviewing his Moves geo-tracking data to find a new places to explore next."
   abstract: "Learn how Electron, React, Flux, & Node are used to build native-feeling Win/Mac/Linux desktop apps, and how they’ve enabled us to build N1: an open source, highly extensible, desktop email client."
+  youtube: https://youtu.be/qo_pNWWUsSM
 
 - name: 'Jem Young'
   keynote: false
@@ -128,6 +112,7 @@
   website: 'http://www.jemyoung.com'
   bio: "I’m a tall engineer who loves dogs and clean code. I’ve had the privilege of working for a variety of companies ranging from tiny startups to a multi-billion dollar tech company and I’ve been fortunate enough to work with a lot really smart people along the way. I enjoy coding across the stack but my true passion lies in JavaScript and building clean UX. Favorite band: Radiohead Favorite movie: Fight Club Favorite type of dog: All of them! Mortal enemy: Low hanging ceiling fans."
   abstract: "This talk is about what’s coming up for JavaScript and how you can use this technology today to build some really amazing applications."
+  youtube: https://youtu.be/-dk_UgasO2s
 
 - name: 'Irina Shestak'
   keynote: false
@@ -142,6 +127,7 @@
   website: 'https://github.com/lrlna'
   bio: 'Irina is a software developer based in Vancouver, Canada. She is a javascript and node enthusiast. Aside from enthusiasting over javascript, she is a regular hiker out in the Rocky mountains, and a code mentor around Vancouver.'
   abstract: "We will be training cellular automata to genetically evolve… in JavaScript."
+  youtube: https://youtu.be/V4BKpWucphQ
 
 - name: 'Kim Crayton'
   keynote: false
@@ -156,8 +142,10 @@
   slides: 'http://prezi.com/yg36mrh2tf0k/?utm_campaign=share&utm_medium=copy'
   bio: "​Kim has years of experience working with learners of all ages, skill level, and abilities and she would like to offer what she knows about successful mentorship to her new community. Kim is the author of the “Tech Talk For Non-Techies” blog and is currently pursuing a Doctors of Business Administration - Technology Entrepreneurship. She is also working on her passion project JrDevMentoring.com."
   abstract: "Successful mentoring doesn’t just happen, it’s planned. Let’s talk about what mentoring is, what it is not, and what makes for an effective mentorship."
+  youtube: https://youtu.be/R_cfUw_gZfo
 
 - name: 'Livi Erickson'
+  title: 'Virtual Reality: Why?'
   keynote: true
   individual_page: 'livi'
   bio_image: 'speakers/livi_erickson.jpg'
@@ -168,6 +156,7 @@
   github: 'misslivirose'
   website: 'http://livierickson.com'
   bio: 'Livi Erickson is a virtual and augmented reality developer evangelist at Microsoft, focusing on development for VR and AR platforms. She is passionate about teaching and inspiring new virtual and augmented reality developers and enjoys experimenting with different headsets and gadgets. Livi has built and released apps for desktop and mobile VR, created several VR-enabled websites, presented JavaScript for VR at JS Conf Budapest 2015, and taught Intro to Virtual Reality Development at the University of Bremen as part of the 2015 Informatica Feminale summer program. She is excited about the potential of immersive computing, and runs the blog ‘The Matrix is my Office’.'
+  youtube: https://youtu.be/SNQFZU0PYrw
 
 - name: 'Matthew Podwysocki'
   keynote: false
@@ -181,6 +170,7 @@
   website: 'http://reactivex.io'
   bio: "Matthew Podwysocki is a Principal Software Engineer and self-described Open Sourcerer. He currently works on the DX/TED team with a focus on reactive programming at all scales, the Internet of Things, and improving technical education for our kids."
   abstract: "As our user experiences in JS become richer, we find that building these applications harder. From events, async data loading and more, our programs become more complex and because of the callback nature of JS. Enter Reactive Programming and learn how others are using it to solve hard problems!"
+  youtube: https://youtu.be/Qs4h8e8ttkE
 
 - name: 'Matt "Potch" Claypotch'
   keynote: false
@@ -194,6 +184,7 @@
   website: 'https://github.com/potch/'
   bio: "Potch is a Web Developer Advocate at Mozilla, as well as resident hype man. He is also the creator of No Maintenance Intended. Potch is currently pursuing making “dece” happen."
   abstract: "Every new device wants to be online, which brings us to a bold-but-old frontier- the TV. A series of challenges await us in the living room: How do I build a UI legible across a room? How do I interact with it? The constraints of the tiniest screens taught us what we need to build for largest ones."
+  youtube: https://youtu.be/kKuKd5ShyGQ
 
 - name: 'Ola Gasidlo'
   keynote: false
@@ -209,8 +200,10 @@
   slides: 'https://slidr.io/zoepage/i-m-offline-cool-what-now'
   bio: 'Ola is a senior engineer at Styla living in Berlin, who is very passionate about Open Source, the Offline First concept and Hoodie. She loves making the web accessible for everyone, riding the trails and daughter-driven development.'
   abstract: "We learned a lot about the offline first concept in the past two years including Service Worker, CouchDB etc.<br/>Did we do everything already to make our applications offline first? Is caching the resources enough? Did we answer all the questions already and if not… What are the new questions we need to answer?<br/>In this talk, I'll show you what has changed in the last few years, how people did adapt the concept and what are the best practices.<br/>And most importantly, can offline first help to save lives?"
+  youtube: https://youtu.be/LVZqliVB_P8
 
 - name: 'Raquel Vélez'
+  title: Fear
   keynote: true
   individual_page: 'raquel'
   bio_image: 'speakers/raquel.jpg'
@@ -221,6 +214,7 @@
   github: 'rockbot'
   website: 'http://rckbt.me'
   bio: 'Raquel Vélez is an American technologist and community leader with a global perspective. She studied Mechanical Engineering at the California Institute of Technology (Caltech) and worked as a roboticist for 8 years at a variety of institutions, including the NASA Jet Propulsion Laboratory, the University of Duisburg-Essen, the MIT Lincoln Laboratory, the University of Genoa, and Applied Minds. Raquel&#39;s career shifted to web development in 2012, wherein she has since specialized in Node.js (JavaScript). She has worked at Skookum Digital Works, Storify, and Sauce Labs. She is currently a Senior Engineer at npm, Inc. and speaks at conferences around the world. She is a co-author of the book <a href="http://www.amazon.com/Make-JavaScript-Johnny-Five-Raspberry-BeagleBone/dp/1457186950">Make: JavaScript Robotics: Building NodeBots with Johnny-Five, Raspberry Pi, Arduino, and BeagleBone</a>. Raquel has lived in 4 countries, speaks 5 languages, and currently lives in the San Francisco Bay Area.'
+  youtube: https://youtu.be/zEjtjiY3Whw
 
 - name: 'Robin Mehner'
   keynote: false
@@ -234,6 +228,7 @@
   github: 'rmehner'
   website: 'http://coding-robin.de'
   bio: "Robin loves The Semicolons, but not the semicolon. He's living in Berlin and runs several community events with his friends like BerlinJS, Reject.JS and NodeCopter. While he earned his JavaScript chops during the great browser wars, he also explored other languages on the way."
+  youtube: https://youtu.be/r2kT7En-vTw
 
 - name: 'Sílvia Pina'
   keynote: false
@@ -246,6 +241,7 @@
   bio: "Silvia Pina is a polyglot software engineer working at Zalando, Europe's leading online fashion platform. Besides computer science, in the past she studied psychology and neuroscience. Currently her interests include functional programming, experimental music and arthouse film."
   abstract: "In this talk, we’ll examine in which ways cognitive biases have negative impact on our work and the code we write. In particular we will see how we can use cognitive psychology to become better programmers – and better humans."
   twitter: '@smourapina'
+  youtube: https://youtu.be/rA7py3a818k
 
 - name: 'Ruth John'
   keynote: false
@@ -259,8 +255,9 @@
   website: 'https://rumyrashead.com'
   bio: "Ruth has been wireframing, designing and coding for over a decade. She also tweets and blogs a bit too. You can often find her chatting about new mobile & web development techniques. She tends to get excited about making things, whether that’s sewing jackets connected to her mobile or projecting visuals at gigs with her hand coded VJ software."
   abstract: "You’ll find out in this interactive presentation that’s there’s so much more to MIDI, the Web MIDI API, sound & the Web Audio API. Let’s match MIDI with the Web Animation API & the Web Bluetooth API. The web is getting hardware-ready & this talk is a great beginning to those APIs at our fingertips."
+  youtube: https://youtu.be/4Xc9gkpNCOI
 
-- name: 'Tim Pietrusky'
+- name: 'Ruth John and Tim Pietrusky'
   keynote: false
   bio_image: 'speakers/tim.jpg'
   bio_image2: 'speakers/tim.jpg'
@@ -268,11 +265,11 @@
   image: 'speakers/tim.jpg'
   image2: 'speakers/tim.jpg'
   twitter: '@TimPietrusky'
-  title: 'Hmmmm'
+  title: 'Live Audio and Visual Spectacular'
   website: 'http://timpietrusky.com'
   bio: "Works @Synoa_GmbH by day and on @NERDDISCO by night. Loves to connect any kind of systems with each other. Can’t live without music from @SoundCloud. Master of Coin @bullgit. <3 @KazzoTheCat."
-  abstract: "Hmmmm"
-
+  abstract: ""
+  youtube: https://youtu.be/u0POJ1sSNAc
 
 
 - name: 'Ewan Dennis'
@@ -291,6 +288,7 @@ Ewan’s role models include Johnny Ball, Kai Krause and Daniel Waterhouse. He a
 
 Ewan has passed some very enjoyable time working on video games, scientific visualisation projects and application security. He is now focussed on building partner integrations at SparkPost."
   abstract: "We generate piles of data daily but see very little of it. In this session we’ll introduce the concept of personal data mining, apply our JS toolset to the presenter’s own data and then ask some pertinent questions about our social role as engineers and the value of data-driven introspection."
+  youtube: https://youtu.be/X9Ybz-BDB0s
 
 - name: 'James Halliday'
   keynote: false
@@ -304,15 +302,5 @@ Ewan has passed some very enjoyable time working on video games, scientific visu
   website: 'http://substack.net'
   bio: "Hello! I have published many npm packages over the years and I have learned a lot along the way. I have been fascinated lately with how to build decentralized p2p services that are hosted and governed by their users to build a more egalitarian and democratic web."
   abstract: "I will share my p2p adventures building distributed systems for node and the browser for offline remote communities. With webrtc, hyperlog, and leveldb, it’s now easy and fun to build systems that nobody can own with first-class support for offline data models and peer to peer replication."
+  youtube: https://youtu.be/D1gIfDT6wFA
 
-- name: 'Jack Franklin'
-  keynote: false
-  bio_image: 'speakers/jack.png'
-  bio_image2: 'speakers/jack.png'
-  individual_page: 'jack'
-  image: 'speakers/jack.png'
-  image2: 'speakers/jack.png'
-  twitter: '@Jack_Franklin'
-  title: 'ReactJS Workshop'
-  website: 'http://javascriptplayground.com'
-  bio: "Jack is a Developer Evangelist at Pusher. He spends far too much time writing JavaScript, with a particular focus on React and also client side applications. When not writing code he’s usually found writing tutorials at javascriptplayground.com and has also written a book on jQuery. If he’s not doing that, then he’s probably obsessing over his Vim configuration."

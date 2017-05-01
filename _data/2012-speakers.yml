@@ -1,0 +1,27 @@
+- name: 'Peter Cooper'
+  title: 'Keynote'
+  youtube: 'https://youtu.be/n8ffwnJX7I4'
+
+- name: 'Philip Roberts'
+  title: 'Nought to real time multiplayer game in 16 hours with Pusher'
+  youtube: 'https://youtu.be/Tf_z3MuproA'
+
+- name: 'Tane Piper'
+  title: ''
+  youtube: 'https://youtu.be/O1EYLCi1nLc'
+
+- name: 'Ryan Sandor Richards'
+  title: 'Memory Management'
+  youtube: 'https://youtu.be/_q7Z6ghz0Tg'
+
+- name: 'Leonado Lenase'
+  title: 'Responsive Web Design Mobile First and Progressive enhancement'
+  youtube: 'https://youtu.be/IfK86_17MfE'
+
+- name: 'James Newbery'
+  title: 'Testing your Backbone from the outside in'
+  youtube: 'https://youtu.be/3uwhoHWlP2E'
+
+- name: 'Jim Weirich'
+  title: 'Adventures in Functional Programming'
+  youtube: 'https://youtu.be/rDxUU8OepQQ'

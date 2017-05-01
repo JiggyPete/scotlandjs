@@ -1,0 +1,74 @@
+- name: 'Anton Whalley'
+  title: 'Realtime replication in the realworld with node.js'
+  youtube: ''
+
+- name: 'Bernard Kobos'
+  title: 'Automated Cross-browser testing with Node'
+  youtube: 'https://youtu.be/NXX8I4Dd-XQ'
+
+- name: 'Boydlee Pollentine'
+  title: 'REST Easy with Deployd (Rapid API creation)'
+  youtube: 'https://youtu.be/jk3Hu3aUx-U'
+
+- name: 'Colin Gemmell'
+  title: 'Automating with Grunt.js'
+  youtube: ''
+
+- name: 'Damian Nicolson'
+  title: 'Writing (testable | maintainable | scalable | rock solid) JavaScript'
+  youtube: 'https://youtu.be/fvgF1HhY9a4'
+
+- name: 'David Bruant'
+  title: 'Asynchronous patterns'
+  youtube: 'https://youtu.be/6h0nGXmy_ow'
+
+- name: 'Dominic Tarr'
+  title: 'The database of the future: leveldb'
+  youtube: 'https://youtu.be/j65cJtkcHGU'
+
+- name: 'Gregor Martynus'
+  title: 'Look ma no backend!'
+  youtube: 'https://youtu.be/L82RWKEN3mg'
+
+- name: 'Hassy Veldstra'
+  title: 'Anatomy of a million user real-time node.js application'
+  youtube: ''
+
+- name: 'Huong Vu'
+  title: 'Embracing IndexedDB'
+  youtube: 'https://youtu.be/GNngn5QMUI8'
+
+- name: 'Jason Frame'
+  title: 'Livecoding in JS'
+  youtube: 'https://youtu.be/7FnxiyMGK_I'
+
+- name: 'Jan Lehnardt'
+  title: 'JSWD'
+  youtube: 'https://youtu.be/I63B2ThmvLo'
+
+- name: 'James Shore'
+  title: 'Rigorous Professional Javascript'
+  youtube: 'https://youtu.be/CoRrkLNldt4'
+
+- name: 'Mark Boas'
+  title: 'Hyperaudio - Making Audio a First Class Citizen of the Web'
+  youtube: 'https://youtu.be/iTgm3uY-vQ0'
+
+- name: 'Ole Michaelis'
+  title: 'Automated deployments with robots'
+  youtube: 'https://youtu.be/Ew8-uJMmmow'
+
+- name: 'Phil Roberts'
+  title: 'Enemy of the state: An introduction to Functional Reactive Programming and Bacon.js'
+  youtube: 'https://youtu.be/uXJkoXKMCEE'
+
+- name: 'Ryan Sandor Richards'
+  title: 'Front-to-back: Architecting your data reporting and visualization stack'
+  youtube: 'https://youtu.be/K-bjmLnEHvc'
+
+- name: 'Sebastian Golasch'
+  title: 'The browser, the programmer and the Dalek'
+  youtube: 'https://youtu.be/QTn4_FBgDv0'
+
+
+
