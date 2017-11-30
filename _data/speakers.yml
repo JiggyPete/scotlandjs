@@ -52,6 +52,20 @@
   twitter: '@umaar'
   website: 'https://umaar.com/'
   title: ''
-  bio: "Umar Hansa is a web developer based in London who has a focus on writing tips, tutorials and documentation for the web platform. He’s a web developer at Shazam and is also a Google Developer Expert for Chrome."
+  bio: ""
+  abstract: ""
+  youtube: ""
+
+- name: 'Irina Preda'
+  keynote: false
+  individual_page: 'irina'
+  bio_image: 'speakers/irina-preda.jpg'
+  bio_image2: 'speakers/irina-preda.jpg'
+  image: 'speakers/irina-preda.jpg'
+  image2: 'speakers/irina-preda.jpg'
+  twitter: '@irinapreda'
+  website:
+  title: 'Code Your Future'
+  bio: "Irina is a mentor at CodeYourFuture and a recent graduate of University of Edinburgh (MSc. in Artificial Intelligence). <br/><br/>CodeYourFuture is a coding school built by volunteers to teach refugees and asylum seekers how to code and find jobs in the industry. Irina volunteers there as a mentor in the main 6-months course but also leads the monthly taster classes aimed towards disenfranchised groups within tech (such as women and the LGBT community) to allow them to try their hand at code. <br/><br/>Irina will be joined by Khaled Zaky - a Yemeni asylum seeker, and a recent graduate of CodeYourFuture's first class in Glasgow, to talk about CodeYourFuture's mission and journey so far."
   abstract: ""
   youtube: ""
