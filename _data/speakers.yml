@@ -73,10 +73,10 @@
 - name: 'Alvin Ourrad'
   keynote: false
   individual_page: 'alvinourrad'
-  bio_image: 'speakers/alvin.png'
-  bio_image2: 'speakers/alvin.png'
-  image: 'speakers/alvin.png'
-  image2: 'speakers/alvin.png'
+  bio_image: 'speakers/alvin.jpg'
+  bio_image2: 'speakers/alvin.jpg'
+  image: 'speakers/alvin.jpg'
+  image2: 'speakers/alvin.jpg'
   twitter: '@alvinsight'
   website: 'http://alvin.me.uk'
   title: "Building inclusive developer communities and workplaces"
