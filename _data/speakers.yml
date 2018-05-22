@@ -98,6 +98,23 @@
   abstract: "Chaos Monkey, but for your web app. Come learn how intentional failure injection is not only good for the back end but also for the front end. Hint: it means you'll get paged less at 3AM, and I think we're all happy about that."
   youtube: ""
 
+
+- name: 'Claudia Hernández'
+  keynote: false
+  individual_page: 'claudia'
+  bio_image: 'speakers/claudia.jpg'
+  bio_image2: 'speakers/claudia.jpg'
+  image: 'speakers/claudia.jpg'
+  image2: 'speakers/claudia.jpg'
+  twitter: '@koste4'
+  website:
+  title: 'How to sort your socks using Javascript'
+  bio: "Claudia Hernández is a mexican frontend developer at Auth0. She has previously worked at Dailymotion in Paris and on projects for companies such as Air France, EDF, Groupe SEB and Aéroport de Paris. Claudia has a computer science background and loves learning emerging web technologies. When she is not coding, chances are you’ll find her reading a book ! Claudia also loves traveling and discovering new cultures."
+  abstract: "This talk explains the sorting algorithms behind popular JS engines and shows the behavior of the native sort method varies depending on the implementation behind. This talk wishes to highlight the importance of recognizing algorithm patterns in our daily life web apps."
+  youtube: ""
+
+
+
 - name: 'Florencia Herra Vega'
   keynote: false
   individual_page: 'florencia'
