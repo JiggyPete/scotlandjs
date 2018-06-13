@@ -167,7 +167,7 @@
   twitter: '@gurlcode'
   website:
   title: "What Tamagotchis can teach you about ES6 generators"
-  bio: "Jenn Creighton is a senior front end engineer at ClassPass. She is likely to talk your ear off about React, JavaScript, or her hatred of CSS floats. She lives in New York City with her 2 cats, 1 dog, and 1 husband. She probably sewed the outfit she is wearing."
+  bio: "Jenn Creighton is a senior front end engineer at ClassPass where she writes code between workouts. She is likely to talk your ear off about React, JavaScript, or her hatred of CSS floats. She lives in New York City with her 2 cats & 1 dog & a handful of succulents. Say hello to her @gurlcode!"
   abstract: "This talk is based on my experience building a Tamagotchi game in HTML5 Canvas and what I learned about promises, generators and coroutines in the process. I’ll show the downside to promises (then-able hell) and why generators are the key to synchronous-looking async code."
   youtube: ""
 
