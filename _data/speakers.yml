@@ -171,18 +171,18 @@
   abstract: "This talk is based on my experience building a Tamagotchi game in HTML5 Canvas and what I learned about promises, generators and coroutines in the process. I’ll show the downside to promises (then-able hell) and why generators are the key to synchronous-looking async code."
   youtube: ""
 
-- name: 'Kayleigh Rix'
+- name: 'Jessica Rose'
   keynote: false
-  individual_page: 'kayleigh'
-  bio_image: 'speakers/kayleigh.jpg'
-  bio_image2: 'speakers/kayleigh.jpg'
-  image: 'speakers/kayleigh.jpg'
-  image2: 'speakers/kayleigh.jpg'
-  twitter: ''
-  website: 'https://www.linkedin.com/in/kayleigh-rix'
-  title: "Afraid of being 'Found Out': Kicking Imposter Syndrome in its Face!"
-  bio: I’ve only been in the industry approaching 3 years. But don’t let that put you off, my introduction into the world of DevOps has been a true baptism of fire!<br/>Three years ago I was working in a biscuit factory stacking biscuits, today I work on some of the largest, most complex infrastructure in the world.<br/>I am the organiser for the Edinburgh Women in Tech Meetup and have presented this topic on several occasions over the past year, including hosting a packed seminar at the European Women in Tech conference in Amsterdam November last year, but that’s only half of my story. One thing I’ve been historically reluctant to share is that I am a 2 time University Drop Out! And that’s relevant today because I had let my imposter syndrome kick me in the face… Twice!
-  abstract: "It is the untold secret of of great leaders: “Most days, I feel like I have no idea what I’m doing”.<br/>Imposter syndrome typically comes hand-in-hand with achievement - join me in an empowering talk about how we can free ourselves from the fear of being “found out” and recognise our own successes."
+  individual_page: 'jessica'
+  bio_image: 'team/jessica_rose.jpg'
+  bio_image2: 'team/jessica_rose.jpg'
+  image: 'team/jessica_rose.jpg'
+  image2: 'team/jessica_rose.jpg'
+  twitter: '@jesslynnrose'
+  website: 'http://jessica.tech'
+  title: "Impostor Syndrome and Individual Competence"
+  bio: "Jessica Rose is a self taught technologist obsessed with fostering more equal access to technical education and meaningful work in technology. She's helping lead brilliant developers as a technical manager at <a href=\"https://www.futurelearn.com/\">FutureLearn</a>. She's also founded the Open Code meetup series, co-founded Trans*Code and hosts the <a href=\"http://hyperurl.co/pursuitpod\">Pursuit Podcast</a>."
+  abstract: "This talk focuses on how Impostor Syndrome and the Dunning-Kruger effect work to undermine our estimation of our individual skills. Who do these cognitive biases affect? And how do they collectively shape the face of the software development industry? The impact of these biases on personal and professional relationships among individuals and groups will be examined, along with what can be done to diagnose and cope with them."
   youtube: ""
 
 - name: 'Lora Vardarova'
