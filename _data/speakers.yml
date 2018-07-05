@@ -25,6 +25,7 @@
   bio: "Irina is a mentor at CodeYourFuture and a recent graduate of University of Edinburgh (MSc. in Artificial Intelligence). <br/><br/>CodeYourFuture is a coding school built by volunteers to teach refugees and asylum seekers how to code and find jobs in the industry. Irina volunteers there as a mentor in the main 6-months course but also leads the monthly taster classes aimed towards disenfranchised groups within tech (such as women and the LGBT community) to allow them to try their hand at code. <br/><br/>Irina will be joined by Khaled Zaky - a Yemeni asylum seeker, and a recent graduate of CodeYourFuture's first class in Glasgow, to talk about CodeYourFuture's mission and journey so far."
   abstract: ""
   youtube: ""
+  content_warning: "Animation"
 
 - name: 'Katie Fenn'
   keynote: true
@@ -69,6 +70,7 @@
   bio: "Umar Hansa is a web developer based in London who has a focus on writing tips, tutorials and documentation for the web platform. He’s a web developer at SitePen and is also a Google Developer Expert for Chrome."
   abstract: "This talk presents Node.js in a different light, rather than using it as just a web server, let's have a high-level look at how to build the following in Node:<ul><li>A web scraper</li><li>A workflow manager to automate repetitive tasks</li><li>A large CSV data parser</li><li>An operating system utility tool</li><li>A bluetooth controller</li>"
   youtube: ""
+  content_warning: "Animation"
 
 - name: 'Alvin Ourrad'
   keynote: false
@@ -170,6 +172,7 @@
   bio: "Jenn Creighton is a senior front end engineer at ClassPass where she writes code between workouts. She is likely to talk your ear off about React, JavaScript, or her hatred of CSS floats. She lives in New York City with her 2 cats & 1 dog & a handful of succulents. Say hello to her @gurlcode!"
   abstract: "This talk is based on my experience building a Tamagotchi game in HTML5 Canvas and what I learned about promises, generators and coroutines in the process. I’ll show the downside to promises (then-able hell) and why generators are the key to synchronous-looking async code."
   youtube: ""
+  content_warning: "Animation"
 
 - name: 'Jessica Rose'
   keynote: false
@@ -198,6 +201,7 @@
   bio: Lora is a Software Engineer at Zalando. She is passionate about front-end development, user experience, and agile software development. In her free time, she is a mum of a 3-year-old ball of energy and a dancer.
   abstract: Chrome Dev Tools constantly evolves. New handy features are added but developers are often unaware of them. Learn lots of tip and trips on using the Chrome Dev Tools which will improve your productivity.
   youtube: ""
+  content_warning: "Animation"
 
 - name: 'Luke Bonaccorsi'
   keynote: false
@@ -212,6 +216,7 @@
   bio: "Luke has been building stuff for the web since the early 2000s as a hobbyist before starting his development career in 2012. Currently a software engineer within the Bet Customer tribe at Sky Betting & Gaming, he’s also the host and co-organiser of LeedsJS. In his spare time he enjoys JavaScript, pixel art, automation and cooking."
   abstract: "A few years ago I set about building a simple JavaScript chatbot that then grew into a chat based automation system that I use every day. In this talk I share my progress, my reasons for doing it and what I’d like to do in the future whilst hoping to inspire the audience to build something weird."
   youtube: ""
+  content_warning: "Animation"
 
 - name: 'Meara Charnetzki'
   keynote: false
@@ -226,6 +231,7 @@
   bio: Meara is a scientist turned software engineer, currently building awesome web apps at TableXI. She strives to build friendly and inclusive codebases and communities. Outside of work, Meara enjoys dabbling in music and crafts, eating cheese, and spoiling other people’s pets.
   abstract: Unravel the mystery of JavaScript addition with an empirical adventure through the JavaScript web console, Mathmagic Land, and the ES5 specs. Emerge with new perspective on the methods behind the JavaScript mayhem, and the inspiration and tools to explore new mysteries in JavaScript yourself!
   youtube: ""
+  content_warning: "Animation"
 
 - name: 'Peter Mbanugo'
   keynote: false
@@ -268,6 +274,7 @@
   bio: Trishul is a professional frontend developer; writes React code for living and volunteers for Mozilla to justify his existence. He is an expert in developing browser extensions.<br/>You may know him for his <a href='https://addons.mozilla.org/en-US/firefox/addon/measure-it/'>Measure-it</a> extension with 10K+ users. He also creates <a href='https://www.youtube.com/playlist?list=PLI08QU9qtPEJiBs7rVOT4FvXJlisDgTlS'>Youtube tutorial videos</a>, to help developers to understand and get started with various Webextension APIs.
   abstract: Browsers are built on very simple principle - "one fit that suits all". <br/>We use number of browser extensions to make most of our browser. How about being on other side of table; lets create one.<br/>From Javascript developer to a cross browser extension developer in 20 mins.
   youtube: ""
+  content_warning: "Animation"
 
 - name: 'Vigneshwer Dhinakaran'
   keynote: false
@@ -296,6 +303,7 @@
   bio: "Jeff Lembeck is a Engineering Manager with npm, inc. He writes code, talks a lot, and is the former lecturer for University of Washington's JavaScript certificate program and a guest lecturer for Ada Developer's Academy. He's also a co-organizer of SeattleJS and an active contributor to the open source community. When far away from a computer, Jeff seeks out oyster happy hours and longs for a hot tub boat to call home."
   abstract: "A fantasy re-telling of how npm install works, from the npm cli to the registry and the pieces involved. It breaks down the modular CLI build AND the registry microservices in a way that any audience level can consume.<br/>It's told like a Dungeons & Dragons game and there will be no code on the slides"
   youtube: ""
+  content_warning: "Animation"
 
 - name: 'Stian Veum Møllersen'
   keynote: false
@@ -310,6 +318,7 @@
   bio: Stian is a web developer based in Oslo. Loves creative programming and weird technology. Accidentally designed a programming language once. Works at BEKK and does data visualisation and other web-related things for clients.
   abstract: One way to become a more versatile and adaptable programmer is to learn a new way to look at programming — a new programming paradigm. This is the story of my head first dive into the weird world of Concatenative Programming and how it affected my view on JavaScript and programming in general.
   youtube: ""
+  content_warning: "Animation"
 
 - name: 'template'
   keynote: false

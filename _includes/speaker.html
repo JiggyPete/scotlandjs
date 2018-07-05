@@ -11,6 +11,10 @@
       <span aria-hidden="true">{{speaker.name}}</span><br/>
       <small>{{speaker.twitter}}</small><br/>
       <span class="talk-title">{{speaker.title}}</span class="talk-title">
+      {% if speaker.content_warning %}
+        <br/>
+        <span class="content-warning">Content Warning: {{speaker.content_warning}}</span>
+      {% endif %}
     </h3>
     <p></p>
   </div>
