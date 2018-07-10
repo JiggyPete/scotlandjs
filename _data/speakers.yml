@@ -286,7 +286,7 @@
   twitter: '@dvigneshwer'
   website: 'https://dvigneshwer.github.io/'
   title: "Hacker's guide to Web Assembly"
-  bio: "Vigneshwer is an innovative dstiata scientist with an artistic perception of technology and business, having 3+ years of experience in various domains such as IOT, DevOps, Computer Vision & Deep Learning and is currently engaged as a research analyst crunching real-time data and implementing state of art AI algorithms in the research lab of the world’s largest decision science company in Bengaluru, India. He believes that technology needs to have a human-centric design to cater solutions to a diverse audience. He’s an official Mozilla TechSpeaker and is the author of Rust Cookbook."
+  bio: "Vigneshwer is an innovative data scientist with an artistic perception of technology and business, having 3+ years of experience in various domains such as IOT, DevOps, Computer Vision & Deep Learning and is currently engaged as a research analyst crunching real-time data and implementing state of art AI algorithms in the research lab of the world’s largest decision science company in Bengaluru, India. He believes that technology needs to have a human-centric design to cater solutions to a diverse audience. He’s an official Mozilla TechSpeaker and is the author of Rust Cookbook."
   abstract: "Starting from the basics, this talk will walk you through what WebAssembly is, and then why it’s fast."
   youtube: ""
 
