@@ -9,6 +9,10 @@
 <div class="info">
   <div class="container">
   <p>
-    <a href="{{ speaker.youtube }}"> {{ speaker.name }}: {{ speaker.title }} </a>
+    {% if speaker.youtube %}
+      <a href="{{ speaker.youtube }}"> {{ speaker.name }}: {{ speaker.title }} </a>
+    {% else %}
+      <a> {{ speaker.name }}: {{ speaker.title }} </a>
+    {% endif %}
   </p>
 </div>

@@ -241,7 +241,6 @@
   bio: "Silvia Pina is a polyglot software engineer working at Zalando, Europe's leading online fashion platform. Besides computer science, in the past she studied psychology and neuroscience. Currently her interests include functional programming, experimental music and arthouse film."
   abstract: "In this talk, we’ll examine in which ways cognitive biases have negative impact on our work and the code we write. In particular we will see how we can use cognitive psychology to become better programmers – and better humans."
   twitter: '@smourapina'
-  youtube: https://youtu.be/rA7py3a818k
 
 - name: 'Ruth John'
   keynote: false
